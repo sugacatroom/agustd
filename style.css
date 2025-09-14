@@ -26,11 +26,11 @@ h1 {
   color: #1a1a1a;
   text-align: center;       /* 中央揃え */
   height: 30px;
-  margin: 10px auto 20px;
+  margin: 10px auto 30px;
   background-image: url('assets/images/logo.png'); /* 画像のパス */
   background-repeat: no-repeat;       /* 繰り返しなし */
   background-position: center center; /* 中央配置 */
-  background-size: auto;   
+  background-size: contain;   
 }
 
 h2 {
@@ -49,14 +49,14 @@ h2 {
   flex-direction: column;   /* 縦並び */
   /*余白を縮める gap: 15px;*/ /* 各動画の間隔 */
   border-radius: 6px;       /* 角丸 */
-   padding-top: 10px;       /* 上だけ余白つける */
+   padding-top: 5px;       /* 上だけ余白つける */
 }
 
 /* 各動画のボックス */
 .video-item {
   display: flex;
   align-items: center;
-  background-color: #ffc0cb;
+  background-color: #fff;
   padding: 5px 20px;
   /*余白を縮める box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);*/
   /*余白を縮める transition: transform 0.2s;*/
@@ -91,7 +91,7 @@ iframe {
 }
 
 .video-stats strong {
-  color: #007bff;       /* 数字を青く強調 */
+  color: #f08300;       /* 数字をみかん色強調 */
 }
 
 /* タイトル部分 */
