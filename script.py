@@ -1,80 +1,127 @@
-import os, json, requests
-from datetime import datetime
-import sys
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube再生回数カウント</title>
+</head>
+<body>
 
-API_KEY = os.environ["YOUTUBE_API_KEY"]
+    <div class="container">
+        <h1></h1>
+        
+        <div class="video-wrapper">
+            <div class="video-item" data-video-id="iy9qZR_OGa0">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/iy9qZR_OGa0"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+            
+            <div class="video-item" data-video-id="uVD-YgzDzyY">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/uVD-YgzDzyY"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
 
-VIDEO_IDS = [
-    "iy9qZR_OGa0", # Haegeum
-    "uVD-YgzDzyY", # People Pt.2
-    "IX1dkYoLHVs", # AMYGDALA
-    "qGjAWJ2zWWI", # Daechwita
-    "_Zgc12yL5ss", # Give It To Me
-    "3Y_Eiyg4bfk", # Agust D
-    "PV1gCvzpSy0", # Interlude : Shadow
-]
+            <div class="video-item" data-video-id="IX1dkYoLHVs">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/IX1dkYoLHVs"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
 
-DATA_FILE = "data.json"
+            <div class="video-item" data-video-id="qGjAWJ2zWWI">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/qGjAWJ2zWWI"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
 
+            <div class="video-item" data-video-id="_Zgc12yL5ss">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/_Zgc12yL5ss"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+            
+            <div class="video-item" data-video-id="3Y_Eiyg4bfk">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/3Y_Eiyg4bfk"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
 
-def load_old_data():
-    try:
-        url = f"https://jampbts.github.io/count/{DATA_FILE}"
-        r = requests.get(url)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        print(f"Error loading old data: {e}", file=sys.stderr)
-        return {}
+            <div class="video-item" data-video-id="PV1gCvzpSy0">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/PV1gCvzpSy0"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+        </div>
 
+        <p id="loading-message">データを読み込み中...</p>
+        <p id="last-updated"></p>
 
-def get_stats(video_ids):
-    url = "https://www.googleapis.com/youtube/v3/videos"
-    params = {"part": "statistics,snippet", "id": ",".join(video_ids), "key": API_KEY}
-    try:
-        r = requests.get(url, params=params)
-        r.raise_for_status()
-        data = r.json()
-        results = {}
-        for it in data.get("items", []):
-            vid = it["id"]
-            title = it["snippet"]["title"]
-            views = int(it["statistics"]["viewCount"])
-            results[vid] = {"title": title, "views": views}
-        return results
-    except requests.exceptions.RequestException as e:
-        print(f"Error getting YouTube stats: {e}", file=sys.stderr)
-        sys.exit(1)
+    </div>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const loadingMessage = document.getElementById('loading-message');
+            const lastUpdatedElement = document.getElementById('last-updated');
 
-def save_new_data(data):
-    with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+            // データのURLをGitHub Pagesの絶対パスで指定
+            // パスを修正: あなたのリポジトリ名に合わせる
+            const dataUrl = 'https://sugacatroom.github.io/agustd/data.json?' + new Date().getTime();
 
+            fetch(dataUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // 日付を表示
+                    lastUpdatedElement.textContent = `最終更新日: ${data.date}`;
+                    
+                    // JSONのvideos配列をループ処理
+                    data.videos.forEach(video => {
+                        // HTML上の対応する動画コンテナを動画IDで検索
+                        const videoContainer = document.querySelector(`.video-item[data-video-id="${video.videoId}"]`);
 
-if __name__ == "__main__":
-    old = load_old_data()
-    old_views_map = {}
-    if "videos" in old:
-        for v in old["videos"]:
-            if "videoId" in v:
-                old_views_map[v["videoId"]] = v.get("views_total", 0)
+                        if (videoContainer) {
+                            // タイトルと再生回数を挿入
+                            videoContainer.querySelector('.title').textContent = video.title;
+                            videoContainer.querySelector('.views-this-week').textContent = video.views_this_week.toLocaleString();
+                            videoContainer.querySelector('.views-total').textContent = video.views_total.toLocaleString();
+                        }
+                    });
 
-    new = get_stats(VIDEO_IDS)
+                    loadingMessage.style.display = 'none'; // 読み込みメッセージを非表示
+                })
+                .catch(error => {
+                    console.error('データの取得中にエラーが発生しました:', error);
+                    loadingMessage.textContent = 'データの読み込みに失敗しました。';
+                });
+        });
+    </script>
 
-    weekly_stats = {
-        "date": datetime.utcnow().strftime("%Y-%m-%d"),
-        "videos": []
-    }
-
-    for vid, info in new.items():
-        prev_views = old_views_map.get(vid, info["views"])
-        diff = info["views"] - prev_views
-        weekly_stats["videos"].append({
-            "videoId": vid,
-            "title": info["title"],
-            "views_this_week": diff,
-            "views_total": info["views"]
-        })
-
-    save_new_data(weekly_stats)
+</body>
+</html>
