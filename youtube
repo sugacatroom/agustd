@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube再生回数カウント</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1></h1>
+        
+        <div class="video-wrapper">
+            <div class="video-item" data-video-id="iy9qZR_OGa0">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/iy9qZR_OGa0"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+            
+            <div class="video-item" data-video-id="uVD-YgzDzyY">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/uVD-YgzDzyY"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+
+            <div class="video-item" data-video-id="IX1dkYoLHVs">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/IX1dkYoLHVs"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+
+            <div class="video-item" data-video-id="qGjAWJ2zWWI">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/qGjAWJ2zWWI"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+
+            <div class="video-item" data-video-id="_Zgc12yL5ss">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/_Zgc12yL5ss"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+            
+            <div class="video-item" data-video-id="3Y_Eiyg4bfk">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/3Y_Eiyg4bfk"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+
+            <div class="video-item" data-video-id="PV1gCvzpSy0">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/PV1gCvzpSy0"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+        </div>
+
+        <p id="loading-message">データを読み込み中...</p>
+        <p id="last-updated"></p>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const loadingMessage = document.getElementById('loading-message');
+            const lastUpdatedElement = document.getElementById('last-updated');
+
+            // データのURLをGitHub Pagesの絶対パスで指定
+            //const dataUrl = 'https://jampbts.github.io/count/data.json'; 250914下記に書き換え
+            const dataUrl = 'https://jampbts.github.io/count/data.json?' + new Date().getTime();
+
+            fetch(dataUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // 日付を表示
+                    lastUpdatedElement.textContent = `最終更新日: ${data.date}`;
+                    
+                    // JSONのvideos配列をループ処理
+                    data.videos.forEach(video => {
+                        // HTML上の対応する動画コンテナを動画IDで検索
+                        const videoContainer = document.querySelector(`.video-item[data-video-id="${video.videoId}"]`);
+
+                        if (videoContainer) {
+                            // タイトルと再生回数を挿入
+                            videoContainer.querySelector('.title').textContent = video.title;
+                            videoContainer.querySelector('.views-this-week').textContent = video.views_this_week.toLocaleString();
+                            videoContainer.querySelector('.views-total').textContent = video.views_total.toLocaleString();
+                        }
+                    });
+
+                    loadingMessage.style.display = 'none'; // 読み込みメッセージを非表示
+                })
+                .catch(error => {
+                    console.error('データの取得中にエラーが発生しました:', error);
+                    loadingMessage.textContent = 'データの読み込みに失敗しました。';
+                });
+        });
+    </script>
+
+</body>
+</html>
