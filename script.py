@@ -5,10 +5,6 @@ import sys
 API_KEY = os.environ["YOUTUBE_API_KEY"]
 
 VIDEO_IDS = [
-    "iy9qZR_OGa0",  # Haegeum
-    "uVD-YgzDzyY",  # People Pt.2
-]
-VIDEO_IDS = [
     "iy9qZR_OGa0", # Haegeum
     "uVD-YgzDzyY", # People Pt.2
     "IX1dkYoLHVs", # AMYGDALA
@@ -23,14 +19,14 @@ DATA_FILE = "data.json"
 
 def load_old_data():
     try:
-     # パスを修正: あなたのリポジトリ名に合わせる
-       url = f"https://sugacatroom.github.io/agustd/{DATA_FILE}"
-       r = requests.get(url)
-       r.raise_for_status()
-       return r.json()
+        # パスを修正: あなたのリポジトリ名に合わせる
+        url = f"https://sugacatroom.github.io/agustd/{DATA_FILE}"
+        r = requests.get(url)
+        r.raise_for_status()
+        return r.json()
     except Exception as e:
-    print(f"Error loading old data: {e}", file=sys.stderr)
-    return {}
+        print(f"Error loading old data: {e}", file=sys.stderr)
+        return {}
 
 
 def get_stats(video_ids):
@@ -42,19 +38,19 @@ def get_stats(video_ids):
         data = r.json()
         results = {}
         for it in data.get("items", []):
-        vid = it["id"]
-        title = it["snippet"]["title"]
-        views = int(it["statistics"]["viewCount"])
-           results[vid] = {"title": title, "views": views}
-           return results
-except requests.exceptions.RequestException as e:
-print(f"Error getting YouTube stats: {e}", file=sys.stderr)
-sys.exit(1)
+            vid = it["id"]
+            title = it["snippet"]["title"]
+            views = int(it["statistics"]["viewCount"])
+            results[vid] = {"title": title, "views": views}
+        return results
+    except requests.exceptions.RequestException as e:
+        print(f"Error getting YouTube stats: {e}", file=sys.stderr)
+        sys.exit(1)
 
 
 def save_new_data(data):
     with open(DATA_FILE, "w", encoding="utf-8") as f:
-    json.dump(data, f, indent=2, ensure_ascii=False)
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 
 if __name__ == "__main__":
