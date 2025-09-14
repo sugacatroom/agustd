@@ -60,7 +60,7 @@ h2 {
   padding: 5px 20px;
   /*余白を縮める box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);*/
   /*余白を縮める transition: transform 0.2s;*/
-   border-bottom: 2px #fff dotted;
+   border-bottom: 2px #f08300 dotted;
 }
 .video-item:first-child {
     padding-top: 5px;
