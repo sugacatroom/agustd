@@ -13,7 +13,7 @@ body {
 .container {
   max-width: 900px;
   margin: 0 auto;
-  background-color: #ffc0cb;   /* ピンク背景 */
+  background-color: #F8F8F0;   /* inner背景 */
   /*余白を縮める padding: 20px;*/
   /*border-radius: 8px;        角丸 */
   /*余白を縮める box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/ /* 影をつける */
