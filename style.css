@@ -50,7 +50,7 @@ h2 {
   display: flex;
   align-items: center;
   background-color: #ffc0cb;
-  padding: 5px 10px;
+  padding: 5px 20px;
   border-radius: 6px;
   /*余白を縮める box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);*/
   /*余白を縮める transition: transform 0.2s;*/
