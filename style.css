@@ -24,7 +24,7 @@ body {
 h1 {
   color: #1a1a1a;
   text-align: center;       /* 中央揃え */
-  height: 40px;
+  height: 45px;
   margin: 10px auto 30px;
   background-image: url('assets/images/logo.png'); /* 画像のパス */
   background-repeat: no-repeat;       /* 繰り返しなし */
@@ -60,7 +60,7 @@ h2 {
   padding: 5px 20px;
   /*余白を縮める box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);*/
   /*余白を縮める transition: transform 0.2s;*/
-   border-bottom: 2px #f08300 dotted;
+   border-bottom: 2px #f08300 dashed;
 }
 .video-item:first-child {
     padding-top: 5px;
