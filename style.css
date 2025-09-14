@@ -48,6 +48,7 @@ h2 {
   display: flex;
   flex-direction: column;   /* 縦並び */
   /*余白を縮める gap: 15px;*/ /* 各動画の間隔 */
+   padding: 10px;       /* 上だけ余白つける */
 }
 
 /* 各動画のボックス */
