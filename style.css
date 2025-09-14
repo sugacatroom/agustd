@@ -26,6 +26,10 @@ h1 {
   color: #1a1a1a;
   text-align: center;       /* 中央揃え */
   margin-bottom: 20px;
+  background-image: url('assets/images/logo.png'); /* 画像のパス */
+  background-repeat: no-repeat;       /* 繰り返しなし */
+  background-position: center center; /* 中央配置 */
+  background-size: auto;   
 }
 
 h2 {
