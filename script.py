@@ -5,6 +5,10 @@ import sys
 API_KEY = os.environ["YOUTUBE_API_KEY"]
 
 VIDEO_IDS = [
+    "iy9qZR_OGa0",  # Haegeum
+    "uVD-YgzDzyY",  # People Pt.2
+]
+VIDEO_IDS = [
     "iy9qZR_OGa0", # Haegeum
     "uVD-YgzDzyY", # People Pt.2
     "IX1dkYoLHVs", # AMYGDALA
