@@ -78,6 +78,8 @@
         <p id="last-updated"></p>
 
     </div>
+    <label for="bgColorPicker">背景色を選んでください：</label>
+    <input type="color" id="bgColorPicker" value="#f08300">
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -120,6 +122,13 @@
                 });
         });
     </script>
+    <script>
+      const colorPicker = document.getElementById('bgColorPicker');
+
+        colorPicker.addEventListener('input', function () {
+          document.body.style.backgroundColor = this.value;
+        });
+</script>
 
 </body>
 </html>
