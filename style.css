@@ -1,0 +1,145 @@
+/* ===============================
+   全体のベーススタイル
+   =============================== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f08300; /* 背景色をみかん色に */
+  color: #333;              /* テキスト色 */
+  margin: 0;
+  padding: 1em;
+}
+
+/* コンテンツを中央に配置するボックス */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  /*余白を縮める padding: 20px;*/
+  /*border-radius: 8px;        角丸 */
+  /*余白を縮める box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/ /* 影をつける */
+}
+
+/* ===============================
+   見出しデザイン
+   =============================== */
+h1 {
+  color: #1a1a1a;
+  text-align: center;       /* 中央揃え */
+  height: 45px;
+  margin: 10px auto 30px;
+  background-image: url('assets/images/logo.png'); /* 画像のパス */
+  background-repeat: no-repeat;       /* 繰り返しなし */
+  background-position: center center; /* 中央配置 */
+  background-size: contain;   
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #555;
+  border-bottom: 2px solid #eee; /* 下線をつける */
+  padding-bottom: 5px;
+}
+
+/* ===============================
+   動画一覧のレイアウト
+   =============================== */
+.video-wrapper {
+  display: flex;
+  flex-direction: column;    /* 縦並び */
+  /*余白を縮める gap: 15px;*/ /* 各動画の間隔 */
+  border-radius: 6px;        /* 角丸 */
+  padding-top: 5px;       /* 上だけ余白つける */
+  background-color: #F8F8F0; /* inner背景 */
+}
+
+/* 各動画のボックス */
+.video-item {
+  display: flex;
+  align-items: center;
+  background-color: #F8F8F0;
+  padding: 5px 30px;
+  /*余白を縮める box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);*/
+  /*余白を縮める transition: transform 0.2s;*/
+   border-bottom: 2px #f08300 dashed;
+}
+.video-item:first-child {
+    padding-top: 5px;
+}
+.video-item:last-child {
+   border: none;
+   padding-bottom: 20px;
+}
+
+/* ホバー時に少し浮き上がる
+.video-item:hover {
+  transform: translateY(-2px);
+}
+*/
+/* YouTube埋め込み部分 */
+iframe {
+  flex-shrink: 0;       /* 縮小を防ぐ */
+  width: 300px;         /* 固定幅 */
+  height: 80px;
+  border: 0;
+  margin-right: 20px;
+}
+
+/* ===============================
+   動画統計情報
+   =============================== */
+.video-stats {
+  flex-grow: 1;         /* 残りスペースを埋める */
+  line-height: 1.8;
+  font-size: 23px;
+}
+
+.video-stats strong {
+  color: #FF0000;       /* 数字をみかん色強調 */
+}
+
+/* タイトル部分 */
+.title {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+/*250914追加*/
+  display: none;
+}
+
+/* ===============================
+   補助情報（更新日時・読み込みメッセージ）
+   =============================== */
+#last-updated {
+  text-align: right;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#loading-message {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
+
+/* ===============================
+   スマホ対応 (画面幅が600px以下の場合)
+   =============================== */
+@media (max-width: 600px) {
+  .video-item {
+    flex-direction: column; /* 縦並びにする */
+    align-items: flex-start;
+  }
+
+  iframe {
+    width: 100%;   /* 親要素に合わせる */
+    height: 80px;  /* 高さは維持 */
+    margin-right: 0;
+    /*余白を縮める margin-bottom: 10px;*/
+  }
+
+  .video-stats {
+    font-size: 14px; /* 少し小さめにして見やすく */
+    line-height: 1.3;
+  }
+}

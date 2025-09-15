@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube再生回数カウント</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1></h1>
+    <div class="container">        
+        <div class="video-wrapper">
+            <div class="video-item" data-video-id="iy9qZR_OGa0">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/iy9qZR_OGa0"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+            
+            <div class="video-item" data-video-id="uVD-YgzDzyY">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/uVD-YgzDzyY"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+
+            <div class="video-item" data-video-id="IX1dkYoLHVs">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/IX1dkYoLHVs"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+
+            <div class="video-item" data-video-id="qGjAWJ2zWWI">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/qGjAWJ2zWWI"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+
+            <div class="video-item" data-video-id="_Zgc12yL5ss">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/_Zgc12yL5ss"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+            
+            <div class="video-item" data-video-id="3Y_Eiyg4bfk">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/3Y_Eiyg4bfk"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+
+            <div class="video-item" data-video-id="PV1gCvzpSy0">
+                <iframe height="80px" width="100%" frameborder="0" src="https://livecounts.io/embed/youtube-live-view-counter/PV1gCvzpSy0"></iframe>
+                <div class="video-stats">
+                    <div class="title"></div>
+                    <div>週間再生回数: <strong class="views-this-week">--</strong></div>
+                    <div>累計再生回数: <strong class="views-total">--</strong></div>
+                </div>
+            </div>
+        </div>
+
+        <p id="loading-message">データを読み込み中...</p>
+        <p id="last-updated"></p>
+
+    </div>
+    <!-- グラフをまとめて1枚表示 -->
+    <canvas id="dailyChart"></canvas>
+
+    <!-- 背景色を変更 -->
+    <label for="bgColorPicker">背景色を選んでください：</label>
+    <input type="color" id="bgColorPicker" value="#f08300">
+
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const loadingMessage = document.getElementById('loading-message');
+            const lastUpdatedElement = document.getElementById('last-updated');
+            const chartCanvas = document.getElementById('dailyChart');
+
+            const dataUrl = 'https://sugacatroom.github.io/agustd/data.json?' + new Date().getTime();
+
+            fetch(dataUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(history => {
+                    if (!Array.isArray(history) || history.length === 0) {
+                        throw new Error("履歴データが空です");
+                    }
+
+                    // 最新日付を表示
+                    lastUpdatedElement.textContent = `最終更新日: ${history[history.length - 1].date}`;
+
+                    // --- 上部の動画情報更新 ---
+                    const latest = history[history.length - 1];
+                    latest.videos.forEach(video => {
+                        const videoContainer = document.querySelector(`.video-item[data-video-id="${video.videoId}"]`);
+                        if (videoContainer) {
+                            videoContainer.querySelector('.title').textContent = video.title;
+                            const weeklyTotal = calcWeeklyTotal(history, video.videoId);
+                            videoContainer.querySelector('.views-this-week').textContent = weeklyTotal.toLocaleString();
+                            videoContainer.querySelector('.views-total').textContent = video.views_total.toLocaleString();
+                        }
+                    });
+
+                    // --- 全曲まとめて折れ線グラフ ---
+                    const labels = history.map(d => d.date);
+                    const datasets = [];
+
+                    latest.videos.forEach(video => {
+                        const dataPoints = history.map(d => {
+                            const found = d.videos.find(v => v.videoId === video.videoId);
+                            return found ? found.views_diff : 0;
+                        });
+
+                        datasets.push({
+                            label: video.title,
+                            data: dataPoints,
+                            borderWidth: 2,
+                            fill: false,
+                            tension: 0.2
+                        });
+                    });
+
+                    new Chart(chartCanvas, {
+                        type: 'line',
+                        data: { labels, datasets },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                title: { display: true, text: "全曲 日次再生回数推移" },
+                                legend: { position: 'bottom' }
+                            },
+                            scales: {
+                                y: { beginAtZero: true }
+                            }
+                        }
+                    });
+
+                    loadingMessage.style.display = 'none';
+                })
+                .catch(error => {
+                    console.error('データの取得中にエラーが発生しました:', error);
+                    loadingMessage.textContent = 'データの読み込みに失敗しました。';
+                });
+
+            // 金曜〜木曜の週合計を計算
+            function calcWeeklyTotal(history, videoId) {
+                const today = new Date(history[history.length - 1].date);
+                const weekday = today.getUTCDay(); // 日=0, 月=1, ..., 金=5, 土=6
+                const daysSinceFriday = (weekday - 5 + 7) % 7;
+                const endIndex = history.length - 1;
+                const startIndex = Math.max(0, endIndex - daysSinceFriday - 6);
+                const weekData = history.slice(startIndex, endIndex + 1);
+
+                return weekData.reduce((sum, day) => {
+                    const v = day.videos.find(v => v.videoId === videoId);
+                    return sum + (v ? v.views_diff : 0);
+                }, 0);
+            }
+        });
+    </script>
+    <script>
+      const colorPicker = document.getElementById('bgColorPicker');
+
+        colorPicker.addEventListener('input', function () {
+          document.body.style.backgroundColor = this.value;
+        });
+</script>
+
+</body>
+</html>
