@@ -46,9 +46,13 @@ def load_history():
 
 
 def save_new_data(new_entry):
-    """履歴に新しい日次データを追加"""
+    """履歴に新しい日次データを追加（最新7日分だけ保持）"""
     history = load_history()
     history.append(new_entry)
+
+    # 最新7件だけ残す
+    history = history[-7:]
+
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
 
@@ -76,4 +80,3 @@ if __name__ == "__main__":
         })
 
     save_new_data(daily_stats)
-
