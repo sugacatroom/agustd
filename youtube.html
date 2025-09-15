@@ -78,16 +78,22 @@
         <p id="last-updated"></p>
 
     </div>
+    <!-- グラフをまとめて1枚表示 -->
+    <canvas id="dailyChart"></canvas>
+
+    <!-- 背景色を変更 -->
     <label for="bgColorPicker">背景色を選んでください：</label>
     <input type="color" id="bgColorPicker" value="#f08300">
+
+
+    </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const loadingMessage = document.getElementById('loading-message');
             const lastUpdatedElement = document.getElementById('last-updated');
+            const chartCanvas = document.getElementById('dailyChart');
 
-            // データのURLをGitHub Pagesの絶対パスで指定
-            // パスを修正: あなたのリポジトリ名に合わせる
             const dataUrl = 'https://sugacatroom.github.io/agustd/data.json?' + new Date().getTime();
 
             fetch(dataUrl)
@@ -97,29 +103,81 @@
                     }
                     return response.json();
                 })
-                .then(data => {
-                    // 日付を表示
-                    lastUpdatedElement.textContent = `最終更新日: ${data.date}`;
-                    
-                    // JSONのvideos配列をループ処理
-                    data.videos.forEach(video => {
-                        // HTML上の対応する動画コンテナを動画IDで検索
-                        const videoContainer = document.querySelector(`.video-item[data-video-id="${video.videoId}"]`);
+                .then(history => {
+                    if (!Array.isArray(history) || history.length === 0) {
+                        throw new Error("履歴データが空です");
+                    }
 
+                    // 最新日付を表示
+                    lastUpdatedElement.textContent = `最終更新日: ${history[history.length - 1].date}`;
+
+                    // --- 上部の動画情報更新 ---
+                    const latest = history[history.length - 1];
+                    latest.videos.forEach(video => {
+                        const videoContainer = document.querySelector(`.video-item[data-video-id="${video.videoId}"]`);
                         if (videoContainer) {
-                            // タイトルと再生回数を挿入
                             videoContainer.querySelector('.title').textContent = video.title;
-                            videoContainer.querySelector('.views-this-week').textContent = video.views_this_week.toLocaleString();
+                            const weeklyTotal = calcWeeklyTotal(history, video.videoId);
+                            videoContainer.querySelector('.views-this-week').textContent = weeklyTotal.toLocaleString();
                             videoContainer.querySelector('.views-total').textContent = video.views_total.toLocaleString();
                         }
                     });
 
-                    loadingMessage.style.display = 'none'; // 読み込みメッセージを非表示
+                    // --- 全曲まとめて折れ線グラフ ---
+                    const labels = history.map(d => d.date);
+                    const datasets = [];
+
+                    latest.videos.forEach(video => {
+                        const dataPoints = history.map(d => {
+                            const found = d.videos.find(v => v.videoId === video.videoId);
+                            return found ? found.views_diff : 0;
+                        });
+
+                        datasets.push({
+                            label: video.title,
+                            data: dataPoints,
+                            borderWidth: 2,
+                            fill: false,
+                            tension: 0.2
+                        });
+                    });
+
+                    new Chart(chartCanvas, {
+                        type: 'line',
+                        data: { labels, datasets },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                title: { display: true, text: "全曲 日次再生回数推移" },
+                                legend: { position: 'bottom' }
+                            },
+                            scales: {
+                                y: { beginAtZero: true }
+                            }
+                        }
+                    });
+
+                    loadingMessage.style.display = 'none';
                 })
                 .catch(error => {
                     console.error('データの取得中にエラーが発生しました:', error);
                     loadingMessage.textContent = 'データの読み込みに失敗しました。';
                 });
+
+            // 金曜〜木曜の週合計を計算
+            function calcWeeklyTotal(history, videoId) {
+                const today = new Date(history[history.length - 1].date);
+                const weekday = today.getUTCDay(); // 日=0, 月=1, ..., 金=5, 土=6
+                const daysSinceFriday = (weekday - 5 + 7) % 7;
+                const endIndex = history.length - 1;
+                const startIndex = Math.max(0, endIndex - daysSinceFriday - 6);
+                const weekData = history.slice(startIndex, endIndex + 1);
+
+                return weekData.reduce((sum, day) => {
+                    const v = day.videos.find(v => v.videoId === videoId);
+                    return sum + (v ? v.views_diff : 0);
+                }, 0);
+            }
         });
     </script>
     <script>
