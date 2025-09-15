@@ -1,6 +1,5 @@
-import os, json, requests
+import os, json, requests, sys
 from datetime import datetime
-import sys
 
 API_KEY = os.environ["YOUTUBE_API_KEY"]
 
@@ -17,19 +16,8 @@ VIDEO_IDS = [
 DATA_FILE = "data.json"
 
 
-def load_old_data():
-    try:
-        # パスを修正: あなたのリポジトリ名に合わせる
-        url = f"https://sugacatroom.github.io/agustd/{DATA_FILE}"
-        r = requests.get(url)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        print(f"Error loading old data: {e}", file=sys.stderr)
-        return {}
-
-
 def get_stats(video_ids):
+    """YouTube APIから動画の統計情報を取得"""
     url = "https://www.googleapis.com/youtube/v3/videos"
     params = {"part": "statistics,snippet", "id": ",".join(video_ids), "key": API_KEY}
     try:
@@ -48,22 +36,31 @@ def get_stats(video_ids):
         sys.exit(1)
 
 
-def save_new_data(data):
+def load_history():
+    """過去の履歴を読み込み"""
+    try:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return []
+
+
+def save_new_data(new_entry):
+    """履歴に新しい日次データを追加"""
+    history = load_history()
+    history.append(new_entry)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+        json.dump(history, f, indent=2, ensure_ascii=False)
 
 
 if __name__ == "__main__":
-    old = load_old_data()
-    old_views_map = {}
-    if "videos" in old:
-        for v in old["videos"]:
-            if "videoId" in v:
-                old_views_map[v["videoId"]] = v.get("views_total", 0)
+    history = load_history()
+    old = history[-1] if history else {}
+    old_views_map = {v["videoId"]: v["views_total"] for v in old.get("videos", [])}
 
     new = get_stats(VIDEO_IDS)
 
-    weekly_stats = {
+    daily_stats = {
         "date": datetime.utcnow().strftime("%Y-%m-%d"),
         "videos": []
     }
@@ -71,11 +68,12 @@ if __name__ == "__main__":
     for vid, info in new.items():
         prev_views = old_views_map.get(vid, info["views"])
         diff = info["views"] - prev_views
-        weekly_stats["videos"].append({
+        daily_stats["videos"].append({
             "videoId": vid,
             "title": info["title"],
-            "views_this_week": diff,
-            "views_total": info["views"]
+            "views_total": info["views"],
+            "views_diff": diff
         })
 
-    save_new_data(weekly_stats)
+    save_new_data(daily_stats)
+
