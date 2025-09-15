@@ -26,7 +26,7 @@ h1 {
   text-align: center;       /* 中央揃え */
   height: 45px;
   margin: 10px auto 30px;
-  background-image: url('assets/images/logo.png'); /* 画像のパス */
+  background-image: url('assets/images/cat_logo.png'); /* 画像のパス */
   background-repeat: no-repeat;       /* 繰り返しなし */
   background-position: center center; /* 中央配置 */
   background-size: contain;   
