@@ -1,5 +1,5 @@
 import os, json, requests, sys
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 API_KEY = os.environ["YOUTUBE_API_KEY"]
 
@@ -14,10 +14,10 @@ VIDEO_IDS = [
 ]
 
 DATA_FILE = "data.json"
+JST = timezone(timedelta(hours=9))  # 日本時間
 
 
 def get_stats(video_ids):
-    """YouTube APIから動画の統計情報を取得"""
     url = "https://www.googleapis.com/youtube/v3/videos"
     params = {"part": "statistics,snippet", "id": ",".join(video_ids), "key": API_KEY}
     try:
@@ -37,7 +37,6 @@ def get_stats(video_ids):
 
 
 def load_history():
-    """過去の履歴を読み込み"""
     try:
         with open(DATA_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -46,11 +45,15 @@ def load_history():
 
 
 def save_new_data(new_entry):
-    """履歴に新しい日次データを追加（最新7日分だけ保持）"""
     history = load_history()
-    history.append(new_entry)
 
-    # 最新7件だけ残す
+    # すでに今日のデータがあるなら上書き、なければ追加
+    if history and history[-1]["date"] == new_entry["date"]:
+        history[-1] = new_entry
+    else:
+        history.append(new_entry)
+
+    # 最新7件だけ保持
     history = history[-7:]
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
@@ -65,7 +68,7 @@ if __name__ == "__main__":
     new = get_stats(VIDEO_IDS)
 
     daily_stats = {
-        "date": datetime.utcnow().strftime("%Y-%m-%d"),
+        "date": datetime.now(JST).strftime("%Y-%m-%d"),  # JSTで日付
         "videos": []
     }
 
