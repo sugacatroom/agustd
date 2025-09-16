@@ -80,7 +80,7 @@
 
     </div>
     <!-- グラフをまとめて1枚表示 -->
-    <canvas id="dailyChart"></canvas>
+    <canvas id="dailyChart" style="height:400px;"></canvas>
 
     <!-- 背景色を変更 -->
     <label for="bgColorPicker">背景色を選んでください：</label>
@@ -125,7 +125,13 @@
                     });
 
                     // --- 全曲まとめて折れ線グラフ ---
-                    const labels = history.map(d => d.date);
+                  //yyyy-mm-dd表示
+                    //const labels = history.map(d => d.date);
+                  // 例: "9/17"
+                  const labels = history.map(d => {
+                    const date = new Date(d.date);
+                    return `${date.getMonth() + 1}/${date.getDate()}`; 
+});
                     const datasets = [];
 
                     latest.videos.forEach(video => {
