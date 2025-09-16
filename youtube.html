@@ -159,7 +159,12 @@
                                 legend: { position: 'bottom' }
                             },
                             scales: {
-                                y: { beginAtZero: true }
+                                y: { 
+                                    beginAtZero: true,
+                                    suggestedMax: 60000,   // データに応じて調整
+                                    ticks: {
+                                      stepSize: 10000    // 目盛りを10000単位で表示
+                                   }
                             }
                         }
                     });
