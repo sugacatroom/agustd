@@ -80,7 +80,9 @@
 
     </div>
     <!-- グラフをまとめて1枚表示 -->
-    <canvas id="dailyChart" style="height:800px;"></canvas>
+    <div style="position: relative; height: 400px;">
+      <canvas id="dailyChart"></canvas>
+    </div>
 
     <!-- 背景色を変更 -->
     <label for="bgColorPicker">背景色を選んでください：</label>
@@ -131,7 +133,7 @@
                   const labels = history.map(d => {
                     const date = new Date(d.date);
                     return `${date.getMonth() + 1}/${date.getDate()}`; 
-});
+                  });
                     const datasets = [];
 
                     latest.videos.forEach(video => {
@@ -154,6 +156,7 @@
                         data: { labels, datasets },
                         options: {
                             responsive: true,
+                            maintainAspectRatio: false, 
                             plugins: {
                                 title: { display: true, text: "全曲 日次再生回数推移" },
                                 legend: { position: 'bottom' }
@@ -161,9 +164,9 @@
                             scales: {
                                 y: { 
                                     beginAtZero: true,
-                                    suggestedMax: 60000,   // データに応じて調整
+                                    suggestedMax: 80000,   // データに応じて調整
                                     ticks: {
-                                      stepSize: 10000    // 目盛りを10000単位で表示
+                                      stepSize: 5000    // 目盛りを10000単位で表示
                                    }
                                 }
                             }
