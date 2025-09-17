@@ -159,16 +159,16 @@
                                 legend: { position: 'bottom' }
                             },
                             scales: {
-                                y: { 
-                                    beginAtZero: true,
-                suggestedMax: Math.ceil(maxValue * 1.1 / 10000) * 10000, // 最大値の10%上を目安に
-                ticks: {
-                    stepSize: Math.ceil(maxValue / 5 / 10000) * 10000 // 5分割くらいで目盛り設定
-                                   }
-                                }
+                                { 
+                         beginAtZero: true,
+                            suggestedMax: Math.ceil(maxValue * 1.1 / 10000) * 10000,
+                            ticks: {
+                                stepSize: Math.ceil(maxValue / 5 / 10000) * 10000
                             }
                         }
-                    });
+                    }
+                }
+            });
 
                     loadingMessage.style.display = 'none';
                 })
