@@ -39,50 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
 
-      // グラフ用ラベル（日付）を生成
-      const labels = history.map(d => {
-        const date = new Date(d.date);
-        date.setDate(date.getDate() - 1); // 任意で1日前にずらす
-        return `${date.getMonth() + 1}/${date.getDate()}`;
-      });
-
-      // グラフ用データセットを生成
-      const datasets = [];
-      latest.videos.forEach(video => {
-        const dataPoints = history.map(d => {
-          const found = d.videos.find(v => v.videoId === video.videoId);
-          return found ? found.views_diff : 0;
-        });
-
-        datasets.push({
-          label: video.title,
-          data: dataPoints,
-          borderWidth: 2,
-          fill: false,
-          tension: 0.2
-        });
-      });
-
-      // 折れ線グラフを描画
-      new Chart(chartCanvas, {
-        type: 'line',
-        data: { labels, datasets },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: {
-            title: { display: true, text: "毎日の再生回数" },
-            legend: { position: 'bottom' }
-          },
-          scales: {
-            y: {
-              beginAtZero: true,
-              ticks: { stepSize: 5000 } // 目盛りの間隔
-            }
-          }
-        }
-      });
-
       // ローディングメッセージを非表示に
       loadingMessage.style.display = 'none';
     })
@@ -127,6 +83,50 @@ document.addEventListener('DOMContentLoaded', () => {
       return sum + (v ? v.views_diff : 0);
     }, 0);
   }
+
+        // グラフ用ラベル（日付）を生成
+      const labels = history.map(d => {
+        const date = new Date(d.date);
+        date.setDate(date.getDate() - 1); // 任意で1日前にずらす
+        return `${date.getMonth() + 1}/${date.getDate()}`;
+      });
+
+      // グラフ用データセットを生成
+      const datasets = [];
+      latest.videos.forEach(video => {
+        const dataPoints = history.map(d => {
+          const found = d.videos.find(v => v.videoId === video.videoId);
+          return found ? found.views_diff : 0;
+        });
+
+        datasets.push({
+          label: video.title,
+          data: dataPoints,
+          borderWidth: 2,
+          fill: false,
+          tension: 0.2
+        });
+      });
+
+      // 折れ線グラフを描画
+      new Chart(chartCanvas, {
+        type: 'line',
+        data: { labels, datasets },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            title: { display: true, text: "毎日の再生回数" },
+            legend: { position: 'bottom' }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              ticks: { stepSize: 5000 } // 目盛りの間隔
+            }
+          }
+        }
+      });
 
   // 背景色変更機能
   const colorPicker = document.getElementById('bgColorPicker');
