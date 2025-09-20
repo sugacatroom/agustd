@@ -129,47 +129,37 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // views-this-week を曜日ごとに分岐して計算する関数
-  function calcWeeklyTotal(history, videoId) {
-    const latestDate = history[history.length - 1].date;
-    const todayWeekday = getJSTWeekday(latestDate);
+function calcWeeklyTotal(history, videoId) {
+  const latestDate = history[history.length - 1].date;
+  const todayWeekday = getJSTWeekday(latestDate); // JSTの曜日 (日=0, 月=1,...土=6)
 
-    // 金曜のインデックスをすべて探す
-    const fridayIndexes = history
-      .map((entry, i) => getJSTWeekday(entry.date) === 5 ? i : -1)
-      .filter(i => i !== -1);
+  // 土曜のインデックスをすべて探す
+  const saturdayIndexes = history
+    .map((entry, i) => getJSTWeekday(entry.date) === 6 ? i : -1)
+    .filter(i => i !== -1);
 
-    if (fridayIndexes.length === 0) return 0;
+  if (saturdayIndexes.length === 0) return 0;
 
-    const lastFridayIndex = fridayIndexes[fridayIndexes.length - 1];
+  const lastSaturdayIndex = saturdayIndexes[saturdayIndexes.length - 1];
 
-    // 金曜：先週金曜〜今週木曜の合計
-    if (todayWeekday === 5) {
-      const previousFridayIndex = fridayIndexes.length >= 2 ? fridayIndexes[fridayIndexes.length - 2] : 0;
-      const range = history.slice(previousFridayIndex, lastFridayIndex);
-      return range.reduce((sum, day) => {
-        const v = day.videos.find(v => v.videoId === videoId);
-        return sum + (v ? v.views_diff : 0);
-      }, 0);
-    }
-
-    // 土曜：金曜の分だけ
-    if (todayWeekday === 6) {
-      const fridayEntry = history[lastFridayIndex];
-      const v = fridayEntry.videos.find(v => v.videoId === videoId);
-      return v ? v.views_diff : 0;
-    }
-
-    // 日曜〜木曜：金曜から今日までの累積
-    const range = history.slice(lastFridayIndex).filter(day => {
-      const dayWeek = getJSTWeekday(day.date);
-      return dayWeek <= todayWeekday;
-    });
-
-    return range.reduce((sum, day) => {
-      const v = day.videos.find(v => v.videoId === videoId);
-      return sum + (v ? v.views_diff : 0);
-    }, 0);
+  // --- 土曜：金曜の分だけ表示 ---
+  if (todayWeekday === 6) {
+    const fridayEntry = history[lastSaturdayIndex - 1];
+    const v = fridayEntry?.videos.find(v => v.videoId === videoId);
+    return v ? v.views_diff : 0;
   }
+
+  // --- 日曜〜金曜：土曜から今日まで累積 ---
+  const range = history.slice(lastSaturdayIndex).filter(day => {
+    const dayWeek = getJSTWeekday(day.date);
+    return dayWeek <= todayWeekday;
+  });
+
+  return range.reduce((sum, day) => {
+    const v = day.videos.find(v => v.videoId === videoId);
+    return sum + (v ? v.views_diff : 0);
+  }, 0);
+}
 
   // 背景色変更機能
   const colorPicker = document.getElementById('bgColorPicker');
