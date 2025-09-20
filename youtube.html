@@ -132,6 +132,7 @@
                   // 例: "9/17"
                   const labels = history.map(d => {
                     const date = new Date(d.date);
+                    date.setDate(date.getDate() - 1); // ← ここで1日前にずらす
                     return `${date.getMonth() + 1}/${date.getDate()}`; 
                   });
                     const datasets = [];
