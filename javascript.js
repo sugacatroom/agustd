@@ -130,24 +130,47 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // 金曜起点で曜日に応じた再生数合計を返す関数
-  function calcWeeklyTotal(history, videoId) {
-    const latestDate = history[history.length - 1].date;
-    const todayWeekday = getJSTWeekday(latestDate); // 今日の曜日
+function calcWeeklyTotal(history, videoId) {
+  const latestDate = history[history.length - 1].date;
+  const todayWeekday = getJSTWeekday(latestDate); // JSTの曜日 (日=0, 月=1,...金=5, 土=6)
 
-    // 金曜のインデックスを探す（最新日からさかのぼる）
-    let startIndex = history.length - 1;
-    while (startIndex > 0) {
-      if (getJSTWeekday(history[startIndex].date) === 5) break; // 金曜
-      startIndex--;
-    }
+  // 金曜のインデックスをすべて探す
+  const fridayIndexes = history
+    .map((entry, i) => getJSTWeekday(entry.date) === 5 ? i : -1)
+    .filter(i => i !== -1);
 
-    // 金曜から今日の曜日までのデータを抽出
-    const weekData = history.slice(startIndex).filter(day => {
-      const dayWeek = getJSTWeekday(day.date);
-      if (startIndex === history.length - 1) return true; // 金曜だけ
-      if (dayWeek === todayWeekday || dayWeek === 5 || dayWeek < todayWeekday) return true;
-      return false;
-    });
+  if (fridayIndexes.length === 0) return 0;
+
+  const lastFridayIndex = fridayIndexes[fridayIndexes.length - 1];
+
+  // --- 金曜の場合：先週金曜〜木曜の合計 ---
+  if (todayWeekday === 5) {
+    const previousFridayIndex = fridayIndexes.length >= 2 ? fridayIndexes[fridayIndexes.length - 2] : 0;
+    const range = history.slice(previousFridayIndex, lastFridayIndex); // 金曜〜木曜（直前の金曜から今週木曜まで）
+    return range.reduce((sum, day) => {
+      const v = day.videos.find(v => v.videoId === videoId);
+      return sum + (v ? v.views_diff : 0);
+    }, 0);
+  }
+
+  // --- 土曜の場合：金曜の分だけ表示 ---
+  if (todayWeekday === 6) {
+    const fridayEntry = history[lastFridayIndex];
+    const v = fridayEntry.videos.find(v => v.videoId === videoId);
+    return v ? v.views_diff : 0;
+  }
+
+  // --- 日曜〜木曜：金曜から今日までを累積 ---
+  const range = history.slice(lastFridayIndex, history.length).filter(day => {
+    const dayWeek = getJSTWeekday(day.date);
+    return dayWeek <= todayWeekday;
+  });
+
+  return range.reduce((sum, day) => {
+    const v = day.videos.find(v => v.videoId === videoId);
+    return sum + (v ? v.views_diff : 0);
+  }, 0);
+}
 
     // views_diff を合計して返す
     return weekData.reduce((sum, day) => {
