@@ -46,6 +46,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return `${date.getMonth() + 1}/${date.getDate()}`;
       });
 
+      // ラベルを省略する関数（最大20文字）
+      function truncateLabel(text, maxLength = 20) {
+        return text.length > maxLength ? text.slice(0, maxLength - 1) + "…" : text;
+      }
+
       // グラフ用データセットを生成
       const datasets = [];
       latest.videos.forEach(video => {
@@ -54,13 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
           return found ? found.views_diff : 0;
         });
 
-        // 長いタイトルを改行表示（"Official MV" で分割）
-        const labelLines = video.title.includes("Official MV")
-          ? video.title.split("Official MV").map(s => s.trim()).filter(Boolean).concat("Official MV")
-          : [video.title];
-
         datasets.push({
-          label: labelLines, // 改行表示されるラベル
+          label: truncateLabel(video.title, 20), // ラベルを省略して表示
           data: dataPoints,
           borderWidth: 2,
           fill: false,
@@ -92,10 +92,10 @@ document.addEventListener('DOMContentLoaded', () => {
             tooltip: {
               callbacks: {
                 label: function(context) {
-                  const label = Array.isArray(context.dataset.label)
-                    ? context.dataset.label.join(" ")
-                    : context.dataset.label;
-                  return `${label}: ${context.formattedValue}回`;
+                  // ツールチップではフルタイトルを表示
+                  const videoId = latest.videos.find(v => truncateLabel(v.title, 20) === context.dataset.label)?.videoId;
+                  const fullTitle = latest.videos.find(v => v.videoId === videoId)?.title || context.dataset.label;
+                  return `${fullTitle}: ${context.formattedValue}回`;
                 }
               }
             }
