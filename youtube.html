@@ -180,19 +180,40 @@
                     loadingMessage.textContent = 'データの読み込みに失敗しました。';
                 });
 
+            // JST基準で曜日を返す関数
+            function getJSTWeekday(dateString) {
+              const parts = dateString.split("-");
+              const y = parseInt(parts[0], 10);
+              const m = parseInt(parts[1], 10) - 1; // 0始まり
+              const d = parseInt(parts[2], 10);
+              const jstDate = new Date(y, m, d);
+              return jstDate.getDay(); // 日=0, 月=1,...土=6
+            }
+
             // 金曜〜木曜の週合計を計算
             function calcWeeklyTotal(history, videoId) {
-                const today = new Date(history[history.length - 1].date);
-                const weekday = today.getDay(); // JST基準 (日=0, 金=5)
-                const daysSinceFriday = (weekday - 5 + 7) % 7;
                 const endIndex = history.length - 1;
-                const startIndex = Math.max(0, endIndex - daysSinceFriday - 6);
-                const weekData = history.slice(startIndex, endIndex + 1);
+                const latestDate = history[endIndex].date;
 
-                return weekData.reduce((sum, day) => {
-                    const v = day.videos.find(v => v.videoId === videoId);
-                    return sum + (v ? v.views_diff : 0);
-                }, 0);
+           // JSTで曜日を取得
+           const weekday = getJSTWeekday(latestDate);
+
+           // 最新日からさかのぼって直近の金曜を探す
+           let startIndex = endIndex;
+           while (startIndex > 0) {
+               const d = getJSTWeekday(history[startIndex].date);
+               if (d === 5) break; // 金曜
+               startIndex--;
+           }
+
+           // 金曜〜最新日までの再生回数を合計
+           const weekData = history.slice(startIndex, endIndex + 1);
+
+           return weekData.reduce((sum, day) => {
+               const v = day.videos.find(v => v.videoId === videoId);
+               return sum + (v ? v.views_diff : 0);
+           }, 0);
+                
             }
         });
     </script>
