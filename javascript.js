@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       // ラベルを省略する関数（最大20文字）
-      function truncateLabel(text, maxLength = 20) {
+      function truncateLabel(text, maxLength = 40) {
         return text.length > maxLength ? text.slice(0, maxLength - 1) + "…" : text;
       }
 
