@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         datasets.push({
-          label: truncateLabel(video.title, 20), // ラベルを省略して表示
+          label: truncateLabel(video.title, 30), // ラルを省略して表示
           data: dataPoints,
           borderWidth: 2,
           fill: false,
