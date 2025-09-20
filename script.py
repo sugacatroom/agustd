@@ -1,8 +1,10 @@
 import os, json, requests, sys
 from datetime import datetime, timedelta, timezone
 
+# 環境変数からAPIキーを取得（GitHub Actionsのsecretsで設定）
 API_KEY = os.environ["YOUTUBE_API_KEY"]
 
+# 対象の動画ID一覧（Agust DとBTS関連）
 VIDEO_IDS = [
     "iy9qZR_OGa0",  # Haegeum
     "uVD-YgzDzyY",  # People Pt.2
@@ -13,9 +15,13 @@ VIDEO_IDS = [
     "PV1gCvzpSy0",  # Interlude : Shadow
 ]
 
+# データ保存先ファイル
 DATA_FILE = "data.json"
-JST = timezone(timedelta(hours=9))  # 日本時間
 
+# 日本時間（JST）を定義
+JST = timezone(timedelta(hours=9))
+
+# YouTube APIから再生数とタイトルを取得する関数
 def get_stats(video_ids):
     url = "https://www.googleapis.com/youtube/v3/videos"
     params = {
@@ -38,6 +44,7 @@ def get_stats(video_ids):
         print(f"Error getting YouTube stats: {e}", file=sys.stderr)
         sys.exit(1)
 
+# 過去の履歴データを読み込む関数
 def load_history():
     try:
         with open(DATA_FILE, "r", encoding="utf-8") as f:
@@ -45,29 +52,31 @@ def load_history():
     except FileNotFoundError:
         return []
 
+# 新しいデータを保存する関数（同じ日付なら上書き）
 def save_new_data(new_entry):
     history = load_history()
 
-    # すでに今日のデータがあるなら上書き、なければ追加
+    # 今日のデータがすでにある場合は上書き、なければ追加
     if history and history[-1]["date"] == new_entry["date"]:
         history[-1] = new_entry
     else:
         history.append(new_entry)
 
-    # 最新7件だけ保持
+    # 最新7件だけ保持（古いデータは削除）
     history = history[-7:]
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=2, ensure_ascii=False)
 
+# メイン処理
 if __name__ == "__main__":
     history = load_history()
 
-    # JSTで今日の日付と昨日の日付を取得
+    # JSTで今日と昨日の日付を取得
     today = datetime.now(JST).strftime("%Y-%m-%d")
     yesterday = (datetime.now(JST) - timedelta(days=1)).strftime("%Y-%m-%d")
 
-    # 昨日のデータを探す
+    # 昨日のデータを探す（なければ空）
     prev_entry = next((d for d in reversed(history) if d["date"] == yesterday), {})
     old_views_map = {v["videoId"]: v["views_total"] for v in prev_entry.get("videos", [])}
 
@@ -80,8 +89,9 @@ if __name__ == "__main__":
         "videos": []
     }
 
+    # 各動画について、前日との差分を計算
     for vid, info in new.items():
-        prev_views = old_views_map.get(vid, info["views"])
+        prev_views = old_views_map.get(vid, info["views"])  # 前日がなければ差分0
         diff = info["views"] - prev_views
         daily_stats["videos"].append({
             "videoId": vid,
@@ -90,4 +100,5 @@ if __name__ == "__main__":
             "views_diff": diff
         })
 
+    # 保存
     save_new_data(daily_stats)
