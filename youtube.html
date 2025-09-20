@@ -183,7 +183,7 @@
             // 金曜〜木曜の週合計を計算
             function calcWeeklyTotal(history, videoId) {
                 const today = new Date(history[history.length - 1].date);
-                const weekday = today.getUTCDay(); // 日=0, 月=1, ..., 金=5, 土=6
+                const weekday = today.getDay(); // JST基準 (日=0, 金=5)
                 const daysSinceFriday = (weekday - 5 + 7) % 7;
                 const endIndex = history.length - 1;
                 const startIndex = Math.max(0, endIndex - daysSinceFriday - 6);
