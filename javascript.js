@@ -149,7 +149,22 @@ function calcWeeklyTotal(history, videoId) {
     return v ? v.views_diff : 0;
   }
 
-  // --- 日曜〜金曜：土曜から今日まで累積 ---
+    // --- 日曜：金曜 + 土曜 の分だけ表示 ---
+  if (todayWeekday === 0) {
+    const fridayEntry = history[lastSaturdayIndex - 1];
+    const saturdayEntry = history[lastSaturdayIndex];
+
+    let total = 0;
+    [fridayEntry, saturdayEntry].forEach(entry => {
+      if (entry) {
+        const v = entry.videos.find(v => v.videoId === videoId);
+        total += v ? v.views_diff : 0;
+      }
+    });
+    return total;
+  }
+  
+  // --- 月曜〜金曜：土曜から今日まで累積 ---
   const range = history.slice(lastSaturdayIndex).filter(day => {
     const dayWeek = getJSTWeekday(day.date);
     return dayWeek <= todayWeekday;
