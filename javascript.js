@@ -109,7 +109,39 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         }
       });
+function calcWeeklyTotal(history, videoId) {
+  const endIndex = history.length - 1;
+  const latestDate = history[endIndex].date;
 
+  // JSTの曜日を取得
+  const weekday = getJSTWeekday(latestDate); // 日=0, 月=1, ..., 土=6
+
+  // 最新日からさかのぼって直近の土曜を探す
+  let startIndex = endIndex;
+  while (startIndex > 0) {
+    const d = getJSTWeekday(history[startIndex].date);
+    if (d === 6) break; // 土曜
+    startIndex--;
+  }
+
+  // 土曜〜最新日までを集計
+  const weekData = history.slice(startIndex, endIndex + 1);
+
+  return weekData.reduce((sum, day) => {
+    const v = day.videos.find(v => v.videoId === videoId);
+    return sum + (v ? v.views_diff : 0);
+  }, 0);
+}
+
+// JST基準で曜日を返す関数
+function getJSTWeekday(dateString) {
+  const parts = dateString.split("-");
+  const y = parseInt(parts[0], 10);
+  const m = parseInt(parts[1], 10) - 1;
+  const d = parseInt(parts[2], 10);
+  const jstDate = new Date(y, m, d);
+  return jstDate.getDay(); // 日=0, 月=1,...土=6
+}
       // ローディングメッセージを非表示に
       loadingMessage.style.display = 'none';
     })
@@ -117,64 +149,6 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error('データの取得中にエラーが発生しました:', error);
       loadingMessage.textContent = 'データの読み込みに失敗しました。';
     });
-
-  // JST基準で曜日を返す関数（日=0, 月=1,...金=5, 土=6）
-  function getJSTWeekday(dateString) {
-    const parts = dateString.split("-");
-    const y = parseInt(parts[0], 10);
-    const m = parseInt(parts[1], 10) - 1;
-    const d = parseInt(parts[2], 10);
-    const jstDate = new Date(y, m, d);
-    return jstDate.getDay();
-  }
-
-  // views-this-week を曜日ごとに分岐して計算する関数
-function calcWeeklyTotal(history, videoId) {
-  const latestDate = history[history.length - 1].date;
-  const todayWeekday = getJSTWeekday(latestDate); // JSTの曜日 (日=0, 月=1,...土=6)
-
-  // 土曜のインデックスをすべて探す
-  const saturdayIndexes = history
-    .map((entry, i) => getJSTWeekday(entry.date) === 6 ? i : -1)
-    .filter(i => i !== -1);
-
-  if (saturdayIndexes.length === 0) return 0;
-
-  const lastSaturdayIndex = saturdayIndexes[saturdayIndexes.length - 1];
-
-  // --- 土曜：金曜の分だけ表示 ---
-  if (todayWeekday === 6) {
-    const fridayEntry = history[lastSaturdayIndex - 1];
-    const v = fridayEntry?.videos.find(v => v.videoId === videoId);
-    return v ? v.views_diff : 0;
-  }
-
-    // --- 日曜：金曜 + 土曜 の分だけ表示 ---
-  if (todayWeekday === 0) {
-    const fridayEntry = history[lastSaturdayIndex - 1];
-    const saturdayEntry = history[lastSaturdayIndex];
-
-    let total = 0;
-    [fridayEntry, saturdayEntry].forEach(entry => {
-      if (entry) {
-        const v = entry.videos.find(v => v.videoId === videoId);
-        total += v ? v.views_diff : 0;
-      }
-    });
-    return total;
-  }
-  
-  // --- 月曜〜金曜：土曜から今日まで累積 ---
-  const range = history.slice(lastSaturdayIndex).filter(day => {
-    const dayWeek = getJSTWeekday(day.date);
-    return dayWeek <= todayWeekday;
-  });
-
-  return range.reduce((sum, day) => {
-    const v = day.videos.find(v => v.videoId === videoId);
-    return sum + (v ? v.views_diff : 0);
-  }, 0);
-}
 
   // 背景色変更機能
   const colorPicker = document.getElementById('bgColorPicker');
