@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
           plugins: {
             title: {
               display: true,
-              text: "毎日の再生回数"
+              text: "日別 再生回数"
             },
             legend: {
               position: 'bottom',
