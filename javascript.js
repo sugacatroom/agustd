@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // ウォーターマーク用画像
       const logoImage = new Image();
-      logoImage.src = "cat_logo.png"; // PNGファイル
+      logoImage.src = "assets/images/cat_logo.png"; // PNGファイル
 
       // ウォーターマークプラグイン
       const watermarkPlugin = {
