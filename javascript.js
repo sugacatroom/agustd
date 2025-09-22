@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const y = chartArea.top + (chartArea.height - targetHeight) / 2;
 
             ctx.save();
-            ctx.globalAlpha = 0.15;
+            ctx.globalAlpha = 0.5;
             ctx.drawImage(logoImage, x, y, targetWidth, targetHeight);
             ctx.restore();
           }
