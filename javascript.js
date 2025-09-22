@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
 
-/*      // グラフ用ラベル（日付）を生成
+      // グラフ用ラベル（日付）を生成
       const labels = history.map(d => {
         const date = new Date(d.date);
         date.setDate(date.getDate() - 1); // 任意で1日前にずらす
@@ -108,8 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
           }
         }
-      });
-      */
+
       const logoImage = new Image();
 logoImage.src = "cat_logo.png"; // あなたのPNGファイル
 
@@ -141,6 +140,7 @@ const watermarkPlugin = {
 function calcWeeklyTotal(history, videoId) {
   const endIndex = history.length - 1;
   const latestDate = history[endIndex].date;
+        });
 
   // JSTの曜日を取得
   const weekday = getJSTWeekday(latestDate); // 日=0, 月=1, ..., 土=6
