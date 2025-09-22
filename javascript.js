@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
 
-      // グラフ用ラベル（日付）を生成
+/*      // グラフ用ラベル（日付）を生成
       const labels = history.map(d => {
         const date = new Date(d.date);
         date.setDate(date.getDate() - 1); // 任意で1日前にずらす
@@ -109,6 +109,35 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         }
       });
+      */
+      const logoImage = new Image();
+logoImage.src = "cat_logo.png"; // あなたのPNGファイル
+
+const watermarkPlugin = {
+  id: "watermark",               // プラグインの識別子
+  beforeDraw: (chart) => {       // グラフ描画前に実行
+    if (logoImage.complete) {
+      const ctx = chart.ctx;
+      const chartArea = chart.chartArea;
+
+      // 画像サイズ（横幅 = グラフ幅の30%）
+      const targetWidth = chartArea.width * 0.3;
+      const aspectRatio = logoImage.height / logoImage.width;
+      const targetHeight = targetWidth * aspectRatio;
+
+      // 画像を中央に配置
+      const x = chartArea.left + (chartArea.width - targetWidth) / 2;
+      const y = chartArea.top + (chartArea.height - targetHeight) / 2;
+
+      // 描画
+      ctx.save();
+      ctx.globalAlpha = 0.15; // 👈 ここで透明度を調整（0.1〜0.2くらいがウォーターマーク向き）
+      ctx.drawImage(logoImage, x, y, targetWidth, targetHeight);
+      ctx.restore();
+    }
+  }
+};
+
 function calcWeeklyTotal(history, videoId) {
   const endIndex = history.length - 1;
   const latestDate = history[endIndex].date;
