@@ -118,7 +118,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
           },
           scales: {
-            y: { beginAtZero: true, ticks: { stepSize: 5000 } }
+            y: { beginAtZero: true, 
+                 ticks: { //stepSize: 5000 
+                   } 
+              }
           }
         },
         plugins: [watermarkPlugin] // ← プラグイン登録
