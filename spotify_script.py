@@ -1,54 +1,84 @@
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
+import requests
 import json
+import base64
 import os
 
-# GitHub Secretsから環境変数として読み込む
-client_id = os.environ.get('SPOTIFY_CLIENT_ID')
-client_secret = os.environ.get('SPOTIFY_CLIENT_SECRET')
+# ====== Spotify API 認証情報 ======
+CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
+CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
 
-print("Client ID:", client_id)
-print("Client Secret:", client_secret)
+# ====== アクセストークンを取得 ======
+def get_token():
+    url = "https://accounts.spotify.com/api/token"
+    headers = {
+        "Authorization": "Basic " + base64.b64encode(f"{CLIENT_ID}:{CLIENT_SECRET}".encode()).decode()
+    }
+    data = {"grant_type": "client_credentials"}
+    response = requests.post(url, headers=headers, data=data)
+    response.raise_for_status()
+    return response.json()["access_token"]
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
+# ====== トラック情報を取得 ======
+def get_artist_tracks(artist_name, token):
+    print(f"🔍 {artist_name} の曲を検索中...")
+    url = "https://api.spotify.com/v1/search"
+    params = {"q": artist_name, "type": "artist", "limit": 1}
+    headers = {"Authorization": f"Bearer {token}"}
+    res = requests.get(url, headers=headers, params=params)
+    res.raise_for_status()
+    artist = res.json()["artists"]["items"][0]
+    artist_id = artist["id"]
 
-# Agust DのSpotifyアーティストID
-artist_ids = ['2auC28zjQyVTsiZKNgPRGs', '0C0XlULifJtAgn6ZNCW2eu']  # Agust D と SUGA
+    # アルバム一覧
+    albums_url = f"https://api.spotify.com/v1/artists/{artist_id}/albums"
+    albums_params = {"include_groups": "album,single", "limit": 50}
+    albums_res = requests.get(albums_url, headers=headers, params=albums_params)
+    albums_res.raise_for_status()
+    albums = albums_res.json()["items"]
 
-# アルバム一覧を取得
-all_tracks = []
-
-for artist_id in artist_ids:
-    albums = sp.artist_albums(artist_id, album_type='album,single', limit=50)
-    album_ids = [album['id'] for album in albums['items']]
-
-    for album_id in album_ids:
-        tracks = sp.album_tracks(album_id)
-        for track in tracks['items']:
-            track_info = sp.track(track['id'])
-            all_tracks.append({
-                'name': track['name'],
-                'popularity': track_info['popularity'],
-                'album': track_info['album']['name'],
-                'release_date': track_info['album']['release_date']
+    seen = set()
+    tracks = []
+    for album in albums:
+        if album["id"] in seen:
+            continue
+        seen.add(album["id"])
+        album_tracks_url = f"https://api.spotify.com/v1/albums/{album['id']}/tracks"
+        album_tracks_res = requests.get(album_tracks_url, headers=headers)
+        album_tracks_res.raise_for_status()
+        for t in album_tracks_res.json()["items"]:
+            tracks.append({
+                "artist": artist_name,
+                "album": album["name"],
+                "track_name": t["name"],
+                "id": t["id"]
             })
+    return tracks
 
+# ====== 人気度（popularity）を取得 ======
+def add_popularity(tracks, token):
+    headers = {"Authorization": f"Bearer {token}"}
+    for t in tracks:
+        track_url = f"https://api.spotify.com/v1/tracks/{t['id']}"
+        res = requests.get(track_url, headers=headers)
+        if res.status_code == 200:
+            data = res.json()
+            t["popularity"] = data.get("popularity", None)
+        else:
+            t["popularity"] = None
+    return tracks
 
-# トラック情報を取得
-all_tracks = []
-for album_id in album_ids:
-    tracks = sp.album_tracks(album_id)
-    for track in tracks['items']:
-        track_info = sp.track(track['id'])
-        all_tracks.append({
-            'name': track['name'],
-            'popularity': track_info['popularity'],
-            'album': track_info['album']['name'],
-            'release_date': track_info['album']['release_date']
-        })
+# ====== 実行部分 ======
+if __name__ == "__main__":
+    token = get_token()
+    all_tracks = []
+    for name in ["SUGA", "Agust D"]:
+        tracks = get_artist_tracks(name, token)
+        all_tracks.extend(tracks)
 
-# JSONファイルに保存
-with open('spotify_data.json', 'w', encoding='utf-8') as f:
-    json.dump(all_tracks, f, ensure_ascii=False, indent=2)
+    all_tracks = add_popularity(all_tracks, token)
 
-print("Spotifyデータの取得と保存が完了しました！")
+    os.makedirs("spotify", exist_ok=True)
+    with open("spotify/spotify_data.json", "w", encoding="utf-8") as f:
+        json.dump(all_tracks, f, ensure_ascii=False, indent=2)
+
+    print("💾 spotify/spotify_data.json に保存しました！")
