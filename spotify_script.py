@@ -78,7 +78,7 @@ if __name__ == "__main__":
     all_tracks = add_popularity(all_tracks, token)
 
     os.makedirs("spotify", exist_ok=True)
-    with open("spotify/spotify_data.json", "w", encoding="utf-8") as f:
+    with open("spotify_data.json", "w", encoding="utf-8") as f:
         json.dump(all_tracks, f, ensure_ascii=False, indent=2)
 
-    print("💾 spotify/spotify_data.json に保存しました！")
+    print("💾 spotify_data.json に保存しました！")
