@@ -1,4 +1,4 @@
-name: Spotify Data Update
+fname: Spotify Data Update
 
 on:
   schedule:
@@ -25,7 +25,7 @@ jobs:
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-        run: python spotify/spotify_script.py
+        run: python spotify_script.py
 
       - name: Commit and push changes
         run: |
