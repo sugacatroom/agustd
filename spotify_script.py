@@ -7,6 +7,9 @@ import os
 client_id = os.environ.get('SPOTIFY_CLIENT_ID')
 client_secret = os.environ.get('SPOTIFY_CLIENT_SECRET')
 
+print("Client ID:", client_id)
+print("Client Secret:", client_secret)
+
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
 
 # Agust DのSpotifyアーティストID
