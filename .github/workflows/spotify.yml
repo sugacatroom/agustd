@@ -1,4 +1,4 @@
-fname: Spotify Data Update
+name: Spotify Data Update
 
 on:
   schedule:
