@@ -1,26 +1,36 @@
-name: Run Spotify Script
+name: Spotify Data Update
 
 on:
-  workflow_dispatch:  # 手動実行（必要なら自動化も可能）
+  schedule:
+    - cron: "0 15 * * *" # JST 0:00に毎日実行（UTC+9）
+  workflow_dispatch: # 手動実行も可能
 
 jobs:
-  run-script:
+  update-spotify:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-    - name: Install dependencies
-      run: pip install spotipy
+      - name: Install dependencies
+        run: pip install requests
 
-    - name: Run spotify_script.py
-      env:
-        SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-        SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-      run: python spotify_script.py
+      - name: Run Spotify script
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: python spotify/spotify_script.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add spotify/spotify_data.json
+          git commit -m "Update Spotify data" || echo "No changes"
+          git push
