@@ -97,8 +97,8 @@ if __name__ == "__main__":
 
     # 🎧 Spotify公式アーティストID
     artist_ids = {
-        "SUGA": "6HaGTQPmzraVmaVxvz6EUc",
-        "Agust D": "2auC28zjQyVTsiZKNgPRGs"
+        "SUGA": "0ebNdVaOfp6N0oZ1guIxM8",
+        "Agust D": "5RmQ8k4l3HZ8JoPb4mNsML"
     }
 
     all_tracks = []
