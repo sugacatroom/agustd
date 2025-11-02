@@ -8,7 +8,11 @@ from datetime import datetime
 # ====== Spotify API 認証情報 ======
 CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
-print(CLIENT_ID, CLIENT_SECRET)
+
+# まず読み込まれているか確認
+print("🔍 CLIENT_ID:", CLIENT_ID)
+print("🔍 CLIENT_SECRET:", CLIENT_SECRET)
+
 # ====== アクセストークンを取得 ======
 def get_token():
     url = "https://accounts.spotify.com/api/token"
@@ -20,6 +24,11 @@ def get_token():
     response.raise_for_status()
     return response.json()["access_token"]
 
+# ====== 実行部分 ======
+if __name__ == "__main__":
+    token = get_token()
+    print("✅ Access Token:", token[:30], "...")
+    
 # ====== 安全なリクエスト関数（リトライ付き） ======
 def safe_request(method, url, headers=None, params=None, retries=3):
     for i in range(retries):
