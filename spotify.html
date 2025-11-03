@@ -3,91 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SUGA / Agust D Spotify Data</title>
-  <link rel="stylesheet" href="style_sptify.css" />
+  <title>Spotify Tracks | SUGA / Agust D</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>🎵 SUGA / Agust D Spotify Data</h1>
-    <p class="subtitle">最新のSpotifyデータを自動更新中</p>
-  </header>
+  <h1>SUGA / Agust D Spotify Data</h1>
 
-  <main>
-    <div class="search-container">
-      <input type="text" id="search" placeholder="曲名またはアルバムで検索..." />
-    </div>
+  <div id="search-container">
+    <input type="text" id="search" placeholder="曲名またはアルバム名で検索..." />
+  </div>
 
-    <div class="table-wrapper">
-      <table>
-        <thead>
-          <tr>
-            <th>曲名</th>
-            <th>アルバム</th>
-            <th>人気度</th>
-          </tr>
-        </thead>
-        <tbody id="data-table"></tbody>
-      </table>
-    </div>
-  </main>
-
-  <footer>
-    <p>Data provided by Spotify API | 更新日: <span id="updated"></span></p>
-  </footer>
+  <div id="tracks-container"></div>
 
   <script>
-    const DATA_URL = "spotify_data.json";
-
-    async function loadData() {
+    async function loadSpotifyData() {
       try {
-        const res = await fetch(DATA_URL);
-        if (!res.ok) throw new Error("JSONの取得に失敗しました");
+        const res = await fetch("spotify_data.json");
         const data = await res.json();
-        renderTable(data);
-        updateTimestamp();
-      } catch (e) {
-        console.error("データ取得エラー:", e);
-        document.getElementById("data-table").innerHTML =
-          `<tr><td colspan="3">⚠️ データを読み込めませんでした。</td></tr>`;
+        displayTracks(data);
+      } catch (err) {
+        console.error("Error loading data:", err);
+        document.getElementById("tracks-container").innerHTML =
+          "<p>⚠️ データを読み込めませんでした。</p>";
       }
     }
 
-    function renderTable(data) {
-      const tbody = document.getElementById("data-table");
-      tbody.innerHTML = "";
-      data.forEach(track => {
-        const row = document.createElement("tr");
-        row.innerHTML = `
-          <td>${track.track_name}</td>
-          <td class="album">${track.album}</td>
-          <td>
-            <div class="bar" style="width:${track.popularity || 0}%;"></div>
-            <small>${track.popularity ?? "?"}</small>
-          </td>
+    function displayTracks(tracks) {
+      const container = document.getElementById("tracks-container");
+      container.innerHTML = "";
+
+      tracks.forEach(t => {
+        // Spotify再生リンク
+        const trackUrl = `https://open.spotify.com/track/${t.id}`;
+        const imgUrl = t.album_image || "https://via.placeholder.com/100?text=No+Image";
+
+        const div = document.createElement("div");
+        div.className = "track-card";
+        div.innerHTML = `
+          <img src="${imgUrl}" alt="${t.album}" class="album-image">
+          <div class="track-info">
+            <a href="${trackUrl}" target="_blank" class="track-name">${t.track_name}</a>
+            <p class="album-name">${t.album}</p>
+            <p class="artist-name">${t.artist}</p>
+            <div class="popularity-bar">
+              <div class="bar" style="width:${t.popularity || 0}%;"></div>
+            </div>
+          </div>
         `;
-        tbody.appendChild(row);
+        container.appendChild(div);
       });
     }
 
-    function updateTimestamp() {
-      // GitHub Pagesでキャッシュされるため、強制的に更新時刻を擬似表示
-      const now = new Date().toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" });
-      document.getElementById("updated").textContent = now;
-    }
-
+    // 🔍 検索機能
     document.getElementById("search").addEventListener("input", async (e) => {
-      const query = e.target.value.toLowerCase();
-      const res = await fetch(DATA_URL);
+      const res = await fetch("spotify_data.json");
       const data = await res.json();
+      const q = e.target.value.toLowerCase();
       const filtered = data.filter(
         t =>
-          t.track_name.toLowerCase().includes(query) ||
-          t.album.toLowerCase().includes(query)
+          t.track_name.toLowerCase().includes(q) ||
+          t.album.toLowerCase().includes(q)
       );
-      renderTable(filtered);
+      displayTracks(filtered);
     });
 
-    loadData();
+    loadSpotifyData();
   </script>
 </body>
 </html>
