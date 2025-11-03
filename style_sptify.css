@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 30px 10px 10px;
+}
+
+h1 {
+  color: #1DB954;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #bbb;
+  font-size: 14px;
+}
+
+.search-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  box-shadow: 0 0 8px #1DB954;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  padding: 0 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  text-align: left;
+}
+
+th {
+  color: #1DB954;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+tr:hover {
+  background-color: #1f1f1f;
+}
+
+.album {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.bar {
+  height: 10px;
+  background-color: #1DB954;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  transition: width 0.3s ease;
+}
+
+small {
+  font-size: 12px;
+  color: #aaa;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 12px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SUGA / Agust D Spotify Data</title>
+  <link rel="stylesheet" href="style_sptify.css" />
+</head>
+<body>
+  <header>
+    <h1>🎵 SUGA / Agust D Spotify Data</h1>
+    <p class="subtitle">最新のSpotifyデータを自動更新中</p>
+  </header>
+
+  <main>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="曲名またはアルバムで検索..." />
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>曲名</th>
+            <th>アルバム</th>
+            <th>人気度</th>
+          </tr>
+        </thead>
+        <tbody id="data-table"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <p>Data provided by Spotify API | 更新日: <span id="updated"></span></p>
+  </footer>
+
+  <script>
+    const DATA_URL = "spotify_data.json";
+
+    async function loadData() {
+      try {
+        const res = await fetch(DATA_URL);
+        if (!res.ok) throw new Error("JSONの取得に失敗しました");
+        const data = await res.json();
+        renderTable(data);
+        updateTimestamp();
+      } catch (e) {
+        console.error("データ取得エラー:", e);
+        document.getElementById("data-table").innerHTML =
+          `<tr><td colspan="3">⚠️ データを読み込めませんでした。</td></tr>`;
+      }
+    }
+
+    function renderTable(data) {
+      const tbody = document.getElementById("data-table");
+      tbody.innerHTML = "";
+      data.forEach(track => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${track.track_name}</td>
+          <td class="album">${track.album}</td>
+          <td>
+            <div class="bar" style="width:${track.popularity || 0}%;"></div>
+            <small>${track.popularity ?? "?"}</small>
+          </td>
+        `;
+        tbody.appendChild(row);
+      });
+    }
+
+    function updateTimestamp() {
+      // GitHub Pagesでキャッシュされるため、強制的に更新時刻を擬似表示
+      const now = new Date().toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" });
+      document.getElementById("updated").textContent = now;
+    }
+
+    document.getElementById("search").addEventListener("input", async (e) => {
+      const query = e.target.value.toLowerCase();
+      const res = await fetch(DATA_URL);
+      const data = await res.json();
+      const filtered = data.filter(
+        t =>
+          t.track_name.toLowerCase().includes(query) ||
+          t.album.toLowerCase().includes(query)
+      );
+      renderTable(filtered);
+    });
+
+    loadData();
+  </script>
+</body>
+</html>
