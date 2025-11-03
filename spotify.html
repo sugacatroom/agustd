@@ -1,71 +1,66 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Spotify Tracks | SUGA / Agust D</title>
-  <link rel="stylesheet" href="spotify_style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Data Viewer</title>
+  <link rel="stylesheet" href="spotify_style.css">
 </head>
 <body>
-  <h1>SUGA / Agust D Spotify Data</h1>
+  <header>
+    <h1>🎧 Spotify Data Viewer</h1>
+    <p>GitHub Actionsで自動更新されたSpotifyデータ</p>
+  </header>
 
-  <div id="search-container">
-    <input type="text" id="search" placeholder="曲名またはアルバム名で検索..." />
-  </div>
+  <main id="spotify-data">
+    <p>データを読み込み中...</p>
+  </main>
 
-  <div id="tracks-container"></div>
+  <footer>
+    <p>© 2025 Spotify Data Viewer</p>
+  </footer>
 
   <script>
     async function loadSpotifyData() {
       try {
-        const res = await fetch("spotify_data.json");
-        const data = await res.json();
-        displayTracks(data);
-      } catch (err) {
-        console.error("Error loading data:", err);
-        document.getElementById("tracks-container").innerHTML =
-          "<p>⚠️ データを読み込めませんでした。</p>";
+        const response = await fetch('spotify_data.json');
+        if (!response.ok) throw new Error("JSONが見つかりません。");
+        const data = await response.json();
+
+        const container = document.getElementById('spotify-data');
+        container.innerHTML = '';
+
+        if (!Array.isArray(data) || data.length === 0) {
+          container.innerHTML = '<p>データがありません。</p>';
+          return;
+        }
+
+        data.forEach(track => {
+          const item = document.createElement('div');
+          item.className = 'track-item';
+
+          // Spotifyの曲ページURL
+          const spotifyUrl = `https://open.spotify.com/track/${track.id}`;
+
+          // アルバム画像（まだPythonで出力してない場合は代替画像）
+          const albumImage = track.album_image || 'https://via.placeholder.com/150?text=No+Image';
+
+          item.innerHTML = `
+            <img src="${albumImage}" alt="${track.album}" class="album-cover">
+            <div class="track-info">
+              <h3><a href="${spotifyUrl}" target="_blank" rel="noopener">${track.track_name}</a></h3>
+              <p><strong>アーティスト:</strong> ${track.artist}</p>
+              <p><strong>アルバム:</strong> ${track.album}</p>
+              <p><strong>人気度:</strong> ${track.popularity ?? "不明"}</p>
+            </div>
+          `;
+          container.appendChild(item);
+        });
+      } catch (error) {
+        document.getElementById('spotify-data').innerHTML =
+          `<p style="color:red;">エラー: ${error.message}</p>`;
       }
     }
-
-    function displayTracks(tracks) {
-      const container = document.getElementById("tracks-container");
-      container.innerHTML = "";
-
-      tracks.forEach(t => {
-        // Spotify再生リンク
-        const trackUrl = `https://open.spotify.com/track/${t.id}`;
-        const imgUrl = t.album_image || "https://via.placeholder.com/100?text=No+Image";
-
-        const div = document.createElement("div");
-        div.className = "track-card";
-        div.innerHTML = `
-          <img src="${imgUrl}" alt="${t.album}" class="album-image">
-          <div class="track-info">
-            <a href="${trackUrl}" target="_blank" class="track-name">${t.track_name}</a>
-            <p class="album-name">${t.album}</p>
-            <p class="artist-name">${t.artist}</p>
-            <div class="popularity-bar">
-              <div class="bar" style="width:${t.popularity || 0}%;"></div>
-            </div>
-          </div>
-        `;
-        container.appendChild(div);
-      });
-    }
-
-    // 🔍 検索機能
-    document.getElementById("search").addEventListener("input", async (e) => {
-      const res = await fetch("spotify_data.json");
-      const data = await res.json();
-      const q = e.target.value.toLowerCase();
-      const filtered = data.filter(
-        t =>
-          t.track_name.toLowerCase().includes(q) ||
-          t.album.toLowerCase().includes(q)
-      );
-      displayTracks(filtered);
-    });
 
     loadSpotifyData();
   </script>

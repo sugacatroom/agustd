@@ -1,0 +1,60 @@
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #1db954;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.track-item {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.album-cover {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.track-info {
+  padding: 1rem;
+  flex: 1;
+}
+
+.track-info h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.2rem;
+}
+
+.track-info a {
+  color: #1db954;
+  text-decoration: none;
+}
+
+.track-info a:hover {
+  text-decoration: underline;
+}
