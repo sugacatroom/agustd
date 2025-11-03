@@ -9,12 +9,14 @@ from datetime import datetime
 CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
 CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
 
-# まず読み込まれているか確認
-print("🔍 CLIENT_ID:", CLIENT_ID)
-print("🔍 CLIENT_SECRET:", CLIENT_SECRET)
+print("🔍 CLIENT_ID:", "✅ 読み込み成功" if CLIENT_ID else "❌ None")
+print("🔍 CLIENT_SECRET:", "✅ 読み込み成功" if CLIENT_SECRET else "❌ None")
 
 # ====== アクセストークンを取得 ======
 def get_token():
+    if not CLIENT_ID or not CLIENT_SECRET:
+        raise ValueError("❌ CLIENT_ID または CLIENT_SECRET が設定されていません。GitHub Secrets を確認してください。")
+
     url = "https://accounts.spotify.com/api/token"
     headers = {
         "Authorization": "Basic " + base64.b64encode(f"{CLIENT_ID}:{CLIENT_SECRET}".encode()).decode()
@@ -24,11 +26,6 @@ def get_token():
     response.raise_for_status()
     return response.json()["access_token"]
 
-# ====== 実行部分 ======
-if __name__ == "__main__":
-    token = get_token()
-    print("✅ Access Token:", token[:30], "...")
-    
 # ====== 安全なリクエスト関数（リトライ付き） ======
 def safe_request(method, url, headers=None, params=None, retries=3):
     for i in range(retries):
@@ -53,14 +50,12 @@ def get_artist_tracks(artist_name, artist_id, token):
     albums_url = f"https://api.spotify.com/v1/artists/{artist_id}/albums"
     params = {"include_groups": "album,single", "limit": 50}
 
-    # --- ページング対応 ---
     while albums_url:
         res = safe_request("GET", albums_url, headers=headers, params=params)
         data = res.json()
         albums.extend(data["items"])
-        albums_url = data.get("next")  # 次ページがある場合は続行
+        albums_url = data.get("next")
 
-    # --- トラック取得 ---
     seen = set()
     tracks = []
     for album in albums:
@@ -103,6 +98,7 @@ def add_popularity(tracks, token):
 # ====== 実行部分 ======
 if __name__ == "__main__":
     token = get_token()
+    print("✅ Access Token 取得成功")
 
     # 🎧 Spotify公式アーティストID
     artist_ids = {
@@ -120,7 +116,7 @@ if __name__ == "__main__":
 
     # 💾 保存処理（日付付きファイル名）
     os.makedirs("spotify", exist_ok=True)
-    filename = f"spotify/spotify_data_{datetime.now():%Y%m%d_%H%M%S}.json"
+    filename = "spotify/spotify_data.json"
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(all_tracks, f, ensure_ascii=False, indent=2)
 
