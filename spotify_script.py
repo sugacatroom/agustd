@@ -116,7 +116,7 @@ if __name__ == "__main__":
 
     # 💾 保存処理（日付付きファイル名）
     os.makedirs("spotify", exist_ok=True)
-    filename = "spotify/spotify_data.json"
+    filename = "spotify_data.json"
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(all_tracks, f, ensure_ascii=False, indent=2)
 
