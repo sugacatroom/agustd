@@ -35,7 +35,7 @@
           return;
         }
 
-        data.forEach(track => {
+      data.forEach(track => {
           const item = document.createElement('div');
           item.className = 'track-item';
 
@@ -55,7 +55,7 @@
             </div>
           `;
           container.appendChild(item);
-        });
+      });
       } catch (error) {
         document.getElementById('spotify-data').innerHTML =
           `<p style="color:red;">エラー: ${error.message}</p>`;
