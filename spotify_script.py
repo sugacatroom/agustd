@@ -22,8 +22,8 @@ for artist_id in artist_ids:
 
 # Spotify認証
 sp = Spotify(client_credentials_manager=SpotifyClientCredentials(
-    CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
-    CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
+    CLIENT_id = os.getenv("SPOTIFY_CLIENT_ID")
+    CLIENT_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
 ))
 
 results = []
