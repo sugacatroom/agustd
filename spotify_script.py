@@ -6,18 +6,12 @@ from datetime import datetime
 # ==============================
 # 1. MusicBrainzからアーティスト情報を取得
 # ==============================
-
-# 複数名義（SUGAの別名義も含める）
-artist_names = ["SUGA", "Agust D", "Gloss", "Min Yoon-gi"]
-
-artist_ids = []
-for name in artist_names:
-    # MusicBrainz APIでアーティスト検索
-    url = f"https://musicbrainz.org/ws/2/artist?query=artist:{name}&fmt=json"
-    data = requests.get(url).json()
-    if data.get("artists"):
-        # 最初の一致結果のIDを保存
-        artist_ids.append(data["artists"][0]["id"])
+# MusicBrainz のアーティストIDを固定（ユンギ本人のみ）
+artist_ids = [
+    "b629da42-c668-49d2-be67-498605ee2a13",  # SUGA
+    "31dd895e-4473-4458-baed-8bcf36d3de7f",  # Agust D
+    "f09d2950-e3c6-47b2-b21c-2bad2cd3f616"   # Min Yoon-gi
+]
 
 # ==============================
 # 2. アーティストごとの楽曲一覧を取得
