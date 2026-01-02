@@ -3,13 +3,44 @@
    ※ 曲名は JSON の title と完全一致させる
 ---------------------------------------------------- */
 const albumMap = {
-  "D-DAY": ["D‐Day", "해금", "HUH?!", "Snooze", "AMYGDALA"],
-  "D-2": ["Moonlight", "Daechwita", "Burn It", "People", "Strange", "28"],
-  "Agust D": ["Agust D", "give it to me", "The Last", "724148", "140503 at dawn"],
-  "BE": ["Life Goes On", "Fly To My Room", "Blue & Grey", "Telepathy", "Dis-ease", "Stay"],
-  "LOVE YOURSELF 轉 'Tear'": ["Fake Love", "134340", "Paradise", "Magic Shop", "So What", "Outro : Tear"]
-};
+/* ------------------------- SUGA / Agust D ソロ作品 ------------------------- */
+  "D-DAY": ["D‐Day", "해금", "HUH?!", "Snooze", "AMYGDALA", "SDL", "Polar Night", "Interlude : Dawn", "People Pt.2 (feat. IU)"],
 
+  "D-2": ["Moonlight", "Daechwita", "28", "Burn It", "People", "Honsool", "Interlude : Set me free", "Strange", "Dear my friend"],
+
+  "Agust D": ["Intro ; Dt sugA", "Agust D", "give it to me", "skit", "724148", "140503 at dawn", "The Last", "Tony Montana", "Interlude ; Dream, Reality", "So Far Away"],
+
+   /* -------------------------  BTS アルバム（ユンギ参加曲）  ------------------------- */
+  "BE": ["Life Goes On", "Fly To My Room", "Blue & Grey", "Skit", "Telepathy", "Dis-ease", "Stay", "Dynamite"],
+
+  "MAP OF THE SOUL : 7": ["Interlude : Shadow", "Black Swan", "Filter", "My Time", "Louder than bombs", "ON", "UGH!", "00:00 (Zero O’Clock)", "Inner Child", "Friends", "Moon", "Respect", "We are Bulletproof : the Eternal"],
+
+  "MAP OF THE SOUL : PERSONA": ["Intro : Persona", "Boy With Luv", "Mikrokosmos", "Make It Right", "HOME", "Jamais Vu", "Dionysus"],
+
+  "LOVE YOURSELF 轉 'Tear'": ["Fake Love", "134340", "Paradise", "Love Maze", "Magic Shop", "Airplane pt.2", "Anpanman", "So What", "Outro : Tear"],
+
+  "LOVE YOURSELF 承 'Her'": ["Intro : Serendipity", "DNA", "Best Of Me", "Dimple", "Pied Piper", "Skit : Billboard Music Awards Speech", "MIC Drop", "Go Go", "Outro : Her"],
+
+  "LOVE YOURSELF 結 'Answer'": ["Euphoria", "Trivia 起 : Just Dance", "Serendipity (Full Length Edition)", "DNA", "Dimple", "Trivia 承 : Love", "Her", "Singularity", "Fake Love", "The Truth Untold", "Trivia 轉 : Seesaw", "Tear", "Epiphany", "I'm Fine", "IDOL", "Answer : Love Myself"],
+
+  "WINGS": ["Begin", "Lie", "Stigma", "First Love", "Reflection", "MAMA", "Awake", "Lost", "BTS Cypher 4", "Am I Wrong", "21st Century Girl", "2! 3!"],
+
+  "YOU NEVER WALK ALONE": ["Spring Day", "Not Today", "Outro : Wings"],
+
+  "The Most Beautiful Moment in Life: Young Forever": ["Fire", "Save ME", "Epilogue : Young Forever"],
+
+  "花樣年華 pt.2": ["RUN", "Butterfly", "Whalien 52", "Ma City", "Silver Spoon", "Autumn Leaves"],
+
+  "花樣年華 pt.1": ["I Need U", "Hold Me Tight", "Dope", "Boyz with Fun", "Converse High", "Moving On"],
+
+  "DARK&WILD": ["Danger", "War of Hormone", "Hip Hop Lover", "Let Me Know", "Rain", "BTS Cypher Pt.3 : Killer", "Interlude : What are you doing now"],
+
+  "Skool Luv Affair": ["Boy In Luv", "Just One Day", "Tomorrow", "BTS Cypher Pt.2 : Triptych"],
+
+  "O!RUL8,2?": ["N.O", "We On", "If I Ruled The World", "Coffee", "BTS Cypher Pt.1"],
+
+  "2 COOL 4 SKOOL": ["No More Dream", "We Are Bulletproof Pt.2", "I Like It"]
+};
 
 /* ----------------------------------------------------
    メイン処理
