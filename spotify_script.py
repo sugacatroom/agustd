@@ -155,7 +155,7 @@ def safe_spotify_search(query, retries=3, delay=2):
 results = []
 
 for title in all_titles:
-    search = safe_spotify_search(f"{title} artist:BTS OR artist:SUGA OR artist:Agust D")
+    search = safe_spotify_search(f'track:"{title}"')
     items = search["tracks"]["items"]
 
     if items:
@@ -165,7 +165,6 @@ for title in all_titles:
             "spotify_popularity": track["popularity"],
             "spotify_url": track["external_urls"]["spotify"]
         })
-
 
 # ==============================
 # 3. JSONファイルに保存（更新日時付き）
