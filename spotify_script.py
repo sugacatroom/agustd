@@ -178,3 +178,11 @@ output = {
 os.makedirs("docs", exist_ok=True)
 with open("docs/spotify_data.json", "w", encoding="utf-8") as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
+
+# 日付ごとの履歴保存
+date_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+history_path = f"docs/history/{date_str}.json"
+
+os.makedirs("docs/history", exist_ok=True)
+with open(history_path, "w", encoding="utf-8") as f:
+    json.dump(output, f, ensure_ascii=False, indent=2)
