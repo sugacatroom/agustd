@@ -1,36 +1,47 @@
+# ワークフローの名前（GitHub Actions画面に表示される）
 name: Spotify Data Update
 
 on:
   schedule:
-    - cron: "0 15 * * *" # JST 0:00に毎日実行（UTC+9）
-  workflow_dispatch: # 手動実行も可能
+    # 毎日 JST 0:00 に実行（cronはUTC基準なので 15:00 UTC = 0:00 JST）
+    - cron: "0 15 * * *"
+  # 手動実行も可能にする設定
+  workflow_dispatch:
 
 jobs:
   update-spotify:
+    # 実行環境は最新のUbuntu
     runs-on: ubuntu-latest
 
     steps:
+      # リポジトリのコードを仮想環境にチェックアウト
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Python環境をセットアップ（バージョン3.11）
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
+      # 必要なライブラリをインストール
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests spotipy
 
+      # Spotifyスクリプトを実行
+      # Secretsに登録した認証情報を環境変数として渡す
       - name: Run Spotify script
         env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: python spotify_script.py
 
+      # 生成されたJSONファイルをコミット＆プッシュ
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add spotify_data.json
-          git commit -m "Update Spotify data" || echo "No changes"
+          git add docs/spotify_data.json
+          # 更新がない場合はエラーにしないように exit 0 を追加
+          git commit -m "Update Spotify data" || exit 0
           git push
