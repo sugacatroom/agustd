@@ -41,6 +41,47 @@ const albumMap = {
 
   "2 COOL 4 SKOOL": ["No More Dream", "We Are Bulletproof Pt.2", "I Like It"]
 };
+const albumMap = {
+
+  /* SUGA / Agust D ソロ作品  ------------------------- */
+  "D-DAY": ["D‐Day", "해금", "HUH?!", "Snooze", "AMYGDALA", "SDL", "Polar Night", "Interlude : Dawn", "사람 Pt.2" ],
+
+  "D-2": [ "Moonlight", "Daechwita", "28", "Burn It", "People", "Honsool", "Interlude : Set me free", "Strange", "Dear my friend", "What do you think?" ],
+
+  "Agust D": [ "Intro ; Dt sugA", "Agust D", "give it to me", "skit", "724148", "140503 at dawn", "The Last", "Tony Montana", "Interlude ; Dream, Reality", "so far away" ],
+
+  /* BTS アルバム曲  ------------------------- */
+  "BE": [ "Life Goes On", "Fly To My Room", "Blue & Grey", "Telepathy", "Dis-ease", "Stay" ],
+
+  "MAP OF THE SOUL : 7": [ "Interlude : Shadow", "Black Swan", "Filter", "My Time", "Louder than bombs", "UGH!", "We are Bulletproof : the Eternal" ],
+
+  "MAP OF THE SOUL : PERSONA": [ "Intro : Persona", "Boy With Luv", "Make It Right", "Home", "Jamais Vu", "Dionysus" ],
+
+  "LOVE YOURSELF 轉 'Tear'": [ "Fake Love", "134340", "Paradise", "Love Maze", "Magic Shop", "Airplane pt.2", "Anpanman", "So What", "Outro : Tear" ],
+
+  "LOVE YOURSELF 承 'Her'": [ "Intro : Serendipity", "Best Of Me", "Pied Piper", "MIC Drop", "Go Go", "Outro : Her" ],
+
+  "LOVE YOURSELF 結 'Answer'": [ "The Truth Untold", "Trivia 轉 : Seesaw", "I'm Fine", "IDOL", "Answer : Love Myself" ],
+
+  "WINGS": [ "First Love", "2! 3!" ],
+
+  "YOU NEVER WALK ALONE": [ "Spring Day", "Not Today" ],
+
+  "花樣年華 pt.2": [ "RUN", "Butterfly", "Whalien 52", "Ma City", "Silver Spoon", "Autumn Leaves" ],
+
+  "花樣年華 pt.1": [ "I Need U", "Hold Me Tight", "Dope", "Boyz with Fun", "Converse High", "Moving On" ],
+
+  "DARK&WILD": [ "Let Me Know" ],
+
+  "Skool Luv Affair": [ "Boy In Luv", "Just One Day", "Tomorrow" ],
+
+  "O!RUL8,2?": [ "N.O", "We On", "Coffee" ],
+
+  "2 COOL 4 SKOOL": [ "No More Dream", "We Are Bulletproof Pt.2", "I Like It" ],
+
+  /* コラボ / OST / 単発リリース  ------------------------- */
+  "Other Works": [ "Lilith (Diablo IV anthem)", "eight", "SUGA’s Interlude", "Over The Horizon", "Song Request", "신청곡", "Blueberry Eyes", "Blueberry Eyes (Steve Aoki remix)", "Girl of My Dreams", "That That", "에잇" ]
+};
 
 /* ----------------------------------------------------
    メイン処理
