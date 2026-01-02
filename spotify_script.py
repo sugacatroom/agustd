@@ -51,6 +51,84 @@ for artist_id in artist_ids:
 # 重複削除
 recordings = list(set(recordings))
 
+# ============================== 
+# 追加：ユンギ作詞作曲の BTS 曲を統合 
+# ==============================
+extra_tracks = [
+    # 花様年華
+    "Intro : The Most Beautiful Moment in Life",
+    "Intro : Never Mind",
+    "Butterfly",
+    "Whalien 52",
+    "Ma City",
+    "Boyz with Fun",
+    "Dead Leaves",
+    "House of Cards",
+    "Love Is Not Over",
+    "I Need U",
+    "Run",
+
+    # WINGS / YNWA
+    "First Love",
+    "Blood Sweat & Tears",
+    "2! 3!",
+    "Spring Day",
+    "Not Today",
+
+    # LOVE YOURSELF 承 'Her'
+    "Intro : Serendipity",
+    "Best Of Me",
+    "Pied Piper",
+    "MIC Drop",
+    "Go Go",
+    "Outro : Her",
+
+    # LOVE YOURSELF 轉 'Tear'
+    "Fake Love",
+    "The Truth Untold",
+    "134340",
+    "Paradise",
+    "Love Maze",
+    "Magic Shop",
+    "Airplane pt.2",
+    "Anpanman",
+    "So What",
+    "Outro : Tear",
+
+    # LOVE YOURSELF 結 'Answer'
+    "Trivia 轉 : Seesaw",
+    "I'm Fine",
+    "IDOL",
+    "Answer : Love Myself",
+
+    # PERSONA
+    "Intro : Persona",
+    "Boy With Luv",
+    "Make It Right",
+    "Home",
+    "Dionysus",
+
+    # MAP OF THE SOUL : 7
+    "Interlude : Shadow",
+    "Black Swan",
+    "Filter",
+    "My Time",
+    "Louder than bombs",
+    "UGH!",
+    "Respect",
+    "We are Bulletproof : the Eternal",
+
+    # BE
+    "Life Goes On",
+    "Fly To My Room",
+    "Blue & Grey",
+    "Telepathy",
+    "Dis-ease",
+    "Stay"
+]
+
+# MusicBrainz の曲 + BTS 作詞作曲曲を統合
+all_titles = list(set(recordings + extra_tracks))
 
 # ==============================
 # 2. Spotify APIで楽曲情報を取得
@@ -76,8 +154,8 @@ def safe_spotify_search(query, retries=3, delay=2):
 
 results = []
 
-for title in recordings:
-    search = safe_spotify_search(f"{title} artist:SUGA")
+for title in all_titles:
+    search = safe_spotify_search(f"{title} artist:BTS OR artist:SUGA OR artist:Agust D")
     items = search["tracks"]["items"]
 
     if items:
