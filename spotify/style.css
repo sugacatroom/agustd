@@ -1,3 +1,6 @@
+/* ----------------------------------------
+   全体の基本設定（フォント・背景など）
+---------------------------------------- */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   padding: 16px;
@@ -5,6 +8,9 @@ body {
   color: #333;
 }
 
+/* ----------------------------------------
+   ヘッダー部分（タイトル・更新日時）
+---------------------------------------- */
 header h1 {
   font-size: 20px;
   margin-bottom: 4px;
@@ -16,43 +22,76 @@ header h1 {
   margin-bottom: 16px;
 }
 
+/* ----------------------------------------
+   アルバム全体のボックス
+   （アコーディオンの1つのまとまり）
+---------------------------------------- */
 .album {
   margin-bottom: 12px;
   border: 1px solid #ddd;
   border-radius: 6px;
   background: #fff;
-  overflow: hidden;
+  overflow: hidden; /* はみ出し防止 */
 }
 
+/* ----------------------------------------
+   アルバム名（タップで開閉）
+---------------------------------------- */
 .album-header {
   padding: 12px;
   background: #f0f0f0;
   font-weight: bold;
-  cursor: pointer;
+  cursor: pointer; /* タップできることを示す */
   font-size: 16px;
 }
 
+/* ----------------------------------------
+   アルバム内の曲リスト（最初は非表示）
+---------------------------------------- */
 .album-content {
   display: none;
 }
 
+/* ----------------------------------------
+   曲1行のレイアウト
+   左：曲名リンク
+   中：人気度
+   右：前日比（矢印）
+---------------------------------------- */
 .track-row {
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  grid-template-columns: 1fr auto auto; /* 曲名を広く、数字は右寄せ */
   gap: 8px;
   padding: 10px 12px;
   border-top: 1px solid #eee;
   font-size: 15px;
-  align-items: center;
+  align-items: center; /* 縦位置を揃える */
 }
 
+/* 曲名リンク（Spotifyへ） */
 .track-row a {
-  color: #1DB954;
+  color: #1DB954; /* Spotifyカラー */
   text-decoration: none;
   font-weight: bold;
 }
 
-.diff-up { color: #d9534f; }   /* 赤：上昇 */
-.diff-down { color: #0275d8; } /* 青：下降 */
-.diff-same { color: #555; }    /* グレー：変化なし */
+/* ----------------------------------------
+   前日比の色分け
+   diff-up   → 人気度が上がった（赤）
+   diff-down → 人気度が下がった（青）
+   diff-same → 変化なし（グレー）
+---------------------------------------- */
+.diff-up { color: #d9534f; }
+.diff-down { color: #0275d8; }
+.diff-same { color: #555; }
 
+/* ----------------------------------------
+   フッター（最終更新日時）
+---------------------------------------- */
+footer {
+  margin-top: 24px;
+  padding: 12px 0;
+  font-size: 13px;
+  color: #777;
+  text-align: center;
+}
