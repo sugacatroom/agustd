@@ -37,7 +37,7 @@ artist_ids = [
 
 # MusicBrainz 推奨の User-Agent
 headers = {
-    "User-Agent": "agustd-stats/1.0 ( https://github.com/<あなたのGitHubユーザー名>/agustd )"
+    "User-Agent": "agustd-stats/1.0 ( https://github.com/sugacatroom/agustd )"
 }
 
 recordings = []
