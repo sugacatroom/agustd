@@ -1,1 +1,58 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  padding: 16px;
+  background: #fafafa;
+  color: #333;
+}
+
+header h1 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+#updated {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.album {
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.album-header {
+  padding: 12px;
+  background: #f0f0f0;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.album-content {
+  display: none;
+}
+
+.track-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 8px;
+  padding: 10px 12px;
+  border-top: 1px solid #eee;
+  font-size: 15px;
+  align-items: center;
+}
+
+.track-row a {
+  color: #1DB954;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.diff-up { color: #d9534f; }   /* 赤：上昇 */
+.diff-down { color: #0275d8; } /* 青：下降 */
+.diff-same { color: #555; }    /* グレー：変化なし */
 
