@@ -6,6 +6,7 @@ from datetime import datetime
 # ==============================
 # 1. MusicBrainzからアーティスト情報を取得
 # ==============================
+
 # MusicBrainz のアーティストIDを固定（ユンギ本人のみ）
 artist_ids = [
     "b629da42-c668-49d2-be67-498605ee2a13",  # SUGA
