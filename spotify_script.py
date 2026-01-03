@@ -46,10 +46,12 @@ def get_tracks_from_artist(artist_id):
     for album_id in album_ids:
         album_tracks = sp.album_tracks(album_id)
         for t in album_tracks["items"]:
+            isrc = t.get("external_ids", {}).get("isrc")
+
             tracks.append({
                 "title": t["name"],
                 "track_id": t["id"],
-                "isrc": t["external_ids"].get("isrc"),
+                "isrc": isrc,
                 "artist": ", ".join([a["name"] for a in t["artists"]])
             })
 
