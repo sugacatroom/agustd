@@ -109,9 +109,9 @@ def main():
     all_tracks = []
 
     # Agust D / SUGA / BTS の全曲を取得
-    agustd_tracks = get_tracks_from_artist(ARTISTS["Agust D"])
-    suga_tracks = get_tracks_from_artist(ARTISTS["SUGA"])
-    bts_tracks = get_tracks_from_artist(ARTISTS["BTS"])
+   agustd_tracks = get_tracks_from_artist(ARTISTS["Agust D"], "Agust D")
+   suga_tracks   = get_tracks_from_artist(ARTISTS["SUGA"], "SUGA")
+   bts_tracks    = get_tracks_from_artist(ARTISTS["BTS"], "BTS")
 
     # VocaDB からユンギ作詞作曲曲の ISRC を取得
     yoongi_isrcs = get_yoongi_written_tracks()
