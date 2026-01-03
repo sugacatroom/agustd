@@ -37,15 +37,19 @@ COLLAB_TRACK_IDS = [
 # ============================================
 # 3. Spotify：アーティストの全曲を取得
 # ============================================
-def get_tracks_from_artist(artist_id):
+def get_tracks_from_artist(artist_id, artist_name):
     tracks = []
-    albums = sp.artist_albums(artist_id, album_type="album,single,compilation,appears_on", limit=50)
+    albums = sp.artist_albums(artist_id, album_type="album,single,compilation", limit=50)
 
     album_ids = list({a["id"] for a in albums["items"]})
 
     for album_id in album_ids:
         album_tracks = sp.album_tracks(album_id)
         for t in album_tracks["items"]:
+            # メインアーティストが一致する曲だけ採用
+            if t["artists"][0]["name"] != artist_name:
+                continue
+
             isrc = t.get("external_ids", {}).get("isrc")
 
             tracks.append({
