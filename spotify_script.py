@@ -127,7 +127,7 @@ def main():
             "title": info["name"],
             "track_id": tid,
             "artist": ", ".join([a["name"] for a in info["artists"]]),
-            "isrc": info["external_ids"].get("isrc")
+            "isrc": info.get("external_ids", {}).get("isrc")
         })
 
     # すべて統合
