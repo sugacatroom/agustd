@@ -46,8 +46,10 @@ def get_tracks_from_artist(artist_id, artist_name):
     for album_id in album_ids:
         album_tracks = sp.album_tracks(album_id)
         for t in album_tracks["items"]:
-            # メインアーティストが一致する曲だけ採用
-            if t["artists"][0]["name"] != artist_name:
+
+            # artists の中に artist_name が含まれているかチェック
+            artist_names = [a["name"] for a in t["artists"]]
+            if artist_name not in artist_names:
                 continue
 
             isrc = t.get("external_ids", {}).get("isrc")
@@ -56,7 +58,7 @@ def get_tracks_from_artist(artist_id, artist_name):
                 "title": t["name"],
                 "track_id": t["id"],
                 "isrc": isrc,
-                "artist": ", ".join([a["name"] for a in t["artists"]])
+                "artist": ", ".join(artist_names)
             })
 
     return tracks
