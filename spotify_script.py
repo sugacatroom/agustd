@@ -1,188 +1,146 @@
 import requests
 import json
 import os
-import time
 from datetime import datetime
 from spotipy import Spotify
 from spotipy.oauth2 import SpotifyClientCredentials
 
-# ==============================
-# 0. 共通：安全な GET（リトライ付き）
-# ==============================
-def safe_get(url, headers=None, retries=3, delay=2):
-    """
-    APIアクセス時にエラーが出たら自動でリトライする関数
-    retries: 最大リトライ回数
-    delay: リトライ間隔（秒）
-    """
-    for i in range(retries):
-        try:
-            return requests.get(url, headers=headers).json()
-        except requests.exceptions.RequestException as e:
-            print(f"[Retry {i+1}/{retries}] Error: {e}")
-            time.sleep(delay)
-    return {}  # 全部失敗したら空のデータを返す
-
-
-# ==============================
-# 1. MusicBrainzから楽曲一覧を取得
-# ==============================
-
-# ユンギ本人の MusicBrainz アーティストIDを固定
-artist_ids = [
-    "b629da42-c668-49d2-be67-498605ee2a13",  # SUGA
-    "31dd895e-4473-4458-baed-8bcf36d3de7f",  # Agust D
-    "f09d2950-e3c6-47b2-b21c-2bad2cd3f616"   # Min Yoon-gi
-]
-
-# MusicBrainz 推奨の User-Agent
-headers = {
-    "User-Agent": "agustd-stats/1.0 ( https://github.com/sugacatroom/agustd )"
-}
-
-recordings = []
-
-for artist_id in artist_ids:
-    url = f"https://musicbrainz.org/ws/2/recording?artist={artist_id}&fmt=json&limit=100"
-    data = safe_get(url, headers=headers)  # ← リトライ付き GET
-    for rec in data.get("recordings", []):
-        recordings.append(rec["title"])
-
-# 重複削除
-recordings = list(set(recordings))
-
-# ============================== 
-# 追加：ユンギ作詞作曲の BTS 曲を統合 
-# ==============================
-extra_tracks = [
-    # 花様年華
-    "Intro : The Most Beautiful Moment in Life",
-    "Intro : Never Mind",
-    "Butterfly",
-    "Whalien 52",
-    "Ma City",
-    "Boyz with Fun",
-    "Dead Leaves",
-    "House of Cards",
-    "Love Is Not Over",
-    "I Need U",
-    "Run",
-
-    # WINGS / YNWA
-    "First Love",
-    "Blood Sweat & Tears",
-    "2! 3!",
-    "Spring Day",
-    "Not Today",
-
-    # LOVE YOURSELF 承 'Her'
-    "Intro : Serendipity",
-    "Best Of Me",
-    "Pied Piper",
-    "MIC Drop",
-    "Go Go",
-    "Outro : Her",
-
-    # LOVE YOURSELF 轉 'Tear'
-    "Fake Love",
-    "The Truth Untold",
-    "134340",
-    "Paradise",
-    "Love Maze",
-    "Magic Shop",
-    "Airplane pt.2",
-    "Anpanman",
-    "So What",
-    "Outro : Tear",
-
-    # LOVE YOURSELF 結 'Answer'
-    "Trivia 轉 : Seesaw",
-    "I'm Fine",
-    "IDOL",
-    "Answer : Love Myself",
-
-    # PERSONA
-    "Intro : Persona",
-    "Boy With Luv",
-    "Make It Right",
-    "Home",
-    "Dionysus",
-
-    # MAP OF THE SOUL : 7
-    "Interlude : Shadow",
-    "Black Swan",
-    "Filter",
-    "My Time",
-    "Louder than bombs",
-    "UGH!",
-    "Respect",
-    "We are Bulletproof : the Eternal",
-
-    # BE
-    "Life Goes On",
-    "Fly To My Room",
-    "Blue & Grey",
-    "Telepathy",
-    "Dis-ease",
-    "Stay"
-]
-
-# MusicBrainz の曲 + BTS 作詞作曲曲を統合
-all_titles = list(set(recordings + extra_tracks))
-
-# ==============================
-# 2. Spotify APIで楽曲情報を取得
-# ==============================
-
-# Spotify認証（Secretsから環境変数を取得）
+# ============================================
+# 0. Spotify 認証
+# ============================================
 sp = Spotify(client_credentials_manager=SpotifyClientCredentials(
     client_id=os.getenv("SPOTIFY_CLIENT_ID"),
     client_secret=os.getenv("SPOTIFY_CLIENT_SECRET")
 ))
 
-def safe_spotify_search(query, retries=3, delay=2):
-    """
-    Spotify検索もリトライ対応
-    """
-    for i in range(retries):
-        try:
-            return sp.search(q=query, type="track", limit=1)
-        except Exception as e:
-            print(f"[Spotify Retry {i+1}/{retries}] Error: {e}")
-            time.sleep(delay)
-    return {"tracks": {"items": []}}
-
-results = []
-
-for title in all_titles:
-    search = safe_spotify_search(f'track:"{title}"')
-    items = search["tracks"]["items"]
-
-    if items:
-        track = items[0]
-        results.append({
-            "title": title,
-            "spotify_popularity": track["popularity"],
-            "spotify_url": track["external_urls"]["spotify"]
-        })
-
-# ==============================
-# 3. JSONファイルに保存（更新日時付き）
-# ==============================
-
-output = {
-    "updated_at": datetime.now().isoformat(),
-    "tracks": results
+# ============================================
+# 1. Spotify：アーティストID
+# ============================================
+ARTISTS = {
+    "Agust D": "0b1sIQumIAsNbqAoIClSpy",
+    "SUGA": "0TnOYISbd1XYRBk9myaseg",
+    "BTS": "3Nrfpe0tUJi4K4DXYWgMUX"
 }
 
-os.makedirs("docs", exist_ok=True)
-with open("docs/spotify_data.json", "w", encoding="utf-8") as f:
-    json.dump(output, f, ensure_ascii=False, indent=2)
+# ============================================
+# 2. コラボ曲（手動 track_id）
+# ============================================
+COLLAB_TRACK_IDS = [
+    "7GNRUsU3M4XNDDB9xle5Dz",  # That That
+    "21hbZ0yllYOoXEbiFDYMSI",  # eight
+    "0pYacDCZuRhcrwGUA5nTBe",  # 에잇
+    "5dn6QANKbf76pANGjMBida",  # Blueberry Eyes
+    "09YHm6IkdZko28KdEbXtPb",  # Girl of My Dreams
+    "3l6LBCOL9nPsSY29TUY2VE",  # Lilith
+]
 
-# 日付ごとの履歴保存
-date_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-history_path = f"docs/history/{date_str}.json"
+# ============================================
+# 3. Spotify：アーティストの全曲を取得
+# ============================================
+def get_tracks_from_artist(artist_id):
+    tracks = []
+    albums = sp.artist_albums(artist_id, album_type="album,single,compilation,appears_on", limit=50)
 
-os.makedirs("docs/history", exist_ok=True)
-with open(history_path, "w", encoding="utf-8") as f:
-    json.dump(output, f, ensure_ascii=False, indent=2)
+    album_ids = list({a["id"] for a in albums["items"]})
+
+    for album_id in album_ids:
+        album_tracks = sp.album_tracks(album_id)
+        for t in album_tracks["items"]:
+            tracks.append({
+                "title": t["name"],
+                "track_id": t["id"],
+                "isrc": t["external_ids"].get("isrc"),
+                "artist": ", ".join([a["name"] for a in t["artists"]])
+            })
+
+    return tracks
+
+# ============================================
+# 4. VocaDB：ユンギ作詞作曲曲を取得
+# ============================================
+def get_yoongi_written_tracks():
+    url = "https://vocadb.net/api/songs"
+    params = {
+        "artistId": 23607,  # Min Yoongi
+        "artistParticipation": "Composer,Arranger,Lyricist",
+        "fields": "Names,Artists,PVServices,SongType,WebLinks",
+        "maxResults": 500
+    }
+
+    data = requests.get(url, params=params).json()
+
+    isrc_list = []
+    for song in data.get("items", []):
+        for link in song.get("webLinks", []):
+            if link["description"] == "ISRC":
+                isrc_list.append(link["url"])
+
+    return set(isrc_list)
+
+# ============================================
+# 5. BTS の全曲からユンギ作詞作曲曲だけを抽出
+# ============================================
+def filter_bts_tracks_by_yoongi(bts_tracks, yoongi_isrcs):
+    filtered = []
+    for t in bts_tracks:
+        if t["isrc"] in yoongi_isrcs:
+            filtered.append(t)
+    return filtered
+
+# ============================================
+# 6. popularity を track_id で取得
+# ============================================
+def enrich_with_popularity(track):
+    info = sp.track(track["track_id"])
+    track["popularity"] = info["popularity"]
+    track["spotify_url"] = info["external_urls"]["spotify"]
+    return track
+
+# ============================================
+# 7. メイン処理
+# ============================================
+def main():
+    all_tracks = []
+
+    # Agust D / SUGA / BTS の全曲を取得
+    agustd_tracks = get_tracks_from_artist(ARTISTS["Agust D"])
+    suga_tracks = get_tracks_from_artist(ARTISTS["SUGA"])
+    bts_tracks = get_tracks_from_artist(ARTISTS["BTS"])
+
+    # VocaDB からユンギ作詞作曲曲の ISRC を取得
+    yoongi_isrcs = get_yoongi_written_tracks()
+
+    # BTS 曲の中からユンギ作詞作曲曲だけ抽出
+    bts_yoongi_tracks = filter_bts_tracks_by_yoongi(bts_tracks, yoongi_isrcs)
+
+    # コラボ曲（手動 track_id）
+    collab_tracks = []
+    for tid in COLLAB_TRACK_IDS:
+        info = sp.track(tid)
+        collab_tracks.append({
+            "title": info["name"],
+            "track_id": tid,
+            "artist": ", ".join([a["name"] for a in info["artists"]]),
+            "isrc": info["external_ids"].get("isrc")
+        })
+
+    # すべて統合
+    combined = agustd_tracks + suga_tracks + bts_yoongi_tracks + collab_tracks
+
+    # popularity を付与
+    final = [enrich_with_popularity(t) for t in combined]
+
+    # JSON 保存
+    output = {
+        "updated_at": datetime.now().isoformat(),
+        "tracks": final
+    }
+
+    os.makedirs("docs", exist_ok=True)
+    with open("docs/spotify_data.json", "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    print("spotify_data.json を更新しました！")
+
+if __name__ == "__main__":
+    main()
