@@ -1,117 +1,61 @@
 {
-  "updated_at": "2026-01-25T15:11:25.770958",
+  "updated_at": "2026-01-26T15:19:06.968945",
   "tracks": [
     {
-      "title": "LV Bag (feat. j-hope of BTS & Pharrell Williams)",
-      "track_id": "1MhXchY126AX5Iuv4Odbe8",
-      "isrc": null,
-      "artist": "Don Toliver, Speedy, j-hope, Pharrell Williams",
-      "popularity": 63,
-      "spotify_url": "https://open.spotify.com/track/1MhXchY126AX5Iuv4Odbe8"
-    },
-    {
-      "title": "Killin' It Girl (feat. GloRilla)",
-      "track_id": "5PCOOngROV9jWsUViSy4Ed",
-      "isrc": null,
-      "artist": "j-hope, GloRilla",
-      "popularity": 83,
-      "spotify_url": "https://open.spotify.com/track/5PCOOngROV9jWsUViSy4Ed"
-    },
-    {
-      "title": "Killin' It Girl (Solo Version)",
-      "track_id": "32SrQzg34vQiYjyzjg3wum",
+      "title": "Hope World",
+      "track_id": "5UMPPsXaGbR1qtzcnEtTpM",
       "isrc": null,
       "artist": "j-hope",
-      "popularity": 77,
-      "spotify_url": "https://open.spotify.com/track/32SrQzg34vQiYjyzjg3wum"
+      "popularity": 62,
+      "spotify_url": "https://open.spotify.com/track/5UMPPsXaGbR1qtzcnEtTpM"
     },
     {
-      "title": "on the street (solo version)",
-      "track_id": "0Gxnj8yTGYxMYyWcR4wawW",
+      "title": "P.O.P (Piece Of Peace) Pt. 1",
+      "track_id": "78GQP9XBSqpEDlMoPAbUAJ",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 54,
+      "spotify_url": "https://open.spotify.com/track/78GQP9XBSqpEDlMoPAbUAJ"
+    },
+    {
+      "title": "Daydream (백일몽)",
+      "track_id": "56sdcbPR74RxqmKVbQzJ8s",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 64,
+      "spotify_url": "https://open.spotify.com/track/56sdcbPR74RxqmKVbQzJ8s"
+    },
+    {
+      "title": "Base Line",
+      "track_id": "3eSCPt6StovDAIps2XhZ2Z",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 54,
+      "spotify_url": "https://open.spotify.com/track/3eSCPt6StovDAIps2XhZ2Z"
+    },
+    {
+      "title": "항상 (HANGSANG)",
+      "track_id": "270k38FpoKhnvZLv50NlTr",
+      "isrc": null,
+      "artist": "j-hope, Supreme Boi",
+      "popularity": 61,
+      "spotify_url": "https://open.spotify.com/track/270k38FpoKhnvZLv50NlTr"
+    },
+    {
+      "title": "Airplane",
+      "track_id": "2jk6oBuLiCZJTDWhlJEzIw",
       "isrc": null,
       "artist": "j-hope",
       "popularity": 58,
-      "spotify_url": "https://open.spotify.com/track/0Gxnj8yTGYxMYyWcR4wawW"
+      "spotify_url": "https://open.spotify.com/track/2jk6oBuLiCZJTDWhlJEzIw"
     },
     {
-      "title": "i wonder... (with Jung Kook of BTS)",
-      "track_id": "3ajU531gR5fW71wqsw4tFX",
+      "title": "Blue Side (Outro)",
+      "track_id": "20zr2Oef3PVeGRxjmSF5CC",
       "isrc": null,
-      "artist": "j-hope, Jung Kook",
-      "popularity": 70,
-      "spotify_url": "https://open.spotify.com/track/3ajU531gR5fW71wqsw4tFX"
-    },
-    {
-      "title": "lock / unlock (with benny blanco & Nile Rodgers)",
-      "track_id": "3aKXtIPNRoD73KLpsNnNoK",
-      "isrc": null,
-      "artist": "j-hope, Nile Rodgers, benny blanco",
-      "popularity": 62,
-      "spotify_url": "https://open.spotify.com/track/3aKXtIPNRoD73KLpsNnNoK"
-    },
-    {
-      "title": "i don't know (with HUH YUNJIN of LE SSERAFIM)",
-      "track_id": "0ObH6HhEWiI2kXBJ4tusbQ",
-      "isrc": null,
-      "artist": "j-hope, HUH YUNJIN",
+      "artist": "j-hope",
       "popularity": 61,
-      "spotify_url": "https://open.spotify.com/track/0ObH6HhEWiI2kXBJ4tusbQ"
-    },
-    {
-      "title": "what if… (dance mix)",
-      "track_id": "6W6kWAXbMS2aOJXoUpw7iI",
-      "isrc": null,
-      "artist": "j-hope, JINBO the SuperFreak",
-      "popularity": 53,
-      "spotify_url": "https://open.spotify.com/track/6W6kWAXbMS2aOJXoUpw7iI"
-    },
-    {
-      "title": "NEURON (with Gaeko & YOON MIRAE)",
-      "track_id": "11sirgYaEutV40tkvgpHN6",
-      "isrc": null,
-      "artist": "j-hope, Gaeko, YOON MIRAE",
-      "popularity": 66,
-      "spotify_url": "https://open.spotify.com/track/11sirgYaEutV40tkvgpHN6"
-    },
-    {
-      "title": "on the street (with J. Cole)",
-      "track_id": "5wxYxygyHpbgv0EXZuqb9V",
-      "isrc": null,
-      "artist": "j-hope, J. Cole",
-      "popularity": 63,
-      "spotify_url": "https://open.spotify.com/track/5wxYxygyHpbgv0EXZuqb9V"
-    },
-    {
-      "title": "Blue Side",
-      "track_id": "1nwdfbj4UyRMpa9L98a4Yi",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 59,
-      "spotify_url": "https://open.spotify.com/track/1nwdfbj4UyRMpa9L98a4Yi"
-    },
-    {
-      "title": "MONA LISA",
-      "track_id": "5hw1LOKS4L1CArahsDC9VA",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 59,
-      "spotify_url": "https://open.spotify.com/track/5hw1LOKS4L1CArahsDC9VA"
-    },
-    {
-      "title": "MONA LISA (Band Remix)",
-      "track_id": "6q1N60oOSVUn3hGipjqMQq",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 46,
-      "spotify_url": "https://open.spotify.com/track/6q1N60oOSVUn3hGipjqMQq"
-    },
-    {
-      "title": "MONA LISA (Afropop Remix)",
-      "track_id": "7iB0jozSDZDbDqbcGcGUOI",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 39,
-      "spotify_url": "https://open.spotify.com/track/7iB0jozSDZDbDqbcGcGUOI"
+      "spotify_url": "https://open.spotify.com/track/20zr2Oef3PVeGRxjmSF5CC"
     },
     {
       "title": "SPAGHETTI",
@@ -134,7 +78,7 @@
       "track_id": "4MWVTKwZ0RZQiRPj2iGP6i",
       "isrc": null,
       "artist": "LE SSERAFIM, j-hope",
-      "popularity": 49,
+      "popularity": 48,
       "spotify_url": "https://open.spotify.com/track/4MWVTKwZ0RZQiRPj2iGP6i"
     },
     {
@@ -142,7 +86,7 @@
       "track_id": "1fuAg9RIamkdh07QaZzBlC",
       "isrc": null,
       "artist": "LE SSERAFIM, j-hope",
-      "popularity": 49,
+      "popularity": 48,
       "spotify_url": "https://open.spotify.com/track/1fuAg9RIamkdh07QaZzBlC"
     },
     {
@@ -158,7 +102,7 @@
       "track_id": "16lB3DxBTlAkYOi4usIq0h",
       "isrc": null,
       "artist": "LE SSERAFIM, j-hope",
-      "popularity": 40,
+      "popularity": 39,
       "spotify_url": "https://open.spotify.com/track/16lB3DxBTlAkYOi4usIq0h"
     },
     {
@@ -166,159 +110,31 @@
       "track_id": "1UvfHwM1GMxD3I8fkf9Qlo",
       "isrc": null,
       "artist": "LE SSERAFIM, j-hope",
-      "popularity": 45,
+      "popularity": 44,
       "spotify_url": "https://open.spotify.com/track/1UvfHwM1GMxD3I8fkf9Qlo"
     },
     {
-      "title": "Chicken Noodle Soup (feat. Becky G)",
-      "track_id": "2y6Ty2NPAsP84XJAtzLxuk",
+      "title": "LV Bag (feat. j-hope of BTS & Pharrell Williams)",
+      "track_id": "1MhXchY126AX5Iuv4Odbe8",
       "isrc": null,
-      "artist": "j-hope, Becky G",
-      "popularity": 65,
-      "spotify_url": "https://open.spotify.com/track/2y6Ty2NPAsP84XJAtzLxuk"
+      "artist": "Don Toliver, Speedy, j-hope, Pharrell Williams",
+      "popularity": 63,
+      "spotify_url": "https://open.spotify.com/track/1MhXchY126AX5Iuv4Odbe8"
     },
     {
-      "title": "Intro",
-      "track_id": "0utByr69DCypmKr5hjLNrK",
+      "title": "Blue Side",
+      "track_id": "1nwdfbj4UyRMpa9L98a4Yi",
       "isrc": null,
       "artist": "j-hope",
-      "popularity": 48,
-      "spotify_url": "https://open.spotify.com/track/0utByr69DCypmKr5hjLNrK"
-    },
-    {
-      "title": "Pandora's Box",
-      "track_id": "2iKNuOB4pI4HgPsJk0BSsq",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 44,
-      "spotify_url": "https://open.spotify.com/track/2iKNuOB4pI4HgPsJk0BSsq"
-    },
-    {
-      "title": "MORE",
-      "track_id": "36KFMe3Q3wLCXd9SUudx9M",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 52,
-      "spotify_url": "https://open.spotify.com/track/36KFMe3Q3wLCXd9SUudx9M"
-    },
-    {
-      "title": "STOP",
-      "track_id": "426n8OsTAOwb3DWkpXE21H",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 43,
-      "spotify_url": "https://open.spotify.com/track/426n8OsTAOwb3DWkpXE21H"
-    },
-    {
-      "title": "= (Equal Sign)",
-      "track_id": "0uTKGno7UM5vOgdjYHCnYC",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 45,
-      "spotify_url": "https://open.spotify.com/track/0uTKGno7UM5vOgdjYHCnYC"
-    },
-    {
-      "title": "Music Box : Reflection",
-      "track_id": "2VtuHoWIv4IbcIetUuP1tC",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 46,
-      "spotify_url": "https://open.spotify.com/track/2VtuHoWIv4IbcIetUuP1tC"
-    },
-    {
-      "title": "What if…",
-      "track_id": "4vC2BY833RNjG04vTIozVB",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 44,
-      "spotify_url": "https://open.spotify.com/track/4vC2BY833RNjG04vTIozVB"
-    },
-    {
-      "title": "Safety Zone",
-      "track_id": "2WwmLOkTON4hjrMJz72ZfT",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 44,
-      "spotify_url": "https://open.spotify.com/track/2WwmLOkTON4hjrMJz72ZfT"
-    },
-    {
-      "title": "Future",
-      "track_id": "1Vs20by3VD5F1MSschAF7A",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 44,
-      "spotify_url": "https://open.spotify.com/track/1Vs20by3VD5F1MSschAF7A"
-    },
-    {
-      "title": "Arson",
-      "track_id": "58cTKEMafSngmjD7aPFfII",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 46,
-      "spotify_url": "https://open.spotify.com/track/58cTKEMafSngmjD7aPFfII"
-    },
-    {
-      "title": "Equal Sign (Lollapalooza ver.)",
-      "track_id": "2JcJJjTFzpGo1G5nXqC6Qq",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 49,
-      "spotify_url": "https://open.spotify.com/track/2JcJJjTFzpGo1G5nXqC6Qq"
-    },
-    {
-      "title": "STOP (Lollapalooza ver.)",
-      "track_id": "5m5te1JAMYvJmEa5XnGTWi",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 48,
-      "spotify_url": "https://open.spotify.com/track/5m5te1JAMYvJmEa5XnGTWi"
-    },
-    {
-      "title": "Future (Lollapalooza ver.)",
-      "track_id": "4Q6S4uWD8dwpWiI3VkdBuV",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 48,
-      "spotify_url": "https://open.spotify.com/track/4Q6S4uWD8dwpWiI3VkdBuV"
-    },
-    {
-      "title": "MORE (Instrumental)",
-      "track_id": "5rJgabqFRVuC3yN7f7L5IC",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 41,
-      "spotify_url": "https://open.spotify.com/track/5rJgabqFRVuC3yN7f7L5IC"
-    },
-    {
-      "title": "Arson (Instrumental)",
-      "track_id": "02FJa38VBPTnwinFBloq8P",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 41,
-      "spotify_url": "https://open.spotify.com/track/02FJa38VBPTnwinFBloq8P"
-    },
-    {
-      "title": "Sweet Dreams (feat. Miguel) (FNZ Remix)",
-      "track_id": "5rN86x6tqs4odDwOsEwmyC",
-      "isrc": null,
-      "artist": "j-hope, Miguel",
-      "popularity": 47,
-      "spotify_url": "https://open.spotify.com/track/5rN86x6tqs4odDwOsEwmyC"
-    },
-    {
-      "title": "Sweet Dreams (feat. Miguel)",
-      "track_id": "1yX9gy5fK02j6nBnGJ1S3k",
-      "isrc": null,
-      "artist": "j-hope, Miguel",
-      "popularity": 73,
-      "spotify_url": "https://open.spotify.com/track/1yX9gy5fK02j6nBnGJ1S3k"
+      "popularity": 59,
+      "spotify_url": "https://open.spotify.com/track/1nwdfbj4UyRMpa9L98a4Yi"
     },
     {
       "title": "Sweet Dreams (feat. Miguel)",
       "track_id": "3MEw4IDtZDhpEdaEWTUak0",
       "isrc": null,
       "artist": "j-hope, Miguel",
-      "popularity": 57,
+      "popularity": 56,
       "spotify_url": "https://open.spotify.com/track/3MEw4IDtZDhpEdaEWTUak0"
     },
     {
@@ -374,7 +190,7 @@
       "track_id": "3efpTAvesRrJYCTx4w2UVc",
       "isrc": null,
       "artist": "j-hope",
-      "popularity": 58,
+      "popularity": 57,
       "spotify_url": "https://open.spotify.com/track/3efpTAvesRrJYCTx4w2UVc"
     },
     {
@@ -422,7 +238,7 @@
       "track_id": "4u5xlxTTTZaeXnwYnhv1wH",
       "isrc": null,
       "artist": "j-hope, GloRilla",
-      "popularity": 42,
+      "popularity": 41,
       "spotify_url": "https://open.spotify.com/track/4u5xlxTTTZaeXnwYnhv1wH"
     },
     {
@@ -442,156 +258,108 @@
       "spotify_url": "https://open.spotify.com/track/3dcqHcDLnCvhlGVD9fYlQ3"
     },
     {
+      "title": "on the street (solo version)",
+      "track_id": "0Gxnj8yTGYxMYyWcR4wawW",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 58,
+      "spotify_url": "https://open.spotify.com/track/0Gxnj8yTGYxMYyWcR4wawW"
+    },
+    {
+      "title": "i wonder... (with Jung Kook of BTS)",
+      "track_id": "3ajU531gR5fW71wqsw4tFX",
+      "isrc": null,
+      "artist": "j-hope, Jung Kook",
+      "popularity": 70,
+      "spotify_url": "https://open.spotify.com/track/3ajU531gR5fW71wqsw4tFX"
+    },
+    {
+      "title": "lock / unlock (with benny blanco & Nile Rodgers)",
+      "track_id": "3aKXtIPNRoD73KLpsNnNoK",
+      "isrc": null,
+      "artist": "j-hope, Nile Rodgers, benny blanco",
+      "popularity": 61,
+      "spotify_url": "https://open.spotify.com/track/3aKXtIPNRoD73KLpsNnNoK"
+    },
+    {
+      "title": "i don't know (with HUH YUNJIN of LE SSERAFIM)",
+      "track_id": "0ObH6HhEWiI2kXBJ4tusbQ",
+      "isrc": null,
+      "artist": "j-hope, HUH YUNJIN",
+      "popularity": 61,
+      "spotify_url": "https://open.spotify.com/track/0ObH6HhEWiI2kXBJ4tusbQ"
+    },
+    {
+      "title": "what if… (dance mix)",
+      "track_id": "6W6kWAXbMS2aOJXoUpw7iI",
+      "isrc": null,
+      "artist": "j-hope, JINBO the SuperFreak",
+      "popularity": 53,
+      "spotify_url": "https://open.spotify.com/track/6W6kWAXbMS2aOJXoUpw7iI"
+    },
+    {
+      "title": "NEURON (with Gaeko & YOON MIRAE)",
+      "track_id": "11sirgYaEutV40tkvgpHN6",
+      "isrc": null,
+      "artist": "j-hope, Gaeko, YOON MIRAE",
+      "popularity": 66,
+      "spotify_url": "https://open.spotify.com/track/11sirgYaEutV40tkvgpHN6"
+    },
+    {
+      "title": "Sweet Dreams (feat. Miguel) (FNZ Remix)",
+      "track_id": "5rN86x6tqs4odDwOsEwmyC",
+      "isrc": null,
+      "artist": "j-hope, Miguel",
+      "popularity": 47,
+      "spotify_url": "https://open.spotify.com/track/5rN86x6tqs4odDwOsEwmyC"
+    },
+    {
+      "title": "Sweet Dreams (feat. Miguel)",
+      "track_id": "1yX9gy5fK02j6nBnGJ1S3k",
+      "isrc": null,
+      "artist": "j-hope, Miguel",
+      "popularity": 73,
+      "spotify_url": "https://open.spotify.com/track/1yX9gy5fK02j6nBnGJ1S3k"
+    },
+    {
+      "title": "Killin' It Girl (feat. GloRilla)",
+      "track_id": "5PCOOngROV9jWsUViSy4Ed",
+      "isrc": null,
+      "artist": "j-hope, GloRilla",
+      "popularity": 82,
+      "spotify_url": "https://open.spotify.com/track/5PCOOngROV9jWsUViSy4Ed"
+    },
+    {
+      "title": "Killin' It Girl (Solo Version)",
+      "track_id": "32SrQzg34vQiYjyzjg3wum",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 77,
+      "spotify_url": "https://open.spotify.com/track/32SrQzg34vQiYjyzjg3wum"
+    },
+    {
+      "title": "on the street (with J. Cole)",
+      "track_id": "5wxYxygyHpbgv0EXZuqb9V",
+      "isrc": null,
+      "artist": "j-hope, J. Cole",
+      "popularity": 63,
+      "spotify_url": "https://open.spotify.com/track/5wxYxygyHpbgv0EXZuqb9V"
+    },
+    {
+      "title": "Chicken Noodle Soup (feat. Becky G)",
+      "track_id": "2y6Ty2NPAsP84XJAtzLxuk",
+      "isrc": null,
+      "artist": "j-hope, Becky G",
+      "popularity": 65,
+      "spotify_url": "https://open.spotify.com/track/2y6Ty2NPAsP84XJAtzLxuk"
+    },
+    {
       "title": "MORE",
       "track_id": "4XKXphKH76W4zNpkgFS5o2",
       "isrc": null,
       "artist": "j-hope",
       "popularity": 58,
       "spotify_url": "https://open.spotify.com/track/4XKXphKH76W4zNpkgFS5o2"
-    },
-    {
-      "title": "Hope World",
-      "track_id": "5UMPPsXaGbR1qtzcnEtTpM",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 62,
-      "spotify_url": "https://open.spotify.com/track/5UMPPsXaGbR1qtzcnEtTpM"
-    },
-    {
-      "title": "P.O.P (Piece Of Peace) Pt. 1",
-      "track_id": "78GQP9XBSqpEDlMoPAbUAJ",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 54,
-      "spotify_url": "https://open.spotify.com/track/78GQP9XBSqpEDlMoPAbUAJ"
-    },
-    {
-      "title": "Daydream (백일몽)",
-      "track_id": "56sdcbPR74RxqmKVbQzJ8s",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 64,
-      "spotify_url": "https://open.spotify.com/track/56sdcbPR74RxqmKVbQzJ8s"
-    },
-    {
-      "title": "Base Line",
-      "track_id": "3eSCPt6StovDAIps2XhZ2Z",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 54,
-      "spotify_url": "https://open.spotify.com/track/3eSCPt6StovDAIps2XhZ2Z"
-    },
-    {
-      "title": "항상 (HANGSANG)",
-      "track_id": "270k38FpoKhnvZLv50NlTr",
-      "isrc": null,
-      "artist": "j-hope, Supreme Boi",
-      "popularity": 61,
-      "spotify_url": "https://open.spotify.com/track/270k38FpoKhnvZLv50NlTr"
-    },
-    {
-      "title": "Airplane",
-      "track_id": "2jk6oBuLiCZJTDWhlJEzIw",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 59,
-      "spotify_url": "https://open.spotify.com/track/2jk6oBuLiCZJTDWhlJEzIw"
-    },
-    {
-      "title": "Blue Side (Outro)",
-      "track_id": "20zr2Oef3PVeGRxjmSF5CC",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 61,
-      "spotify_url": "https://open.spotify.com/track/20zr2Oef3PVeGRxjmSF5CC"
-    },
-    {
-      "title": "MONA LISA",
-      "track_id": "5Fhr3wqeieN5WDkAsqL1JJ",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 77,
-      "spotify_url": "https://open.spotify.com/track/5Fhr3wqeieN5WDkAsqL1JJ"
-    },
-    {
-      "title": "Intro",
-      "track_id": "0M7ai1yfYyb4OlyRgdmtTK",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 58,
-      "spotify_url": "https://open.spotify.com/track/0M7ai1yfYyb4OlyRgdmtTK"
-    },
-    {
-      "title": "Pandora's Box",
-      "track_id": "2On611HXKQAbaYkuc4NQAm",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 59,
-      "spotify_url": "https://open.spotify.com/track/2On611HXKQAbaYkuc4NQAm"
-    },
-    {
-      "title": "MORE",
-      "track_id": "7GARzfC1mwhDuk4t9WOACq",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 66,
-      "spotify_url": "https://open.spotify.com/track/7GARzfC1mwhDuk4t9WOACq"
-    },
-    {
-      "title": "STOP",
-      "track_id": "1XIIvx9S19CZVc7eow7EX7",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 58,
-      "spotify_url": "https://open.spotify.com/track/1XIIvx9S19CZVc7eow7EX7"
-    },
-    {
-      "title": "= (Equal Sign)",
-      "track_id": "70XnKsO3UnIT4FnEwChQXx",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 63,
-      "spotify_url": "https://open.spotify.com/track/70XnKsO3UnIT4FnEwChQXx"
-    },
-    {
-      "title": "Music Box : Reflection",
-      "track_id": "0PJSXtjkdTjJzZAMyNus02",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 57,
-      "spotify_url": "https://open.spotify.com/track/0PJSXtjkdTjJzZAMyNus02"
-    },
-    {
-      "title": "What if…",
-      "track_id": "1fNwwml8UcKvhfM6YEVIRh",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 59,
-      "spotify_url": "https://open.spotify.com/track/1fNwwml8UcKvhfM6YEVIRh"
-    },
-    {
-      "title": "Safety Zone",
-      "track_id": "00I41xsW6SunZDJ5fB8KAd",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 59,
-      "spotify_url": "https://open.spotify.com/track/00I41xsW6SunZDJ5fB8KAd"
-    },
-    {
-      "title": "Future",
-      "track_id": "0Puudh380z6cOCgMaTNm7h",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 59,
-      "spotify_url": "https://open.spotify.com/track/0Puudh380z6cOCgMaTNm7h"
-    },
-    {
-      "title": "Arson",
-      "track_id": "2QWEMqQMJR1KDf6hDjJOs6",
-      "isrc": null,
-      "artist": "j-hope",
-      "popularity": 67,
-      "spotify_url": "https://open.spotify.com/track/2QWEMqQMJR1KDf6hDjJOs6"
     },
     {
       "title": "MONA LISA",
@@ -634,140 +402,444 @@
       "spotify_url": "https://open.spotify.com/track/1VEKXKcdSauL5ahhnaPbWY"
     },
     {
-      "title": "Now Or Never (F.A.S.T. x & DJ Triple XL Remix)",
-      "track_id": "0ne6OckaYVeDJOMBETFHBC",
+      "title": "Intro",
+      "track_id": "0utByr69DCypmKr5hjLNrK",
       "isrc": null,
-      "artist": "Pitbull, Bon Jovi, DJ Triple XL, F.A.S.T x",
-      "popularity": 25,
-      "spotify_url": "https://open.spotify.com/track/0ne6OckaYVeDJOMBETFHBC"
+      "artist": "j-hope",
+      "popularity": 48,
+      "spotify_url": "https://open.spotify.com/track/0utByr69DCypmKr5hjLNrK"
     },
     {
-      "title": "Global Warming (feat. Sensato)",
-      "track_id": "1EMDdrSYn9SShtbnLK9vEU",
+      "title": "Pandora's Box",
+      "track_id": "2iKNuOB4pI4HgPsJk0BSsq",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 44,
+      "spotify_url": "https://open.spotify.com/track/2iKNuOB4pI4HgPsJk0BSsq"
+    },
+    {
+      "title": "MORE",
+      "track_id": "36KFMe3Q3wLCXd9SUudx9M",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 52,
+      "spotify_url": "https://open.spotify.com/track/36KFMe3Q3wLCXd9SUudx9M"
+    },
+    {
+      "title": "STOP",
+      "track_id": "426n8OsTAOwb3DWkpXE21H",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 44,
+      "spotify_url": "https://open.spotify.com/track/426n8OsTAOwb3DWkpXE21H"
+    },
+    {
+      "title": "= (Equal Sign)",
+      "track_id": "0uTKGno7UM5vOgdjYHCnYC",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 45,
+      "spotify_url": "https://open.spotify.com/track/0uTKGno7UM5vOgdjYHCnYC"
+    },
+    {
+      "title": "Music Box : Reflection",
+      "track_id": "2VtuHoWIv4IbcIetUuP1tC",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 46,
+      "spotify_url": "https://open.spotify.com/track/2VtuHoWIv4IbcIetUuP1tC"
+    },
+    {
+      "title": "What if…",
+      "track_id": "4vC2BY833RNjG04vTIozVB",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 44,
+      "spotify_url": "https://open.spotify.com/track/4vC2BY833RNjG04vTIozVB"
+    },
+    {
+      "title": "Safety Zone",
+      "track_id": "2WwmLOkTON4hjrMJz72ZfT",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 43,
+      "spotify_url": "https://open.spotify.com/track/2WwmLOkTON4hjrMJz72ZfT"
+    },
+    {
+      "title": "Future",
+      "track_id": "1Vs20by3VD5F1MSschAF7A",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 44,
+      "spotify_url": "https://open.spotify.com/track/1Vs20by3VD5F1MSschAF7A"
+    },
+    {
+      "title": "Arson",
+      "track_id": "58cTKEMafSngmjD7aPFfII",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 46,
+      "spotify_url": "https://open.spotify.com/track/58cTKEMafSngmjD7aPFfII"
+    },
+    {
+      "title": "Equal Sign (Lollapalooza ver.)",
+      "track_id": "2JcJJjTFzpGo1G5nXqC6Qq",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 49,
+      "spotify_url": "https://open.spotify.com/track/2JcJJjTFzpGo1G5nXqC6Qq"
+    },
+    {
+      "title": "STOP (Lollapalooza ver.)",
+      "track_id": "5m5te1JAMYvJmEa5XnGTWi",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 48,
+      "spotify_url": "https://open.spotify.com/track/5m5te1JAMYvJmEa5XnGTWi"
+    },
+    {
+      "title": "Future (Lollapalooza ver.)",
+      "track_id": "4Q6S4uWD8dwpWiI3VkdBuV",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 47,
+      "spotify_url": "https://open.spotify.com/track/4Q6S4uWD8dwpWiI3VkdBuV"
+    },
+    {
+      "title": "MORE (Instrumental)",
+      "track_id": "5rJgabqFRVuC3yN7f7L5IC",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 41,
+      "spotify_url": "https://open.spotify.com/track/5rJgabqFRVuC3yN7f7L5IC"
+    },
+    {
+      "title": "Arson (Instrumental)",
+      "track_id": "02FJa38VBPTnwinFBloq8P",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 41,
+      "spotify_url": "https://open.spotify.com/track/02FJa38VBPTnwinFBloq8P"
+    },
+    {
+      "title": "MONA LISA",
+      "track_id": "5hw1LOKS4L1CArahsDC9VA",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 59,
+      "spotify_url": "https://open.spotify.com/track/5hw1LOKS4L1CArahsDC9VA"
+    },
+    {
+      "title": "MONA LISA (Band Remix)",
+      "track_id": "6q1N60oOSVUn3hGipjqMQq",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 46,
+      "spotify_url": "https://open.spotify.com/track/6q1N60oOSVUn3hGipjqMQq"
+    },
+    {
+      "title": "MONA LISA (Afropop Remix)",
+      "track_id": "7iB0jozSDZDbDqbcGcGUOI",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 38,
+      "spotify_url": "https://open.spotify.com/track/7iB0jozSDZDbDqbcGcGUOI"
+    },
+    {
+      "title": "Intro",
+      "track_id": "0M7ai1yfYyb4OlyRgdmtTK",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 58,
+      "spotify_url": "https://open.spotify.com/track/0M7ai1yfYyb4OlyRgdmtTK"
+    },
+    {
+      "title": "Pandora's Box",
+      "track_id": "2On611HXKQAbaYkuc4NQAm",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 59,
+      "spotify_url": "https://open.spotify.com/track/2On611HXKQAbaYkuc4NQAm"
+    },
+    {
+      "title": "MORE",
+      "track_id": "7GARzfC1mwhDuk4t9WOACq",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 66,
+      "spotify_url": "https://open.spotify.com/track/7GARzfC1mwhDuk4t9WOACq"
+    },
+    {
+      "title": "STOP",
+      "track_id": "1XIIvx9S19CZVc7eow7EX7",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 58,
+      "spotify_url": "https://open.spotify.com/track/1XIIvx9S19CZVc7eow7EX7"
+    },
+    {
+      "title": "= (Equal Sign)",
+      "track_id": "70XnKsO3UnIT4FnEwChQXx",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 62,
+      "spotify_url": "https://open.spotify.com/track/70XnKsO3UnIT4FnEwChQXx"
+    },
+    {
+      "title": "Music Box : Reflection",
+      "track_id": "0PJSXtjkdTjJzZAMyNus02",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 57,
+      "spotify_url": "https://open.spotify.com/track/0PJSXtjkdTjJzZAMyNus02"
+    },
+    {
+      "title": "What if…",
+      "track_id": "1fNwwml8UcKvhfM6YEVIRh",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 59,
+      "spotify_url": "https://open.spotify.com/track/1fNwwml8UcKvhfM6YEVIRh"
+    },
+    {
+      "title": "Safety Zone",
+      "track_id": "00I41xsW6SunZDJ5fB8KAd",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 59,
+      "spotify_url": "https://open.spotify.com/track/00I41xsW6SunZDJ5fB8KAd"
+    },
+    {
+      "title": "Future",
+      "track_id": "0Puudh380z6cOCgMaTNm7h",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 59,
+      "spotify_url": "https://open.spotify.com/track/0Puudh380z6cOCgMaTNm7h"
+    },
+    {
+      "title": "Arson",
+      "track_id": "2QWEMqQMJR1KDf6hDjJOs6",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 66,
+      "spotify_url": "https://open.spotify.com/track/2QWEMqQMJR1KDf6hDjJOs6"
+    },
+    {
+      "title": "MONA LISA",
+      "track_id": "5Fhr3wqeieN5WDkAsqL1JJ",
+      "isrc": null,
+      "artist": "j-hope",
+      "popularity": 77,
+      "spotify_url": "https://open.spotify.com/track/5Fhr3wqeieN5WDkAsqL1JJ"
+    },
+    {
+      "title": "305 Anthem",
+      "track_id": "1ba0qp3ylyKILdrjxZ8zXW",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon",
+      "popularity": 36,
+      "spotify_url": "https://open.spotify.com/track/1ba0qp3ylyKILdrjxZ8zXW"
+    },
+    {
+      "title": "Culo",
+      "track_id": "4tAru66VGVLWYjg90UV4vJ",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon",
+      "popularity": 66,
+      "spotify_url": "https://open.spotify.com/track/4tAru66VGVLWYjg90UV4vJ"
+    },
+    {
+      "title": "She's Freaky",
+      "track_id": "0ZpG78vfpASSqT7HX0QcC3",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 27,
+      "spotify_url": "https://open.spotify.com/track/0ZpG78vfpASSqT7HX0QcC3"
+    },
+    {
+      "title": "Shake It Up",
+      "track_id": "1SQ8OUMNJEq9eHRBo5CmZP",
+      "isrc": null,
+      "artist": "Pitbull, Oobie",
+      "popularity": 25,
+      "spotify_url": "https://open.spotify.com/track/1SQ8OUMNJEq9eHRBo5CmZP"
+    },
+    {
+      "title": "Toma",
+      "track_id": "7dFgljcBj9CPDrUQD9LbiP",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon",
+      "popularity": 52,
+      "spotify_url": "https://open.spotify.com/track/7dFgljcBj9CPDrUQD9LbiP"
+    },
+    {
+      "title": "I Wonder",
+      "track_id": "5NIQoCQCuyzEWG0WnJdVTp",
+      "isrc": null,
+      "artist": "Pitbull, Oobie",
+      "popularity": 24,
+      "spotify_url": "https://open.spotify.com/track/5NIQoCQCuyzEWG0WnJdVTp"
+    },
+    {
+      "title": "Get On The Floor",
+      "track_id": "3SwZtNcSWSxrXCZVHo2XSa",
+      "isrc": null,
+      "artist": "Pitbull, Oobie",
+      "popularity": 22,
+      "spotify_url": "https://open.spotify.com/track/3SwZtNcSWSxrXCZVHo2XSa"
+    },
+    {
+      "title": "Dirty",
+      "track_id": "6jMMrakLW8fQnMNnLuGECg",
+      "isrc": null,
+      "artist": "Pitbull, Bun B",
+      "popularity": 25,
+      "spotify_url": "https://open.spotify.com/track/6jMMrakLW8fQnMNnLuGECg"
+    },
+    {
+      "title": "Dammit Man",
+      "track_id": "5j6d0ZxgcTOtjsFoxMsVdG",
+      "isrc": null,
+      "artist": "Pitbull, Piccallo",
+      "popularity": 43,
+      "spotify_url": "https://open.spotify.com/track/5j6d0ZxgcTOtjsFoxMsVdG"
+    },
+    {
+      "title": "We Don't Care Bout Ya",
+      "track_id": "1HQ0UwcFrVzdwjvJiZecA8",
+      "isrc": null,
+      "artist": "Pitbull, Cubo",
+      "popularity": 21,
+      "spotify_url": "https://open.spotify.com/track/1HQ0UwcFrVzdwjvJiZecA8"
+    },
+    {
+      "title": "That's Nasty",
+      "track_id": "0niYdsEk6mzibVLB6MO9eb",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon, Fat Joe",
+      "popularity": 25,
+      "spotify_url": "https://open.spotify.com/track/0niYdsEk6mzibVLB6MO9eb"
+    },
+    {
+      "title": "Back Up",
+      "track_id": "5DGS27aMMef9qSRGWnQ4SD",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 28,
+      "spotify_url": "https://open.spotify.com/track/5DGS27aMMef9qSRGWnQ4SD"
+    },
+    {
+      "title": "Melting Pot",
+      "track_id": "5etPHWaVJV91ACgILq3IjV",
+      "isrc": null,
+      "artist": "Pitbull, Trick Daddy",
+      "popularity": 21,
+      "spotify_url": "https://open.spotify.com/track/5etPHWaVJV91ACgILq3IjV"
+    },
+    {
+      "title": "Hustler's Withdrawal",
+      "track_id": "3h7yrwn1ODO3hrpvnZJGpa",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 20,
+      "spotify_url": "https://open.spotify.com/track/3h7yrwn1ODO3hrpvnZJGpa"
+    },
+    {
+      "title": "Hurry Up And Wait",
+      "track_id": "2gLTGMQULX0jsS9ugokJlL",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 18,
+      "spotify_url": "https://open.spotify.com/track/2gLTGMQULX0jsS9ugokJlL"
+    },
+    {
+      "title": "Culo Miami Mix",
+      "track_id": "2mOrxVrZi9PAs1arR9ifnt",
+      "isrc": null,
+      "artist": "Pitbull, Mr. Vegas, Lil Jon",
+      "popularity": 40,
+      "spotify_url": "https://open.spotify.com/track/2mOrxVrZi9PAs1arR9ifnt"
+    },
+    {
+      "title": "Hangover",
+      "track_id": "0eytQuaDrNNXjY3t3wEuNn",
+      "isrc": null,
+      "artist": "IAmChino, Pitbull, Nio Garcia",
+      "popularity": 20,
+      "spotify_url": "https://open.spotify.com/track/0eytQuaDrNNXjY3t3wEuNn"
+    },
+    {
+      "title": "Now Or Never",
+      "track_id": "5hG7MlKPCqUgtdwROUbBRS",
+      "isrc": null,
+      "artist": "Pitbull, Bon Jovi",
+      "popularity": 66,
+      "spotify_url": "https://open.spotify.com/track/5hG7MlKPCqUgtdwROUbBRS"
+    },
+    {
+      "title": "2 The Moon",
+      "track_id": "5fbigfxYwz6fGGxe8Py57t",
+      "isrc": null,
+      "artist": "Pitbull, Ne-Yo, AFROJACK, DJ Buddha",
+      "popularity": 45,
+      "spotify_url": "https://open.spotify.com/track/5fbigfxYwz6fGGxe8Py57t"
+    },
+    {
+      "title": "2 The Moon - Julian Cross x Afrojack Summer Remix",
+      "track_id": "3gY2G19E5UFY9Bo4BtPkbN",
+      "isrc": null,
+      "artist": "Pitbull, Ne-Yo, AFROJACK, Julian Cross",
+      "popularity": 26,
+      "spotify_url": "https://open.spotify.com/track/3gY2G19E5UFY9Bo4BtPkbN"
+    },
+    {
+      "title": "2 The Moon - Play-n-Skillz x Scott Summers Big Room Remix",
+      "track_id": "6aIhi2UqBizhYOFTfduqqX",
+      "isrc": null,
+      "artist": "Pitbull, Ne-Yo, AFROJACK, Play-N-Skillz, Scott Summers",
+      "popularity": 20,
+      "spotify_url": "https://open.spotify.com/track/6aIhi2UqBizhYOFTfduqqX"
+    },
+    {
+      "title": "2 The Moon - Amél Remix",
+      "track_id": "4uESUlmjZIShKH1NWhQ5dW",
+      "isrc": null,
+      "artist": "Pitbull, Ne-Yo, AFROJACK, Amél",
+      "popularity": 21,
+      "spotify_url": "https://open.spotify.com/track/4uESUlmjZIShKH1NWhQ5dW"
+    },
+    {
+      "title": "Yeehaw",
+      "track_id": "4EEBaJOjzDCka7XZNRrwvd",
+      "isrc": null,
+      "artist": "FILMORE, Pitbull",
+      "popularity": 12,
+      "spotify_url": "https://open.spotify.com/track/4EEBaJOjzDCka7XZNRrwvd"
+    },
+    {
+      "title": "No Te Hagas",
+      "track_id": "4f1PmMKVxCr8vIXikhXwEn",
       "isrc": null,
       "artist": "Pitbull, Sensato",
-      "popularity": 15,
-      "spotify_url": "https://open.spotify.com/track/1EMDdrSYn9SShtbnLK9vEU"
+      "popularity": 41,
+      "spotify_url": "https://open.spotify.com/track/4f1PmMKVxCr8vIXikhXwEn"
     },
     {
-      "title": "Don't Stop the Party (feat. TJR)",
-      "track_id": "2tdseeP2TePM98X6Jcwf1C",
+      "title": "MR. MOONDIAL",
+      "track_id": "1pB02Gq6vDMfZPDVOUjPa3",
       "isrc": null,
-      "artist": "Pitbull, TJR",
-      "popularity": 36,
-      "spotify_url": "https://open.spotify.com/track/2tdseeP2TePM98X6Jcwf1C"
+      "artist": "Quevedo, Pitbull",
+      "popularity": 44,
+      "spotify_url": "https://open.spotify.com/track/1pB02Gq6vDMfZPDVOUjPa3"
     },
     {
-      "title": "Feel This Moment (feat. Christina Aguilera)",
-      "track_id": "0MyiW8Cp18ZMsZJfZhbuQ0",
+      "title": "Tamo Bien",
+      "track_id": "72RjC359lcwhf1cON9ppls",
       "isrc": null,
-      "artist": "Pitbull, Christina Aguilera",
-      "popularity": 31,
-      "spotify_url": "https://open.spotify.com/track/0MyiW8Cp18ZMsZJfZhbuQ0"
-    },
-    {
-      "title": "Back in Time - featured in \"Men In Black 3\"",
-      "track_id": "0xED55IK1uDhpNYKejoySq",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 25,
-      "spotify_url": "https://open.spotify.com/track/0xED55IK1uDhpNYKejoySq"
-    },
-    {
-      "title": "Hope We Meet Again (feat. Chris Brown)",
-      "track_id": "0Jv9kxj0dsWSiU6niHXzCU",
-      "isrc": null,
-      "artist": "Pitbull, Chris Brown",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/0Jv9kxj0dsWSiU6niHXzCU"
-    },
-    {
-      "title": "Party Ain't Over (feat. Usher & Afrojack)",
-      "track_id": "70DGLRJWYzfMxq5ikT077O",
-      "isrc": null,
-      "artist": "Pitbull, USHER, AFROJACK",
-      "popularity": 16,
-      "spotify_url": "https://open.spotify.com/track/70DGLRJWYzfMxq5ikT077O"
-    },
-    {
-      "title": "Drinks for You (Ladies Anthem) (feat. J. Lo)",
-      "track_id": "464wI4xX5hw6CbuE0j2GSJ",
-      "isrc": null,
-      "artist": "Pitbull, Jennifer Lopez",
-      "popularity": 12,
-      "spotify_url": "https://open.spotify.com/track/464wI4xX5hw6CbuE0j2GSJ"
-    },
-    {
-      "title": "Have Some Fun (feat. The Wanted & Afrojack)",
-      "track_id": "4DVbwF5wYllwzV0Z2ganUM",
-      "isrc": null,
-      "artist": "Pitbull, The Wanted, AFROJACK",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/4DVbwF5wYllwzV0Z2ganUM"
-    },
-    {
-      "title": "Outta Nowhere (feat. Danny Mercer)",
-      "track_id": "4MTqZLJntlEGKdqelcUXot",
-      "isrc": null,
-      "artist": "Pitbull, Danny Mercer",
-      "popularity": 13,
-      "spotify_url": "https://open.spotify.com/track/4MTqZLJntlEGKdqelcUXot"
-    },
-    {
-      "title": "Tchu Tchu Tcha (feat. Enrique Iglesias)",
-      "track_id": "3vx1VcnS0FOQA1ZWFarDab",
-      "isrc": null,
-      "artist": "Pitbull, Enrique Iglesias",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/3vx1VcnS0FOQA1ZWFarDab"
-    },
-    {
-      "title": "Last Night (feat. Afrojack & Havana Brown)",
-      "track_id": "2djnLG537oX0LgcORh2ogJ",
-      "isrc": null,
-      "artist": "Pitbull, AFROJACK, Havana Brown",
-      "popularity": 13,
-      "spotify_url": "https://open.spotify.com/track/2djnLG537oX0LgcORh2ogJ"
-    },
-    {
-      "title": "I'm Off That",
-      "track_id": "0Vczsl5UU5Zl7zDycmOQ6g",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 11,
-      "spotify_url": "https://open.spotify.com/track/0Vczsl5UU5Zl7zDycmOQ6g"
-    },
-    {
-      "title": "Echa Pa'lla (Manos Pa'rriba) (feat. Papayo)",
-      "track_id": "6DT6YBRXnxhIeSH0rn6khB",
-      "isrc": null,
-      "artist": "Pitbull, Papayo",
-      "popularity": 51,
-      "spotify_url": "https://open.spotify.com/track/6DT6YBRXnxhIeSH0rn6khB"
-    },
-    {
-      "title": "Everybody Fucks (feat. Akon & David Rush)",
-      "track_id": "1Ws5wKAfQyJ3sN1IXkgvgR",
-      "isrc": null,
-      "artist": "Pitbull, Akon, David Rush",
-      "popularity": 24,
-      "spotify_url": "https://open.spotify.com/track/1Ws5wKAfQyJ3sN1IXkgvgR"
-    },
-    {
-      "title": "Get It Started (feat. Shakira)",
-      "track_id": "5YrMJScQHZR6624DNnyp5p",
-      "isrc": null,
-      "artist": "Pitbull, Shakira",
-      "popularity": 29,
-      "spotify_url": "https://open.spotify.com/track/5YrMJScQHZR6624DNnyp5p"
-    },
-    {
-      "title": "11:59 (feat. Vein)",
-      "track_id": "7kJJK4ZucWJ26d8p45HjkP",
-      "isrc": null,
-      "artist": "Pitbull, Vein",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/7kJJK4ZucWJ26d8p45HjkP"
+      "artist": "Enrique Iglesias, Pitbull, IAmChino",
+      "popularity": 66,
+      "spotify_url": "https://open.spotify.com/track/72RjC359lcwhf1cON9ppls"
     },
     {
       "title": "Winning",
@@ -846,7 +918,7 @@
       "track_id": "0OGDredxd4n2ai4IJjfLNH",
       "isrc": null,
       "artist": "Pitbull, Ne-Yo, Lenier, El Micha",
-      "popularity": 49,
+      "popularity": 48,
       "spotify_url": "https://open.spotify.com/track/0OGDredxd4n2ai4IJjfLNH"
     },
     {
@@ -878,7 +950,7 @@
       "track_id": "5IUC0MrNR1rcjVQD7iVJ73",
       "isrc": null,
       "artist": "Pitbull, Flo Rida, Yomil y El Dany",
-      "popularity": 26,
+      "popularity": 25,
       "spotify_url": "https://open.spotify.com/track/5IUC0MrNR1rcjVQD7iVJ73"
     },
     {
@@ -888,230 +960,6 @@
       "artist": "Pitbull, Lenier",
       "popularity": 47,
       "spotify_url": "https://open.spotify.com/track/3sLyTeDoFFgLYtaBeUAlgr"
-    },
-    {
-      "title": "Now Or Never (Tropkillaz Remix)",
-      "track_id": "77v7Nm5MP87Ale71TTxQJE",
-      "isrc": null,
-      "artist": "Pitbull, Bon Jovi, Tropkillaz",
-      "popularity": 36,
-      "spotify_url": "https://open.spotify.com/track/77v7Nm5MP87Ale71TTxQJE"
-    },
-    {
-      "title": "We Are Strong (feat. Kiesza)",
-      "track_id": "7LFJv28DFDAVSkpvpozJ1D",
-      "isrc": null,
-      "artist": "Pitbull, Kiesza",
-      "popularity": 30,
-      "spotify_url": "https://open.spotify.com/track/7LFJv28DFDAVSkpvpozJ1D"
-    },
-    {
-      "title": "Bad Man (feat. Robin Thicke, Joe Perry & Travis Barker)",
-      "track_id": "4eRrRWQ06cnqhXUwJOOnKJ",
-      "isrc": null,
-      "artist": "Pitbull, Robin Thicke, Joe Perry, Travis Barker",
-      "popularity": 34,
-      "spotify_url": "https://open.spotify.com/track/4eRrRWQ06cnqhXUwJOOnKJ"
-    },
-    {
-      "title": "Greenlight (feat. Flo Rida & LunchMoney Lewis)",
-      "track_id": "3lJA6dGqvaKtVxqHbTtQiQ",
-      "isrc": null,
-      "artist": "Pitbull, Flo Rida, LunchMoney Lewis",
-      "popularity": 58,
-      "spotify_url": "https://open.spotify.com/track/3lJA6dGqvaKtVxqHbTtQiQ"
-    },
-    {
-      "title": "Messin' Around (with Enrique Iglesias)",
-      "track_id": "0bG61MsnxRxRHc007PxA2o",
-      "isrc": null,
-      "artist": "Pitbull, Enrique Iglesias",
-      "popularity": 43,
-      "spotify_url": "https://open.spotify.com/track/0bG61MsnxRxRHc007PxA2o"
-    },
-    {
-      "title": "Better On Me (feat. Ty Dolla $ign)",
-      "track_id": "0vLlEo1D4VRiGzMLxLbsh2",
-      "isrc": null,
-      "artist": "Pitbull, Ty Dolla $ign",
-      "popularity": 39,
-      "spotify_url": "https://open.spotify.com/track/0vLlEo1D4VRiGzMLxLbsh2"
-    },
-    {
-      "title": "Sexy Body",
-      "track_id": "7IsJihZTqwODrRfrrv3zWB",
-      "isrc": null,
-      "artist": "Pitbull, Jennifer Lopez",
-      "popularity": 36,
-      "spotify_url": "https://open.spotify.com/track/7IsJihZTqwODrRfrrv3zWB"
-    },
-    {
-      "title": "Freedom",
-      "track_id": "1StLlgkTm6s0LGRyAap9SP",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 42,
-      "spotify_url": "https://open.spotify.com/track/1StLlgkTm6s0LGRyAap9SP"
-    },
-    {
-      "title": "Options (feat. Stephen Marley)",
-      "track_id": "1B0DvDgNgvmccdfdEK4wB5",
-      "isrc": null,
-      "artist": "Pitbull, Stephen Marley",
-      "popularity": 46,
-      "spotify_url": "https://open.spotify.com/track/1B0DvDgNgvmccdfdEK4wB5"
-    },
-    {
-      "title": "Educate Ya (feat. Jason Derulo)",
-      "track_id": "2QPUaxEdbxIQbnATYjTXLW",
-      "isrc": null,
-      "artist": "Pitbull, Jason Derulo",
-      "popularity": 27,
-      "spotify_url": "https://open.spotify.com/track/2QPUaxEdbxIQbnATYjTXLW"
-    },
-    {
-      "title": "Only Ones To Know (feat. Leona Lewis)",
-      "track_id": "64XOpjIAmHElXLV1OqhaOH",
-      "isrc": null,
-      "artist": "Pitbull, Leona Lewis",
-      "popularity": 25,
-      "spotify_url": "https://open.spotify.com/track/64XOpjIAmHElXLV1OqhaOH"
-    },
-    {
-      "title": "Dedicated (feat. R.Kelly & Austin Mahone)",
-      "track_id": "16iHofweOVofNFKqni3QvK",
-      "isrc": null,
-      "artist": "Pitbull, R. Kelly, Austin Mahone",
-      "popularity": 23,
-      "spotify_url": "https://open.spotify.com/track/16iHofweOVofNFKqni3QvK"
-    },
-    {
-      "title": "Can't Have (feat. Steven A. Clark & Ape Drums)",
-      "track_id": "6ADhQWuCv54VfU3NM8Uyse",
-      "isrc": null,
-      "artist": "Pitbull, Steven A. Clark, Ape Drums",
-      "popularity": 35,
-      "spotify_url": "https://open.spotify.com/track/6ADhQWuCv54VfU3NM8Uyse"
-    },
-    {
-      "title": "Everybody Get Up",
-      "track_id": "71NeCPgn4Afj9T4F14hVqT",
-      "isrc": null,
-      "artist": "Pretty Ricky, Pitbull",
-      "popularity": 15,
-      "spotify_url": "https://open.spotify.com/track/71NeCPgn4Afj9T4F14hVqT"
-    },
-    {
-      "title": "Rah Rah",
-      "track_id": "14iO8aOGlnwygNSrei4H2F",
-      "isrc": null,
-      "artist": "Elephant Man, Pitbull, Daddy Yankee",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/14iO8aOGlnwygNSrei4H2F"
-    },
-    {
-      "title": "Shake Remix",
-      "track_id": "6Yf0s7wWzewD9OnfgQnNCB",
-      "isrc": null,
-      "artist": "Ying Yang Twins, Pitbull, Elephant Man",
-      "popularity": 19,
-      "spotify_url": "https://open.spotify.com/track/6Yf0s7wWzewD9OnfgQnNCB"
-    },
-    {
-      "title": "Culo Remix",
-      "track_id": "5vWe8GcnCSCtyeCdpSN9xy",
-      "isrc": null,
-      "artist": "Pitbull, Lil Jon, Ivy Queen",
-      "popularity": 39,
-      "spotify_url": "https://open.spotify.com/track/5vWe8GcnCSCtyeCdpSN9xy"
-    },
-    {
-      "title": "Mil Amores",
-      "track_id": "5KfaulMKfF2nOWXtIxWuPU",
-      "isrc": null,
-      "artist": "OG Black y Master Joe, Pitbull",
-      "popularity": 16,
-      "spotify_url": "https://open.spotify.com/track/5KfaulMKfF2nOWXtIxWuPU"
-    },
-    {
-      "title": "Turnin Me On Remix",
-      "track_id": "4ZwfvRwnqioKUqCKZljfdu",
-      "isrc": null,
-      "artist": "Nina Sky, Pitbull",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/4ZwfvRwnqioKUqCKZljfdu"
-    },
-    {
-      "title": "She's Hotter",
-      "track_id": "0DZ0Sr2RjRypkL2ryL46Js",
-      "isrc": null,
-      "artist": "T.O.K, Pitbull",
-      "popularity": 12,
-      "spotify_url": "https://open.spotify.com/track/0DZ0Sr2RjRypkL2ryL46Js"
-    },
-    {
-      "title": "Get To Poppin Remix",
-      "track_id": "5Zw371hrF9bS5jrIvwnM4R",
-      "isrc": null,
-      "artist": "Rich Boy, Pitbull",
-      "popularity": 13,
-      "spotify_url": "https://open.spotify.com/track/5Zw371hrF9bS5jrIvwnM4R"
-    },
-    {
-      "title": "Might Be The Police",
-      "track_id": "2kOuAh6EAqHm32hSxDIqxA",
-      "isrc": null,
-      "artist": "Brisco, Pitbull",
-      "popularity": 9,
-      "spotify_url": "https://open.spotify.com/track/2kOuAh6EAqHm32hSxDIqxA"
-    },
-    {
-      "title": "Who U Rollin' With",
-      "track_id": "5FWb36ME67rmfNfkH48gJm",
-      "isrc": null,
-      "artist": "Pitbull, Picallo, Cubo",
-      "popularity": 9,
-      "spotify_url": "https://open.spotify.com/track/5FWb36ME67rmfNfkH48gJm"
-    },
-    {
-      "title": "Dammit Man Remix",
-      "track_id": "1wJpKZ9zJvTFmKI03SUxPq",
-      "isrc": null,
-      "artist": "Pitbull, Lil' Flip",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/1wJpKZ9zJvTFmKI03SUxPq"
-    },
-    {
-      "title": "Oh No He Didn't",
-      "track_id": "3ecKj2ZQWuPYGfM1Jd2vjp",
-      "isrc": null,
-      "artist": "Pitbull, Cubo",
-      "popularity": 10,
-      "spotify_url": "https://open.spotify.com/track/3ecKj2ZQWuPYGfM1Jd2vjp"
-    },
-    {
-      "title": "Toma (DJ Buddha Remix)",
-      "track_id": "6OOQyehiJKiL5wv78aCIAc",
-      "isrc": null,
-      "artist": "Pitbull, Lil Jon, Mr. Vegas, Wayne Marshall, Red Rat, T.O.K, Kardinal Offishall",
-      "popularity": 12,
-      "spotify_url": "https://open.spotify.com/track/6OOQyehiJKiL5wv78aCIAc"
-    },
-    {
-      "title": "Yeehaw",
-      "track_id": "4EEBaJOjzDCka7XZNRrwvd",
-      "isrc": null,
-      "artist": "FILMORE, Pitbull",
-      "popularity": 10,
-      "spotify_url": "https://open.spotify.com/track/4EEBaJOjzDCka7XZNRrwvd"
-    },
-    {
-      "title": "Chi Chi Bon Bon - Remix",
-      "track_id": "5PoV3iQhXLopTcAyA6Tqw1",
-      "isrc": null,
-      "artist": "Osmani Garcia \"La Voz\", Pitbull, Dani Flow, DJ Unic, IAmChino",
-      "popularity": 30,
-      "spotify_url": "https://open.spotify.com/track/5PoV3iQhXLopTcAyA6Tqw1"
     },
     {
       "title": "Ah Leke (feat. Sean Paul)",
@@ -1182,7 +1030,7 @@
       "track_id": "2J4Alm5zUad4hB5bY2HhtV",
       "isrc": null,
       "artist": "Pitbull, G.R.L.",
-      "popularity": 53,
+      "popularity": 52,
       "spotify_url": "https://open.spotify.com/track/2J4Alm5zUad4hB5bY2HhtV"
     },
     {
@@ -1202,52 +1050,268 @@
       "spotify_url": "https://open.spotify.com/track/1PCvKFPWnTXAe2oaReVUcr"
     },
     {
-      "title": "Yeehaw",
-      "track_id": "3zvpqxPFQxtFLD1FdCBiOf",
+      "title": "Maldito Alcohol (Pitbull vs. Afrojack)",
+      "track_id": "1p3ZagAqs2nvIQYFs4UMqu",
       "isrc": null,
-      "artist": "FILMORE, Pitbull",
-      "popularity": 61,
-      "spotify_url": "https://open.spotify.com/track/3zvpqxPFQxtFLD1FdCBiOf"
+      "artist": "Pitbull, AFROJACK",
+      "popularity": 25,
+      "spotify_url": "https://open.spotify.com/track/1p3ZagAqs2nvIQYFs4UMqu"
     },
     {
-      "title": "Damn I Love Miami",
-      "track_id": "2zdnnDancyLrZGheqOo40R",
+      "title": "Esta Noche - Dj Antoine vs. Mad Mark & Clubzound Mix",
+      "track_id": "2i8NUc27tFVW6Hamxw14w9",
       "isrc": null,
-      "artist": "Pitbull, Lil Jon",
-      "popularity": 39,
-      "spotify_url": "https://open.spotify.com/track/2zdnnDancyLrZGheqOo40R"
+      "artist": "Pitbull",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/2i8NUc27tFVW6Hamxw14w9"
     },
     {
-      "title": "Damn I Love Miami - LOUDER DJ MIX",
-      "track_id": "6hK4MrFC8RsGMPbTlk5hVF",
+      "title": "Mujeres",
+      "track_id": "2KsnhcOy10ucx2yqD0ek8e",
       "isrc": null,
-      "artist": "Pitbull, Lil Jon",
-      "popularity": 47,
-      "spotify_url": "https://open.spotify.com/track/6hK4MrFC8RsGMPbTlk5hVF"
+      "artist": "Pitbull",
+      "popularity": 14,
+      "spotify_url": "https://open.spotify.com/track/2KsnhcOy10ucx2yqD0ek8e"
     },
     {
-      "title": "Damn I Love Miami - Jump Smokers Remix",
-      "track_id": "3mANzxoHKdiKzGFAIHpCAw",
+      "title": "Bon, Bon",
+      "track_id": "0H0Ik9XhJiJJh5KtMN1iee",
       "isrc": null,
-      "artist": "Pitbull, Lil Jon, Jump Smokers",
-      "popularity": 30,
-      "spotify_url": "https://open.spotify.com/track/3mANzxoHKdiKzGFAIHpCAw"
+      "artist": "Pitbull",
+      "popularity": 0,
+      "spotify_url": "https://open.spotify.com/track/0H0Ik9XhJiJJh5KtMN1iee"
     },
     {
-      "title": "Damn I Love Miami - Apollo XO Remix",
-      "track_id": "71g8zsWGH7JFI5EZZBGLA4",
+      "title": "Guantanamera (She's Hot)",
+      "track_id": "6ke86J3nw4tItmpG5h41P0",
       "isrc": null,
-      "artist": "Pitbull, Lil Jon, Apollo Xo",
-      "popularity": 29,
-      "spotify_url": "https://open.spotify.com/track/71g8zsWGH7JFI5EZZBGLA4"
+      "artist": "Pitbull",
+      "popularity": 26,
+      "spotify_url": "https://open.spotify.com/track/6ke86J3nw4tItmpG5h41P0"
     },
     {
-      "title": "Damn I Love Miami - DJ Laz Remix",
-      "track_id": "4jeh5jgsUbaDr7RBp9h8uA",
+      "title": "Tu Cuerpo",
+      "track_id": "0h8GiewuD4pRDn1dCUMk9T",
       "isrc": null,
-      "artist": "Pitbull, Lil Jon, Dj Laz, DJ Julian, Danny D",
+      "artist": "Pitbull, JENCARLOS",
+      "popularity": 16,
+      "spotify_url": "https://open.spotify.com/track/0h8GiewuD4pRDn1dCUMk9T"
+    },
+    {
+      "title": "Vida 23",
+      "track_id": "07nsB7wDd2FW20fRxy7tps",
+      "isrc": null,
+      "artist": "Pitbull, Nayer",
+      "popularity": 14,
+      "spotify_url": "https://open.spotify.com/track/07nsB7wDd2FW20fRxy7tps"
+    },
+    {
+      "title": "Amorosa",
+      "track_id": "4aIpZ2NWNXRtTcuJTy1okl",
+      "isrc": null,
+      "artist": "Pitbull, Papayo, MC Marcinho",
+      "popularity": 12,
+      "spotify_url": "https://open.spotify.com/track/4aIpZ2NWNXRtTcuJTy1okl"
+    },
+    {
+      "title": "Watagatapitusberry - Remix",
+      "track_id": "6EXAX0AfcYBrkiOaaIAIc5",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon, Sensato, Black Point, El Cata, DJ Buddha",
+      "popularity": 17,
+      "spotify_url": "https://open.spotify.com/track/6EXAX0AfcYBrkiOaaIAIc5"
+    },
+    {
+      "title": "Orgullo",
+      "track_id": "2busR9EfWtJOhem2ZqN0wa",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/2busR9EfWtJOhem2ZqN0wa"
+    },
+    {
+      "title": "Preguntale",
+      "track_id": "6gR4xdfMfw4Jt9nP5jferh",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 12,
+      "spotify_url": "https://open.spotify.com/track/6gR4xdfMfw4Jt9nP5jferh"
+    },
+    {
+      "title": "Yo Quiero - Mi Alma Se Muere Remix",
+      "track_id": "3xaWOkprn6cua2ZL7fSaLN",
+      "isrc": null,
+      "artist": "Pitbull, Fuego, Omega",
+      "popularity": 0,
+      "spotify_url": "https://open.spotify.com/track/3xaWOkprn6cua2ZL7fSaLN"
+    },
+    {
+      "title": "Blanco - Spanish Remix",
+      "track_id": "1wYMIiOs7G9eowmuI53Dyo",
+      "isrc": null,
+      "artist": "Pitbull, Pharrell Williams",
+      "popularity": 0,
+      "spotify_url": "https://open.spotify.com/track/1wYMIiOs7G9eowmuI53Dyo"
+    },
+    {
+      "title": "2 The Moon - Julian Cross x Afrojack Summer Remix",
+      "track_id": "0C0Ha1A4fKMCKImBYkwLFy",
+      "isrc": null,
+      "artist": "Pitbull, Ne-Yo, AFROJACK, Julian Cross",
+      "popularity": 20,
+      "spotify_url": "https://open.spotify.com/track/0C0Ha1A4fKMCKImBYkwLFy"
+    },
+    {
+      "title": "2 The Moon - Play-n-Skillz x Scott Summers Big Room Remix",
+      "track_id": "6HceEzxHuOuoa9AFgiZ5kv",
+      "isrc": null,
+      "artist": "Pitbull, Ne-Yo, AFROJACK, Play-N-Skillz, Scott Summers",
+      "popularity": 11,
+      "spotify_url": "https://open.spotify.com/track/6HceEzxHuOuoa9AFgiZ5kv"
+    },
+    {
+      "title": "2 The Moon - Amél Remix",
+      "track_id": "6AumPxamHyHs4VXKQbGDxJ",
+      "isrc": null,
+      "artist": "Pitbull, Ne-Yo, AFROJACK, Amél",
+      "popularity": 11,
+      "spotify_url": "https://open.spotify.com/track/6AumPxamHyHs4VXKQbGDxJ"
+    },
+    {
+      "title": "2 The Moon - IAmChino x Salvi Remix",
+      "track_id": "0BuNPSmp3MczLe2yYlVqdo",
+      "isrc": null,
+      "artist": "Pitbull, Ne-Yo, AFROJACK, IAmChino, Salvi",
+      "popularity": 12,
+      "spotify_url": "https://open.spotify.com/track/0BuNPSmp3MczLe2yYlVqdo"
+    },
+    {
+      "title": "2 The Moon",
+      "track_id": "4fY3JBkKUn7T1nBx4JG8t6",
+      "isrc": null,
+      "artist": "Pitbull, Ne-Yo, AFROJACK, DJ Buddha",
+      "popularity": 18,
+      "spotify_url": "https://open.spotify.com/track/4fY3JBkKUn7T1nBx4JG8t6"
+    },
+    {
+      "title": "Maldito Alcohol (Pitbull vs. Afrojack)",
+      "track_id": "5VtRjcZYvXj1VdT3FWG3ZD",
+      "isrc": null,
+      "artist": "Pitbull, AFROJACK",
+      "popularity": 55,
+      "spotify_url": "https://open.spotify.com/track/5VtRjcZYvXj1VdT3FWG3ZD"
+    },
+    {
+      "title": "Esta Noche - Dj Antoine vs. Mad Mark & Clubzound Mix",
+      "track_id": "0Tqn4OpXhgQBfIvOPWivm8",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 18,
+      "spotify_url": "https://open.spotify.com/track/0Tqn4OpXhgQBfIvOPWivm8"
+    },
+    {
+      "title": "Mujeres",
+      "track_id": "2A5WbDBEPCW6AQ9MB4bmJH",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 18,
+      "spotify_url": "https://open.spotify.com/track/2A5WbDBEPCW6AQ9MB4bmJH"
+    },
+    {
+      "title": "Bon, Bon",
+      "track_id": "2se2ftZroH3KekklBeexuW",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 0,
+      "spotify_url": "https://open.spotify.com/track/2se2ftZroH3KekklBeexuW"
+    },
+    {
+      "title": "Guantanamera (She's Hot)",
+      "track_id": "7CijDWxEEbKq76O5rpyCEN",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 63,
+      "spotify_url": "https://open.spotify.com/track/7CijDWxEEbKq76O5rpyCEN"
+    },
+    {
+      "title": "Tu Cuerpo",
+      "track_id": "5QqCTlzMOfEHVBnK7dlqIq",
+      "isrc": null,
+      "artist": "Pitbull, JENCARLOS",
+      "popularity": 28,
+      "spotify_url": "https://open.spotify.com/track/5QqCTlzMOfEHVBnK7dlqIq"
+    },
+    {
+      "title": "Vida 23",
+      "track_id": "25jQEpK1jTQ2GR6NJQJIX3",
+      "isrc": null,
+      "artist": "Pitbull, Nayer",
       "popularity": 23,
-      "spotify_url": "https://open.spotify.com/track/4jeh5jgsUbaDr7RBp9h8uA"
+      "spotify_url": "https://open.spotify.com/track/25jQEpK1jTQ2GR6NJQJIX3"
+    },
+    {
+      "title": "Amorosa",
+      "track_id": "74ZgmOWM9pzxvupnU3pXR0",
+      "isrc": null,
+      "artist": "Pitbull, Papayo, MC Marcinho",
+      "popularity": 20,
+      "spotify_url": "https://open.spotify.com/track/74ZgmOWM9pzxvupnU3pXR0"
+    },
+    {
+      "title": "Watagatapitusberry - Remix",
+      "track_id": "556v4tBWap03ysXJtI7hlI",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon, Sensato, Black Point, El Cata",
+      "popularity": 29,
+      "spotify_url": "https://open.spotify.com/track/556v4tBWap03ysXJtI7hlI"
+    },
+    {
+      "title": "Orgullo",
+      "track_id": "3iZ1Sso365xtDXgqecS2Od",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 17,
+      "spotify_url": "https://open.spotify.com/track/3iZ1Sso365xtDXgqecS2Od"
+    },
+    {
+      "title": "Preguntale",
+      "track_id": "51wQzyMceEnmvekzLp4UHf",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 15,
+      "spotify_url": "https://open.spotify.com/track/51wQzyMceEnmvekzLp4UHf"
+    },
+    {
+      "title": "Crazy People",
+      "track_id": "3EHu45HUFUQ7kLNdkjpIMs",
+      "isrc": null,
+      "artist": "Sensato, Pitbull, Sak Noel",
+      "popularity": 0,
+      "spotify_url": "https://open.spotify.com/track/3EHu45HUFUQ7kLNdkjpIMs"
+    },
+    {
+      "title": "Echa Pa'lla (Manos Pa'rriba)",
+      "track_id": "53FLT2Phb4T0eGWvJBuLbK",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 42,
+      "spotify_url": "https://open.spotify.com/track/53FLT2Phb4T0eGWvJBuLbK"
+    },
+    {
+      "title": "Soy Así 2",
+      "track_id": "2cG2Vmnu4qtHpWkY84hj97",
+      "isrc": null,
+      "artist": "IAmChino, Pitbull, Wiz Khalifa, Victor Cardenas",
+      "popularity": 63,
+      "spotify_url": "https://open.spotify.com/track/2cG2Vmnu4qtHpWkY84hj97"
+    },
+    {
+      "title": "Chi Chi Bon Bon - Remix",
+      "track_id": "5PoV3iQhXLopTcAyA6Tqw1",
+      "isrc": null,
+      "artist": "Osmani Garcia \"La Voz\", Pitbull, Dani Flow, DJ Unic, IAmChino",
+      "popularity": 30,
+      "spotify_url": "https://open.spotify.com/track/5PoV3iQhXLopTcAyA6Tqw1"
     },
     {
       "title": "Mr. Worldwide (Intro) (feat. Vein)",
@@ -1326,7 +1390,7 @@
       "track_id": "2yazRoolWXk58jAmKgxcDd",
       "isrc": null,
       "artist": "Pitbull, Redfoo, Vein, David Rush",
-      "popularity": 38,
+      "popularity": 37,
       "spotify_url": "https://open.spotify.com/track/2yazRoolWXk58jAmKgxcDd"
     },
     {
@@ -1378,196 +1442,300 @@
       "spotify_url": "https://open.spotify.com/track/4faHjDxqvO9clYe4grJeeD"
     },
     {
-      "title": "Now Or Never",
-      "track_id": "5Ozdz7CCpNugu1SCxxXYNf",
+      "title": "Everybody Get Up",
+      "track_id": "71NeCPgn4Afj9T4F14hVqT",
       "isrc": null,
-      "artist": "Pitbull, Bon Jovi",
-      "popularity": 33,
-      "spotify_url": "https://open.spotify.com/track/5Ozdz7CCpNugu1SCxxXYNf"
-    },
-    {
-      "title": "Now Or Never (Tropkillaz Remix)",
-      "track_id": "0GJ3X0kNpD8tU7Gh4tkAlj",
-      "isrc": null,
-      "artist": "Pitbull, Bon Jovi, Tropkillaz",
-      "popularity": 26,
-      "spotify_url": "https://open.spotify.com/track/0GJ3X0kNpD8tU7Gh4tkAlj"
-    },
-    {
-      "title": "Now Or Never (Muzik Junkies x AROCK Remix)",
-      "track_id": "35UglBxfIsjyBzYVFDWSaZ",
-      "isrc": null,
-      "artist": "Pitbull, Bon Jovi, Muzik Junkies, AROCK",
-      "popularity": 18,
-      "spotify_url": "https://open.spotify.com/track/35UglBxfIsjyBzYVFDWSaZ"
-    },
-    {
-      "title": "Now Or Never (F.A.S.T. x & DJ Triple XL Remix)",
-      "track_id": "2Y2qAw0eYMIMOcsUZZaFY3",
-      "isrc": null,
-      "artist": "Pitbull, Bon Jovi, F.A.S.T x, DJ Triple XL",
-      "popularity": 18,
-      "spotify_url": "https://open.spotify.com/track/2Y2qAw0eYMIMOcsUZZaFY3"
-    },
-    {
-      "title": "So Sorry",
-      "track_id": "0tnnWEeThAUDLh62BnQKRU",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 20,
-      "spotify_url": "https://open.spotify.com/track/0tnnWEeThAUDLh62BnQKRU"
-    },
-    {
-      "title": "Father & Son",
-      "track_id": "1hkWjoLsahC5HuTyn5J5iT",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 17,
-      "spotify_url": "https://open.spotify.com/track/1hkWjoLsahC5HuTyn5J5iT"
-    },
-    {
-      "title": "Carpe Diem",
-      "track_id": "2zH0GWHJ4GSZi2JfUTbDpD",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 16,
-      "spotify_url": "https://open.spotify.com/track/2zH0GWHJ4GSZi2JfUTbDpD"
-    },
-    {
-      "title": "Amore",
-      "track_id": "2lXdIYOoii1t4obdvgMirK",
-      "isrc": null,
-      "artist": "Pitbull, Leona Lewis",
-      "popularity": 25,
-      "spotify_url": "https://open.spotify.com/track/2lXdIYOoii1t4obdvgMirK"
-    },
-    {
-      "title": "Don't Say Another Word",
-      "track_id": "2JWcZFAQm0hLMezUVp6ytB",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/2JWcZFAQm0hLMezUVp6ytB"
-    },
-    {
-      "title": "The Meeting",
-      "track_id": "7K2qzAp1FcEaKTNwtlHKdm",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/7K2qzAp1FcEaKTNwtlHKdm"
-    },
-    {
-      "title": "Enough",
-      "track_id": "7fx9WWXNKLxMN21y62aWIj",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/7fx9WWXNKLxMN21y62aWIj"
-    },
-    {
-      "title": "Father",
-      "track_id": "2XPe3fBELI20H9STwPMX6L",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
+      "artist": "Pretty Ricky, Pitbull",
       "popularity": 15,
-      "spotify_url": "https://open.spotify.com/track/2XPe3fBELI20H9STwPMX6L"
+      "spotify_url": "https://open.spotify.com/track/71NeCPgn4Afj9T4F14hVqT"
     },
     {
-      "title": "Advice",
-      "track_id": "0d99n8DFZziF0DHbBOEhA6",
+      "title": "Rah Rah",
+      "track_id": "14iO8aOGlnwygNSrei4H2F",
       "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
+      "artist": "Elephant Man, Pitbull, Daddy Yankee",
       "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/0d99n8DFZziF0DHbBOEhA6"
+      "spotify_url": "https://open.spotify.com/track/14iO8aOGlnwygNSrei4H2F"
     },
     {
-      "title": "Somebody To Be",
-      "track_id": "3QUdLpe40Im2mvgJl1kRLl",
+      "title": "Shake Remix",
+      "track_id": "6Yf0s7wWzewD9OnfgQnNCB",
+      "isrc": null,
+      "artist": "Ying Yang Twins, Pitbull, Elephant Man",
+      "popularity": 19,
+      "spotify_url": "https://open.spotify.com/track/6Yf0s7wWzewD9OnfgQnNCB"
+    },
+    {
+      "title": "Culo Remix",
+      "track_id": "5vWe8GcnCSCtyeCdpSN9xy",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon, Ivy Queen",
+      "popularity": 39,
+      "spotify_url": "https://open.spotify.com/track/5vWe8GcnCSCtyeCdpSN9xy"
+    },
+    {
+      "title": "Mil Amores",
+      "track_id": "5KfaulMKfF2nOWXtIxWuPU",
+      "isrc": null,
+      "artist": "OG Black y Master Joe, Pitbull",
+      "popularity": 16,
+      "spotify_url": "https://open.spotify.com/track/5KfaulMKfF2nOWXtIxWuPU"
+    },
+    {
+      "title": "Turnin Me On Remix",
+      "track_id": "4ZwfvRwnqioKUqCKZljfdu",
+      "isrc": null,
+      "artist": "Nina Sky, Pitbull",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/4ZwfvRwnqioKUqCKZljfdu"
+    },
+    {
+      "title": "She's Hotter",
+      "track_id": "0DZ0Sr2RjRypkL2ryL46Js",
+      "isrc": null,
+      "artist": "T.O.K, Pitbull",
+      "popularity": 12,
+      "spotify_url": "https://open.spotify.com/track/0DZ0Sr2RjRypkL2ryL46Js"
+    },
+    {
+      "title": "Get To Poppin Remix",
+      "track_id": "5Zw371hrF9bS5jrIvwnM4R",
+      "isrc": null,
+      "artist": "Rich Boy, Pitbull",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/5Zw371hrF9bS5jrIvwnM4R"
+    },
+    {
+      "title": "Might Be The Police",
+      "track_id": "2kOuAh6EAqHm32hSxDIqxA",
+      "isrc": null,
+      "artist": "Brisco, Pitbull",
+      "popularity": 9,
+      "spotify_url": "https://open.spotify.com/track/2kOuAh6EAqHm32hSxDIqxA"
+    },
+    {
+      "title": "Who U Rollin' With",
+      "track_id": "5FWb36ME67rmfNfkH48gJm",
+      "isrc": null,
+      "artist": "Pitbull, Picallo, Cubo",
+      "popularity": 9,
+      "spotify_url": "https://open.spotify.com/track/5FWb36ME67rmfNfkH48gJm"
+    },
+    {
+      "title": "Dammit Man Remix",
+      "track_id": "1wJpKZ9zJvTFmKI03SUxPq",
+      "isrc": null,
+      "artist": "Pitbull, Lil' Flip",
+      "popularity": 14,
+      "spotify_url": "https://open.spotify.com/track/1wJpKZ9zJvTFmKI03SUxPq"
+    },
+    {
+      "title": "Oh No He Didn't",
+      "track_id": "3ecKj2ZQWuPYGfM1Jd2vjp",
+      "isrc": null,
+      "artist": "Pitbull, Cubo",
+      "popularity": 10,
+      "spotify_url": "https://open.spotify.com/track/3ecKj2ZQWuPYGfM1Jd2vjp"
+    },
+    {
+      "title": "Toma (DJ Buddha Remix)",
+      "track_id": "6OOQyehiJKiL5wv78aCIAc",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon, Mr. Vegas, Wayne Marshall, Red Rat, T.O.K, Kardinal Offishall",
+      "popularity": 12,
+      "spotify_url": "https://open.spotify.com/track/6OOQyehiJKiL5wv78aCIAc"
+    },
+    {
+      "title": "Tequila",
+      "track_id": "1f5jjZbUiSnpWghBtr1Am5",
+      "isrc": null,
+      "artist": "Pitbull, Vikina",
+      "popularity": 23,
+      "spotify_url": "https://open.spotify.com/track/1f5jjZbUiSnpWghBtr1Am5"
+    },
+    {
+      "title": "OMG - Remix",
+      "track_id": "5kidA6lkVyTkunfW9Uo2JU",
+      "isrc": null,
+      "artist": "Candelita, Pitbull, Silvestre Dangond",
+      "popularity": 11,
+      "spotify_url": "https://open.spotify.com/track/5kidA6lkVyTkunfW9Uo2JU"
+    },
+    {
+      "title": "Intro",
+      "track_id": "2BVbwArFWi4a7FeQIZxYwm",
       "isrc": null,
       "artist": "Pitbull",
-      "popularity": 20,
-      "spotify_url": "https://open.spotify.com/track/3QUdLpe40Im2mvgJl1kRLl"
+      "popularity": 7,
+      "spotify_url": "https://open.spotify.com/track/2BVbwArFWi4a7FeQIZxYwm"
     },
     {
-      "title": "The Mistake",
-      "track_id": "70nPicj6utwHjEREgoa2ZQ",
+      "title": "Miami S***",
+      "track_id": "6soFeW7BPamD5gP7y6mE9D",
       "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
+      "artist": "Pitbull",
+      "popularity": 8,
+      "spotify_url": "https://open.spotify.com/track/6soFeW7BPamD5gP7y6mE9D"
+    },
+    {
+      "title": "Come See Me",
+      "track_id": "18fRtJan4fz24T0BdG3Kmg",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 9,
+      "spotify_url": "https://open.spotify.com/track/18fRtJan4fz24T0BdG3Kmg"
+    },
+    {
+      "title": "Jealouso",
+      "track_id": "3e992A8DHpaAyNdphkWHpM",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 8,
+      "spotify_url": "https://open.spotify.com/track/3e992A8DHpaAyNdphkWHpM"
+    },
+    {
+      "title": "Que Tu Sabes D'Eso",
+      "track_id": "2LXVyKnMgC8zL05na3z7il",
+      "isrc": null,
+      "artist": "Pitbull, Fat Joe, Sinful",
+      "popularity": 9,
+      "spotify_url": "https://open.spotify.com/track/2LXVyKnMgC8zL05na3z7il"
+    },
+    {
+      "title": "Fademaster Skit",
+      "track_id": "7FFx9vlClLqXnq3Xo9HJOS",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 6,
+      "spotify_url": "https://open.spotify.com/track/7FFx9vlClLqXnq3Xo9HJOS"
+    },
+    {
+      "title": "Be Quiet",
+      "track_id": "7ggDgadoqupnFmatPvBrZO",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 8,
+      "spotify_url": "https://open.spotify.com/track/7ggDgadoqupnFmatPvBrZO"
+    },
+    {
+      "title": "Ay Chico (Lengua Afuera)",
+      "track_id": "3A75q8tL5epCY3IA95zbvp",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 23,
+      "spotify_url": "https://open.spotify.com/track/3A75q8tL5epCY3IA95zbvp"
+    },
+    {
+      "title": "Fuego",
+      "track_id": "0BjnEdPoZdI8iPcpUbgflG",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 32,
+      "spotify_url": "https://open.spotify.com/track/0BjnEdPoZdI8iPcpUbgflG"
+    },
+    {
+      "title": "Rock Bottom",
+      "track_id": "67NkKo50NS5vPN5umZNhwj",
+      "isrc": null,
+      "artist": "Pitbull, Bun B, Cubo",
+      "popularity": 8,
+      "spotify_url": "https://open.spotify.com/track/67NkKo50NS5vPN5umZNhwj"
+    },
+    {
+      "title": "Amanda Diva Skit",
+      "track_id": "0lMKTt8RZTTIO7IdR94pXZ",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 7,
+      "spotify_url": "https://open.spotify.com/track/0lMKTt8RZTTIO7IdR94pXZ"
+    },
+    {
+      "title": "Blood Is Thicker Than Water",
+      "track_id": "0I2rsqnv8xE37EscxKVNF1",
+      "isrc": null,
+      "artist": "Pitbull, Redd Eyezz",
+      "popularity": 7,
+      "spotify_url": "https://open.spotify.com/track/0I2rsqnv8xE37EscxKVNF1"
+    },
+    {
+      "title": "Jungle Fever",
+      "track_id": "0iemLmCvTjW2UOcLZ6ngfU",
+      "isrc": null,
+      "artist": "Pitbull, Wyclef Jean",
+      "popularity": 9,
+      "spotify_url": "https://open.spotify.com/track/0iemLmCvTjW2UOcLZ6ngfU"
+    },
+    {
+      "title": "Hey You Girl",
+      "track_id": "0zWFcEjlD4hpG8dF5bIinS",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 11,
+      "spotify_url": "https://open.spotify.com/track/0zWFcEjlD4hpG8dF5bIinS"
+    },
+    {
+      "title": "Raindrops",
+      "track_id": "7y5E2ajyw96sO4TJNCjg50",
+      "isrc": null,
+      "artist": "Pitbull, Anjuli Stars",
+      "popularity": 8,
+      "spotify_url": "https://open.spotify.com/track/7y5E2ajyw96sO4TJNCjg50"
+    },
+    {
+      "title": "Voodoo",
+      "track_id": "5wboVWFtvgmMinxQ9EZ4P1",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 9,
+      "spotify_url": "https://open.spotify.com/track/5wboVWFtvgmMinxQ9EZ4P1"
+    },
+    {
+      "title": "Descarada (Dance)",
+      "track_id": "4QIFolzTnA3obagUVbRl5X",
+      "isrc": null,
+      "artist": "Pitbull, Vybz Kartel",
+      "popularity": 21,
+      "spotify_url": "https://open.spotify.com/track/4QIFolzTnA3obagUVbRl5X"
+    },
+    {
+      "title": "Dime (Remix)",
+      "track_id": "4GBw3sbTYZaThaKbSd4IBE",
+      "isrc": null,
+      "artist": "Pitbull, Ken-Y",
+      "popularity": 19,
+      "spotify_url": "https://open.spotify.com/track/4GBw3sbTYZaThaKbSd4IBE"
+    },
+    {
+      "title": "Bojangles (Remix)",
+      "track_id": "2RnGfU3wH7MQDTTql8mFkY",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon, Ying Yang Twins",
+      "popularity": 22,
+      "spotify_url": "https://open.spotify.com/track/2RnGfU3wH7MQDTTql8mFkY"
+    },
+    {
+      "title": "Born N Raised",
+      "track_id": "6a2BUt5sTWx7E8Y8Ce3GNp",
+      "isrc": null,
+      "artist": "Pitbull, Trick Daddy, Rick Ross",
       "popularity": 13,
-      "spotify_url": "https://open.spotify.com/track/70nPicj6utwHjEREgoa2ZQ"
+      "spotify_url": "https://open.spotify.com/track/6a2BUt5sTWx7E8Y8Ce3GNp"
     },
     {
-      "title": "Still Here",
-      "track_id": "00939AtloLku4VBWYNqY8x",
+      "title": "Outro",
+      "track_id": "2hnhZdSbJ5wvNskZWa1LMt",
       "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 13,
-      "spotify_url": "https://open.spotify.com/track/00939AtloLku4VBWYNqY8x"
+      "artist": "Pitbull",
+      "popularity": 6,
+      "spotify_url": "https://open.spotify.com/track/2hnhZdSbJ5wvNskZWa1LMt"
     },
     {
-      "title": "I Know You Know",
-      "track_id": "4eXcqF7LRYRpCOv5dseNqE",
+      "title": "Fun Dip",
+      "track_id": "0qFaCwkYRXRlwqKjx6QGod",
       "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 13,
-      "spotify_url": "https://open.spotify.com/track/4eXcqF7LRYRpCOv5dseNqE"
-    },
-    {
-      "title": "Cosa Nostra",
-      "track_id": "4e3TTD2pv3iN8sUsqp37eu",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/4e3TTD2pv3iN8sUsqp37eu"
-    },
-    {
-      "title": "The Decision",
-      "track_id": "5DtSRptyHUgO89hmFdhbu2",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 13,
-      "spotify_url": "https://open.spotify.com/track/5DtSRptyHUgO89hmFdhbu2"
-    },
-    {
-      "title": "The Plot",
-      "track_id": "4xTOKvaVQz4VtgBy1dsulF",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 13,
-      "spotify_url": "https://open.spotify.com/track/4xTOKvaVQz4VtgBy1dsulF"
-    },
-    {
-      "title": "The Shelf",
-      "track_id": "6OxYVG17vm5dsLydvMbLkQ",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 12,
-      "spotify_url": "https://open.spotify.com/track/6OxYVG17vm5dsLydvMbLkQ"
-    },
-    {
-      "title": "The Trial",
-      "track_id": "0sG7AlnXkcyKdwt7d2EFgf",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 12,
-      "spotify_url": "https://open.spotify.com/track/0sG7AlnXkcyKdwt7d2EFgf"
-    },
-    {
-      "title": "Mourning",
-      "track_id": "22DTsu2kSQLvDeql59Qm3C",
-      "isrc": null,
-      "artist": "Pitbull, Jorge Gomez",
-      "popularity": 12,
-      "spotify_url": "https://open.spotify.com/track/22DTsu2kSQLvDeql59Qm3C"
-    },
-    {
-      "title": "Now Or Never",
-      "track_id": "5hG7MlKPCqUgtdwROUbBRS",
-      "isrc": null,
-      "artist": "Pitbull, Bon Jovi",
-      "popularity": 66,
-      "spotify_url": "https://open.spotify.com/track/5hG7MlKPCqUgtdwROUbBRS"
+      "artist": "Freak Nasty, Pitbull",
+      "popularity": 59,
+      "spotify_url": "https://open.spotify.com/track/0qFaCwkYRXRlwqKjx6QGod"
     },
     {
       "title": "Lit In The City",
@@ -1682,28 +1850,148 @@
       "spotify_url": "https://open.spotify.com/track/3S87Ha90GzcBmQbWuVS8Qj"
     },
     {
-      "title": "Borracho Y Loco",
-      "track_id": "6dAddkQrHc0Ywg2FX2Afqt",
+      "title": "Damn I Love Miami",
+      "track_id": "2zdnnDancyLrZGheqOo40R",
       "isrc": null,
-      "artist": "IAmChino, Pitbull, Flo Rida",
-      "popularity": 31,
-      "spotify_url": "https://open.spotify.com/track/6dAddkQrHc0Ywg2FX2Afqt"
+      "artist": "Pitbull, Lil Jon",
+      "popularity": 39,
+      "spotify_url": "https://open.spotify.com/track/2zdnnDancyLrZGheqOo40R"
     },
     {
-      "title": "OMG - Remix",
-      "track_id": "5kidA6lkVyTkunfW9Uo2JU",
+      "title": "Damn I Love Miami - LOUDER DJ MIX",
+      "track_id": "6hK4MrFC8RsGMPbTlk5hVF",
       "isrc": null,
-      "artist": "Candelita, Pitbull, Silvestre Dangond",
-      "popularity": 11,
-      "spotify_url": "https://open.spotify.com/track/5kidA6lkVyTkunfW9Uo2JU"
+      "artist": "Pitbull, Lil Jon",
+      "popularity": 46,
+      "spotify_url": "https://open.spotify.com/track/6hK4MrFC8RsGMPbTlk5hVF"
     },
     {
-      "title": "Soy Así 2",
-      "track_id": "2cG2Vmnu4qtHpWkY84hj97",
+      "title": "Damn I Love Miami - Jump Smokers Remix",
+      "track_id": "3mANzxoHKdiKzGFAIHpCAw",
       "isrc": null,
-      "artist": "IAmChino, Pitbull, Wiz Khalifa, Victor Cardenas",
-      "popularity": 63,
-      "spotify_url": "https://open.spotify.com/track/2cG2Vmnu4qtHpWkY84hj97"
+      "artist": "Pitbull, Lil Jon, Jump Smokers",
+      "popularity": 30,
+      "spotify_url": "https://open.spotify.com/track/3mANzxoHKdiKzGFAIHpCAw"
+    },
+    {
+      "title": "Damn I Love Miami - Apollo XO Remix",
+      "track_id": "71g8zsWGH7JFI5EZZBGLA4",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon, Apollo Xo",
+      "popularity": 29,
+      "spotify_url": "https://open.spotify.com/track/71g8zsWGH7JFI5EZZBGLA4"
+    },
+    {
+      "title": "Damn I Love Miami - DJ Laz Remix",
+      "track_id": "4jeh5jgsUbaDr7RBp9h8uA",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon, Dj Laz, DJ Julian, Danny D",
+      "popularity": 24,
+      "spotify_url": "https://open.spotify.com/track/4jeh5jgsUbaDr7RBp9h8uA"
+    },
+    {
+      "title": "Mr. Worldwide (Intro) (feat. Vein)",
+      "track_id": "3g2u312S3KDaXmvm59uX52",
+      "isrc": null,
+      "artist": "Pitbull, Vein",
+      "popularity": 19,
+      "spotify_url": "https://open.spotify.com/track/3g2u312S3KDaXmvm59uX52"
+    },
+    {
+      "title": "Give Me Everything (feat. Nayer)",
+      "track_id": "3QFbOgWOqXEtOD02FMcX7K",
+      "isrc": null,
+      "artist": "Pitbull, AFROJACK, Ne-Yo, Nayer",
+      "popularity": 47,
+      "spotify_url": "https://open.spotify.com/track/3QFbOgWOqXEtOD02FMcX7K"
+    },
+    {
+      "title": "Rain Over Me (feat. Marc Anthony)",
+      "track_id": "5ImeVGPY7n6UQv0ZWC8Yc4",
+      "isrc": null,
+      "artist": "Pitbull, Marc Anthony",
+      "popularity": 44,
+      "spotify_url": "https://open.spotify.com/track/5ImeVGPY7n6UQv0ZWC8Yc4"
+    },
+    {
+      "title": "Hey Baby (Drop It to the Floor) (feat. T-Pain)",
+      "track_id": "7qdwxPtreqBCc41dLR7hCl",
+      "isrc": null,
+      "artist": "Pitbull, T-Pain",
+      "popularity": 42,
+      "spotify_url": "https://open.spotify.com/track/7qdwxPtreqBCc41dLR7hCl"
+    },
+    {
+      "title": "Pause",
+      "track_id": "2kEDguzYeSUSgLxf8CEH76",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 21,
+      "spotify_url": "https://open.spotify.com/track/2kEDguzYeSUSgLxf8CEH76"
+    },
+    {
+      "title": "Come N Go (feat. Enrique Iglesias)",
+      "track_id": "4LBIquDVbpNRipuJH3jBfo",
+      "isrc": null,
+      "artist": "Pitbull, Enrique Iglesias",
+      "popularity": 18,
+      "spotify_url": "https://open.spotify.com/track/4LBIquDVbpNRipuJH3jBfo"
+    },
+    {
+      "title": "Shake Senora (feat. T-Pain & Sean Paul)",
+      "track_id": "5q9OJ4uonOmdnYYhF1kZpl",
+      "isrc": null,
+      "artist": "Pitbull, T-Pain, Sean Paul",
+      "popularity": 29,
+      "spotify_url": "https://open.spotify.com/track/5q9OJ4uonOmdnYYhF1kZpl"
+    },
+    {
+      "title": "International Love (feat. Chris Brown)",
+      "track_id": "5o9JV34izXSnaKVyMjaMdE",
+      "isrc": null,
+      "artist": "Pitbull, Chris Brown",
+      "popularity": 46,
+      "spotify_url": "https://open.spotify.com/track/5o9JV34izXSnaKVyMjaMdE"
+    },
+    {
+      "title": "Castle Made Of Sand (feat. Kelly Rowland & Jamie Drastik)",
+      "track_id": "5LGRSgslJFLuxC9eYxDbR5",
+      "isrc": null,
+      "artist": "Pitbull, Kelly Rowland, Jamie Drastik",
+      "popularity": 16,
+      "spotify_url": "https://open.spotify.com/track/5LGRSgslJFLuxC9eYxDbR5"
+    },
+    {
+      "title": "Took My Love (feat. Red Foo, Vein & David Rush)",
+      "track_id": "2KBrbjuzZ01WRovc0P7mXL",
+      "isrc": null,
+      "artist": "Pitbull, Redfoo, Vein, David Rush",
+      "popularity": 17,
+      "spotify_url": "https://open.spotify.com/track/2KBrbjuzZ01WRovc0P7mXL"
+    },
+    {
+      "title": "Where Do We Go (feat. Jamie Foxx)",
+      "track_id": "36V3xOb3DUwUNi3C8oQnnz",
+      "isrc": null,
+      "artist": "Pitbull, Jamie Foxx",
+      "popularity": 17,
+      "spotify_url": "https://open.spotify.com/track/36V3xOb3DUwUNi3C8oQnnz"
+    },
+    {
+      "title": "Something For The DJs",
+      "track_id": "6MsQ9T1H5FQRfy17ny0jXs",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 16,
+      "spotify_url": "https://open.spotify.com/track/6MsQ9T1H5FQRfy17ny0jXs"
+    },
+    {
+      "title": "Soy Así",
+      "track_id": "3E07ICOXiW233gYTNDXY0G",
+      "isrc": null,
+      "artist": "IAmChino, Pitbull, Victor Cardenas",
+      "popularity": 35,
+      "spotify_url": "https://open.spotify.com/track/3E07ICOXiW233gYTNDXY0G"
     },
     {
       "title": "There It Is",
@@ -1762,12 +2050,132 @@
       "spotify_url": "https://open.spotify.com/track/60gpTM6fgZccDLQ5T53DiZ"
     },
     {
-      "title": "Soy Así",
-      "track_id": "3E07ICOXiW233gYTNDXY0G",
+      "title": "Global Warming (feat. Sensato)",
+      "track_id": "1EMDdrSYn9SShtbnLK9vEU",
       "isrc": null,
-      "artist": "IAmChino, Pitbull, Victor Cardenas",
-      "popularity": 35,
-      "spotify_url": "https://open.spotify.com/track/3E07ICOXiW233gYTNDXY0G"
+      "artist": "Pitbull, Sensato",
+      "popularity": 15,
+      "spotify_url": "https://open.spotify.com/track/1EMDdrSYn9SShtbnLK9vEU"
+    },
+    {
+      "title": "Don't Stop the Party (feat. TJR)",
+      "track_id": "2tdseeP2TePM98X6Jcwf1C",
+      "isrc": null,
+      "artist": "Pitbull, TJR",
+      "popularity": 36,
+      "spotify_url": "https://open.spotify.com/track/2tdseeP2TePM98X6Jcwf1C"
+    },
+    {
+      "title": "Feel This Moment (feat. Christina Aguilera)",
+      "track_id": "0MyiW8Cp18ZMsZJfZhbuQ0",
+      "isrc": null,
+      "artist": "Pitbull, Christina Aguilera",
+      "popularity": 31,
+      "spotify_url": "https://open.spotify.com/track/0MyiW8Cp18ZMsZJfZhbuQ0"
+    },
+    {
+      "title": "Back in Time - featured in \"Men In Black 3\"",
+      "track_id": "0xED55IK1uDhpNYKejoySq",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 25,
+      "spotify_url": "https://open.spotify.com/track/0xED55IK1uDhpNYKejoySq"
+    },
+    {
+      "title": "Hope We Meet Again (feat. Chris Brown)",
+      "track_id": "0Jv9kxj0dsWSiU6niHXzCU",
+      "isrc": null,
+      "artist": "Pitbull, Chris Brown",
+      "popularity": 14,
+      "spotify_url": "https://open.spotify.com/track/0Jv9kxj0dsWSiU6niHXzCU"
+    },
+    {
+      "title": "Party Ain't Over (feat. Usher & Afrojack)",
+      "track_id": "70DGLRJWYzfMxq5ikT077O",
+      "isrc": null,
+      "artist": "Pitbull, USHER, AFROJACK",
+      "popularity": 16,
+      "spotify_url": "https://open.spotify.com/track/70DGLRJWYzfMxq5ikT077O"
+    },
+    {
+      "title": "Drinks for You (Ladies Anthem) (feat. J. Lo)",
+      "track_id": "464wI4xX5hw6CbuE0j2GSJ",
+      "isrc": null,
+      "artist": "Pitbull, Jennifer Lopez",
+      "popularity": 12,
+      "spotify_url": "https://open.spotify.com/track/464wI4xX5hw6CbuE0j2GSJ"
+    },
+    {
+      "title": "Have Some Fun (feat. The Wanted & Afrojack)",
+      "track_id": "4DVbwF5wYllwzV0Z2ganUM",
+      "isrc": null,
+      "artist": "Pitbull, The Wanted, AFROJACK",
+      "popularity": 14,
+      "spotify_url": "https://open.spotify.com/track/4DVbwF5wYllwzV0Z2ganUM"
+    },
+    {
+      "title": "Outta Nowhere (feat. Danny Mercer)",
+      "track_id": "4MTqZLJntlEGKdqelcUXot",
+      "isrc": null,
+      "artist": "Pitbull, Danny Mercer",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/4MTqZLJntlEGKdqelcUXot"
+    },
+    {
+      "title": "Tchu Tchu Tcha (feat. Enrique Iglesias)",
+      "track_id": "3vx1VcnS0FOQA1ZWFarDab",
+      "isrc": null,
+      "artist": "Pitbull, Enrique Iglesias",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/3vx1VcnS0FOQA1ZWFarDab"
+    },
+    {
+      "title": "Last Night (feat. Afrojack & Havana Brown)",
+      "track_id": "2djnLG537oX0LgcORh2ogJ",
+      "isrc": null,
+      "artist": "Pitbull, AFROJACK, Havana Brown",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/2djnLG537oX0LgcORh2ogJ"
+    },
+    {
+      "title": "I'm Off That",
+      "track_id": "0Vczsl5UU5Zl7zDycmOQ6g",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 11,
+      "spotify_url": "https://open.spotify.com/track/0Vczsl5UU5Zl7zDycmOQ6g"
+    },
+    {
+      "title": "Echa Pa'lla (Manos Pa'rriba) (feat. Papayo)",
+      "track_id": "6DT6YBRXnxhIeSH0rn6khB",
+      "isrc": null,
+      "artist": "Pitbull, Papayo",
+      "popularity": 51,
+      "spotify_url": "https://open.spotify.com/track/6DT6YBRXnxhIeSH0rn6khB"
+    },
+    {
+      "title": "Everybody Fucks (feat. Akon & David Rush)",
+      "track_id": "1Ws5wKAfQyJ3sN1IXkgvgR",
+      "isrc": null,
+      "artist": "Pitbull, Akon, David Rush",
+      "popularity": 23,
+      "spotify_url": "https://open.spotify.com/track/1Ws5wKAfQyJ3sN1IXkgvgR"
+    },
+    {
+      "title": "Get It Started (feat. Shakira)",
+      "track_id": "5YrMJScQHZR6624DNnyp5p",
+      "isrc": null,
+      "artist": "Pitbull, Shakira",
+      "popularity": 29,
+      "spotify_url": "https://open.spotify.com/track/5YrMJScQHZR6624DNnyp5p"
+    },
+    {
+      "title": "11:59 (feat. Vein)",
+      "track_id": "7kJJK4ZucWJ26d8p45HjkP",
+      "isrc": null,
+      "artist": "Pitbull, Vein",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/7kJJK4ZucWJ26d8p45HjkP"
     },
     {
       "title": "RÁPIDOS Y FURIOSOS 11",
@@ -1778,51 +2186,147 @@
       "spotify_url": "https://open.spotify.com/track/2DBx0M05kHSdV62FUjHvUl"
     },
     {
-      "title": "2 The Moon - Julian Cross x Afrojack Summer Remix",
-      "track_id": "0C0Ha1A4fKMCKImBYkwLFy",
+      "title": "We Are Strong (feat. Kiesza)",
+      "track_id": "7LFJv28DFDAVSkpvpozJ1D",
       "isrc": null,
-      "artist": "Pitbull, Ne-Yo, AFROJACK, Julian Cross",
-      "popularity": 20,
-      "spotify_url": "https://open.spotify.com/track/0C0Ha1A4fKMCKImBYkwLFy"
+      "artist": "Pitbull, Kiesza",
+      "popularity": 30,
+      "spotify_url": "https://open.spotify.com/track/7LFJv28DFDAVSkpvpozJ1D"
     },
     {
-      "title": "2 The Moon - Play-n-Skillz x Scott Summers Big Room Remix",
-      "track_id": "6HceEzxHuOuoa9AFgiZ5kv",
+      "title": "Bad Man (feat. Robin Thicke, Joe Perry & Travis Barker)",
+      "track_id": "4eRrRWQ06cnqhXUwJOOnKJ",
       "isrc": null,
-      "artist": "Pitbull, Ne-Yo, AFROJACK, Play-N-Skillz, Scott Summers",
-      "popularity": 11,
-      "spotify_url": "https://open.spotify.com/track/6HceEzxHuOuoa9AFgiZ5kv"
+      "artist": "Pitbull, Robin Thicke, Joe Perry, Travis Barker",
+      "popularity": 34,
+      "spotify_url": "https://open.spotify.com/track/4eRrRWQ06cnqhXUwJOOnKJ"
     },
     {
-      "title": "2 The Moon - Amél Remix",
-      "track_id": "6AumPxamHyHs4VXKQbGDxJ",
+      "title": "Greenlight (feat. Flo Rida & LunchMoney Lewis)",
+      "track_id": "3lJA6dGqvaKtVxqHbTtQiQ",
       "isrc": null,
-      "artist": "Pitbull, Ne-Yo, AFROJACK, Amél",
-      "popularity": 11,
-      "spotify_url": "https://open.spotify.com/track/6AumPxamHyHs4VXKQbGDxJ"
+      "artist": "Pitbull, Flo Rida, LunchMoney Lewis",
+      "popularity": 58,
+      "spotify_url": "https://open.spotify.com/track/3lJA6dGqvaKtVxqHbTtQiQ"
     },
     {
-      "title": "2 The Moon - IAmChino x Salvi Remix",
-      "track_id": "0BuNPSmp3MczLe2yYlVqdo",
+      "title": "Messin' Around (with Enrique Iglesias)",
+      "track_id": "0bG61MsnxRxRHc007PxA2o",
       "isrc": null,
-      "artist": "Pitbull, Ne-Yo, AFROJACK, IAmChino, Salvi",
-      "popularity": 12,
-      "spotify_url": "https://open.spotify.com/track/0BuNPSmp3MczLe2yYlVqdo"
+      "artist": "Pitbull, Enrique Iglesias",
+      "popularity": 43,
+      "spotify_url": "https://open.spotify.com/track/0bG61MsnxRxRHc007PxA2o"
     },
     {
-      "title": "2 The Moon",
-      "track_id": "4fY3JBkKUn7T1nBx4JG8t6",
+      "title": "Better On Me (feat. Ty Dolla $ign)",
+      "track_id": "0vLlEo1D4VRiGzMLxLbsh2",
       "isrc": null,
-      "artist": "Pitbull, Ne-Yo, AFROJACK, DJ Buddha",
-      "popularity": 18,
-      "spotify_url": "https://open.spotify.com/track/4fY3JBkKUn7T1nBx4JG8t6"
+      "artist": "Pitbull, Ty Dolla $ign",
+      "popularity": 39,
+      "spotify_url": "https://open.spotify.com/track/0vLlEo1D4VRiGzMLxLbsh2"
+    },
+    {
+      "title": "Sexy Body",
+      "track_id": "7IsJihZTqwODrRfrrv3zWB",
+      "isrc": null,
+      "artist": "Pitbull, Jennifer Lopez",
+      "popularity": 36,
+      "spotify_url": "https://open.spotify.com/track/7IsJihZTqwODrRfrrv3zWB"
+    },
+    {
+      "title": "Freedom",
+      "track_id": "1StLlgkTm6s0LGRyAap9SP",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 42,
+      "spotify_url": "https://open.spotify.com/track/1StLlgkTm6s0LGRyAap9SP"
+    },
+    {
+      "title": "Options (feat. Stephen Marley)",
+      "track_id": "1B0DvDgNgvmccdfdEK4wB5",
+      "isrc": null,
+      "artist": "Pitbull, Stephen Marley",
+      "popularity": 46,
+      "spotify_url": "https://open.spotify.com/track/1B0DvDgNgvmccdfdEK4wB5"
+    },
+    {
+      "title": "Educate Ya (feat. Jason Derulo)",
+      "track_id": "2QPUaxEdbxIQbnATYjTXLW",
+      "isrc": null,
+      "artist": "Pitbull, Jason Derulo",
+      "popularity": 27,
+      "spotify_url": "https://open.spotify.com/track/2QPUaxEdbxIQbnATYjTXLW"
+    },
+    {
+      "title": "Only Ones To Know (feat. Leona Lewis)",
+      "track_id": "64XOpjIAmHElXLV1OqhaOH",
+      "isrc": null,
+      "artist": "Pitbull, Leona Lewis",
+      "popularity": 25,
+      "spotify_url": "https://open.spotify.com/track/64XOpjIAmHElXLV1OqhaOH"
+    },
+    {
+      "title": "Dedicated (feat. R.Kelly & Austin Mahone)",
+      "track_id": "16iHofweOVofNFKqni3QvK",
+      "isrc": null,
+      "artist": "Pitbull, R. Kelly, Austin Mahone",
+      "popularity": 23,
+      "spotify_url": "https://open.spotify.com/track/16iHofweOVofNFKqni3QvK"
+    },
+    {
+      "title": "Can't Have (feat. Steven A. Clark & Ape Drums)",
+      "track_id": "6ADhQWuCv54VfU3NM8Uyse",
+      "isrc": null,
+      "artist": "Pitbull, Steven A. Clark, Ape Drums",
+      "popularity": 35,
+      "spotify_url": "https://open.spotify.com/track/6ADhQWuCv54VfU3NM8Uyse"
+    },
+    {
+      "title": "Tonight (D.I.Y.A) - Pitbull Remix",
+      "track_id": "5tLCZ73pEFUzxEd1W4DeCs",
+      "isrc": null,
+      "artist": "Jax Jones, Jason Derulo, Pitbull, Joel Corry",
+      "popularity": 44,
+      "spotify_url": "https://open.spotify.com/track/5tLCZ73pEFUzxEd1W4DeCs"
+    },
+    {
+      "title": "Pretty Woman (All Around The World)",
+      "track_id": "42hvCXX6axS8MLqciwEe9U",
+      "isrc": null,
+      "artist": "Azteck, Pitbull, Gabry Ponte",
+      "popularity": 43,
+      "spotify_url": "https://open.spotify.com/track/42hvCXX6axS8MLqciwEe9U"
+    },
+    {
+      "title": "I'll Do It (feat. Pitbull)",
+      "track_id": "5k4n97WJhjr3J4faTGdIeI",
+      "isrc": null,
+      "artist": "Heidi Montag, Pitbull",
+      "popularity": 46,
+      "spotify_url": "https://open.spotify.com/track/5k4n97WJhjr3J4faTGdIeI"
+    },
+    {
+      "title": "Now Or Never (Muzik Junkies & AROCK Remix)",
+      "track_id": "75TTdx97yvwuxHnk96BqQD",
+      "isrc": null,
+      "artist": "Pitbull, Bon Jovi, Muzik Junkies, AROCK",
+      "popularity": 23,
+      "spotify_url": "https://open.spotify.com/track/75TTdx97yvwuxHnk96BqQD"
+    },
+    {
+      "title": "Bhool Bhulaiyaa 3 - Title Track (feat. Pitbull)",
+      "track_id": "7r6iwgXcR85d9rfqsuf2Af",
+      "isrc": null,
+      "artist": "Pitbull, Diljit Dosanjh, Tanishk Bagchi, Pritam, Neeraj Shridhar, Dhrruv Yogi, Sameer Anjaan",
+      "popularity": 58,
+      "spotify_url": "https://open.spotify.com/track/7r6iwgXcR85d9rfqsuf2Af"
     },
     {
       "title": "A Little Story (Intro)",
       "track_id": "2AnJnU6zioxWgS95YZSY0r",
       "isrc": null,
       "artist": "Pitbull",
-      "popularity": 11,
+      "popularity": 12,
       "spotify_url": "https://open.spotify.com/track/2AnJnU6zioxWgS95YZSY0r"
     },
     {
@@ -1830,7 +2334,7 @@
       "track_id": "5IbMUI4rcWtXlq83UWqTcQ",
       "isrc": null,
       "artist": "Pitbull, Trina, Young Bo",
-      "popularity": 60,
+      "popularity": 59,
       "spotify_url": "https://open.spotify.com/track/5IbMUI4rcWtXlq83UWqTcQ"
     },
     {
@@ -1962,732 +2466,228 @@
       "spotify_url": "https://open.spotify.com/track/7e6tzjMeRwPZpJvSLsK16E"
     },
     {
-      "title": "Tequila",
-      "track_id": "1f5jjZbUiSnpWghBtr1Am5",
+      "title": "Global Warming (feat. Sensato)",
+      "track_id": "292kifgxa7S78AuzA5NMpL",
       "isrc": null,
-      "artist": "Pitbull, Vikina",
-      "popularity": 23,
-      "spotify_url": "https://open.spotify.com/track/1f5jjZbUiSnpWghBtr1Am5"
+      "artist": "Pitbull, Sensato",
+      "popularity": 35,
+      "spotify_url": "https://open.spotify.com/track/292kifgxa7S78AuzA5NMpL"
     },
     {
-      "title": "305 Anthem",
-      "track_id": "1ba0qp3ylyKILdrjxZ8zXW",
+      "title": "Don't Stop the Party (feat. TJR)",
+      "track_id": "3Tu7uWBecS6GsLsL8UONKn",
       "isrc": null,
-      "artist": "Pitbull, Lil Jon",
-      "popularity": 36,
-      "spotify_url": "https://open.spotify.com/track/1ba0qp3ylyKILdrjxZ8zXW"
+      "artist": "Pitbull, TJR",
+      "popularity": 71,
+      "spotify_url": "https://open.spotify.com/track/3Tu7uWBecS6GsLsL8UONKn"
     },
     {
-      "title": "Culo",
-      "track_id": "4tAru66VGVLWYjg90UV4vJ",
+      "title": "Feel This Moment (feat. Christina Aguilera)",
+      "track_id": "0Hf4aIJpsN4Os2f0y0VqWl",
       "isrc": null,
-      "artist": "Pitbull, Lil Jon",
-      "popularity": 66,
-      "spotify_url": "https://open.spotify.com/track/4tAru66VGVLWYjg90UV4vJ"
+      "artist": "Pitbull, Christina Aguilera",
+      "popularity": 82,
+      "spotify_url": "https://open.spotify.com/track/0Hf4aIJpsN4Os2f0y0VqWl"
     },
     {
-      "title": "She's Freaky",
-      "track_id": "0ZpG78vfpASSqT7HX0QcC3",
+      "title": "Back in Time - featured in \"Men In Black 3\"",
+      "track_id": "3eQlGeyuSibgAGPEJugaDW",
       "isrc": null,
       "artist": "Pitbull",
-      "popularity": 27,
-      "spotify_url": "https://open.spotify.com/track/0ZpG78vfpASSqT7HX0QcC3"
-    },
-    {
-      "title": "Shake It Up",
-      "track_id": "1SQ8OUMNJEq9eHRBo5CmZP",
-      "isrc": null,
-      "artist": "Pitbull, Oobie",
-      "popularity": 25,
-      "spotify_url": "https://open.spotify.com/track/1SQ8OUMNJEq9eHRBo5CmZP"
-    },
-    {
-      "title": "Toma",
-      "track_id": "7dFgljcBj9CPDrUQD9LbiP",
-      "isrc": null,
-      "artist": "Pitbull, Lil Jon",
-      "popularity": 52,
-      "spotify_url": "https://open.spotify.com/track/7dFgljcBj9CPDrUQD9LbiP"
-    },
-    {
-      "title": "I Wonder",
-      "track_id": "5NIQoCQCuyzEWG0WnJdVTp",
-      "isrc": null,
-      "artist": "Pitbull, Oobie",
-      "popularity": 24,
-      "spotify_url": "https://open.spotify.com/track/5NIQoCQCuyzEWG0WnJdVTp"
-    },
-    {
-      "title": "Get On The Floor",
-      "track_id": "3SwZtNcSWSxrXCZVHo2XSa",
-      "isrc": null,
-      "artist": "Pitbull, Oobie",
-      "popularity": 23,
-      "spotify_url": "https://open.spotify.com/track/3SwZtNcSWSxrXCZVHo2XSa"
-    },
-    {
-      "title": "Dirty",
-      "track_id": "6jMMrakLW8fQnMNnLuGECg",
-      "isrc": null,
-      "artist": "Pitbull, Bun B",
-      "popularity": 25,
-      "spotify_url": "https://open.spotify.com/track/6jMMrakLW8fQnMNnLuGECg"
-    },
-    {
-      "title": "Dammit Man",
-      "track_id": "5j6d0ZxgcTOtjsFoxMsVdG",
-      "isrc": null,
-      "artist": "Pitbull, Piccallo",
-      "popularity": 43,
-      "spotify_url": "https://open.spotify.com/track/5j6d0ZxgcTOtjsFoxMsVdG"
-    },
-    {
-      "title": "We Don't Care Bout Ya",
-      "track_id": "1HQ0UwcFrVzdwjvJiZecA8",
-      "isrc": null,
-      "artist": "Pitbull, Cubo",
-      "popularity": 21,
-      "spotify_url": "https://open.spotify.com/track/1HQ0UwcFrVzdwjvJiZecA8"
-    },
-    {
-      "title": "That's Nasty",
-      "track_id": "0niYdsEk6mzibVLB6MO9eb",
-      "isrc": null,
-      "artist": "Pitbull, Lil Jon, Fat Joe",
-      "popularity": 25,
-      "spotify_url": "https://open.spotify.com/track/0niYdsEk6mzibVLB6MO9eb"
-    },
-    {
-      "title": "Back Up",
-      "track_id": "5DGS27aMMef9qSRGWnQ4SD",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 28,
-      "spotify_url": "https://open.spotify.com/track/5DGS27aMMef9qSRGWnQ4SD"
-    },
-    {
-      "title": "Melting Pot",
-      "track_id": "5etPHWaVJV91ACgILq3IjV",
-      "isrc": null,
-      "artist": "Pitbull, Trick Daddy",
-      "popularity": 22,
-      "spotify_url": "https://open.spotify.com/track/5etPHWaVJV91ACgILq3IjV"
-    },
-    {
-      "title": "Hustler's Withdrawal",
-      "track_id": "3h7yrwn1ODO3hrpvnZJGpa",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 20,
-      "spotify_url": "https://open.spotify.com/track/3h7yrwn1ODO3hrpvnZJGpa"
-    },
-    {
-      "title": "Hurry Up And Wait",
-      "track_id": "2gLTGMQULX0jsS9ugokJlL",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 18,
-      "spotify_url": "https://open.spotify.com/track/2gLTGMQULX0jsS9ugokJlL"
-    },
-    {
-      "title": "Culo Miami Mix",
-      "track_id": "2mOrxVrZi9PAs1arR9ifnt",
-      "isrc": null,
-      "artist": "Pitbull, Mr. Vegas, Lil Jon",
-      "popularity": 40,
-      "spotify_url": "https://open.spotify.com/track/2mOrxVrZi9PAs1arR9ifnt"
-    },
-    {
-      "title": "Maldito Alcohol (Pitbull vs. Afrojack)",
-      "track_id": "1p3ZagAqs2nvIQYFs4UMqu",
-      "isrc": null,
-      "artist": "Pitbull, AFROJACK",
-      "popularity": 25,
-      "spotify_url": "https://open.spotify.com/track/1p3ZagAqs2nvIQYFs4UMqu"
-    },
-    {
-      "title": "Esta Noche - Dj Antoine vs. Mad Mark & Clubzound Mix",
-      "track_id": "2i8NUc27tFVW6Hamxw14w9",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 13,
-      "spotify_url": "https://open.spotify.com/track/2i8NUc27tFVW6Hamxw14w9"
-    },
-    {
-      "title": "Mujeres",
-      "track_id": "2KsnhcOy10ucx2yqD0ek8e",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/2KsnhcOy10ucx2yqD0ek8e"
-    },
-    {
-      "title": "Bon, Bon",
-      "track_id": "0H0Ik9XhJiJJh5KtMN1iee",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 0,
-      "spotify_url": "https://open.spotify.com/track/0H0Ik9XhJiJJh5KtMN1iee"
-    },
-    {
-      "title": "Guantanamera (She's Hot)",
-      "track_id": "6ke86J3nw4tItmpG5h41P0",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 26,
-      "spotify_url": "https://open.spotify.com/track/6ke86J3nw4tItmpG5h41P0"
-    },
-    {
-      "title": "Tu Cuerpo",
-      "track_id": "0h8GiewuD4pRDn1dCUMk9T",
-      "isrc": null,
-      "artist": "Pitbull, JENCARLOS",
-      "popularity": 16,
-      "spotify_url": "https://open.spotify.com/track/0h8GiewuD4pRDn1dCUMk9T"
-    },
-    {
-      "title": "Vida 23",
-      "track_id": "07nsB7wDd2FW20fRxy7tps",
-      "isrc": null,
-      "artist": "Pitbull, Nayer",
-      "popularity": 14,
-      "spotify_url": "https://open.spotify.com/track/07nsB7wDd2FW20fRxy7tps"
-    },
-    {
-      "title": "Amorosa",
-      "track_id": "4aIpZ2NWNXRtTcuJTy1okl",
-      "isrc": null,
-      "artist": "Pitbull, Papayo, MC Marcinho",
-      "popularity": 12,
-      "spotify_url": "https://open.spotify.com/track/4aIpZ2NWNXRtTcuJTy1okl"
-    },
-    {
-      "title": "Watagatapitusberry - Remix",
-      "track_id": "6EXAX0AfcYBrkiOaaIAIc5",
-      "isrc": null,
-      "artist": "Pitbull, Lil Jon, Sensato, Black Point, El Cata, DJ Buddha",
-      "popularity": 17,
-      "spotify_url": "https://open.spotify.com/track/6EXAX0AfcYBrkiOaaIAIc5"
-    },
-    {
-      "title": "Orgullo",
-      "track_id": "2busR9EfWtJOhem2ZqN0wa",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 13,
-      "spotify_url": "https://open.spotify.com/track/2busR9EfWtJOhem2ZqN0wa"
-    },
-    {
-      "title": "Preguntale",
-      "track_id": "6gR4xdfMfw4Jt9nP5jferh",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 12,
-      "spotify_url": "https://open.spotify.com/track/6gR4xdfMfw4Jt9nP5jferh"
-    },
-    {
-      "title": "Yo Quiero - Mi Alma Se Muere Remix",
-      "track_id": "3xaWOkprn6cua2ZL7fSaLN",
-      "isrc": null,
-      "artist": "Pitbull, Fuego, Omega",
-      "popularity": 0,
-      "spotify_url": "https://open.spotify.com/track/3xaWOkprn6cua2ZL7fSaLN"
-    },
-    {
-      "title": "Blanco - Spanish Remix",
-      "track_id": "1wYMIiOs7G9eowmuI53Dyo",
-      "isrc": null,
-      "artist": "Pitbull, Pharrell Williams",
-      "popularity": 0,
-      "spotify_url": "https://open.spotify.com/track/1wYMIiOs7G9eowmuI53Dyo"
-    },
-    {
-      "title": "Bhool Bhulaiyaa 3 - Title Track (feat. Pitbull)",
-      "track_id": "7r6iwgXcR85d9rfqsuf2Af",
-      "isrc": null,
-      "artist": "Pitbull, Diljit Dosanjh, Tanishk Bagchi, Pritam, Neeraj Shridhar, Dhrruv Yogi, Sameer Anjaan",
       "popularity": 58,
-      "spotify_url": "https://open.spotify.com/track/7r6iwgXcR85d9rfqsuf2Af"
+      "spotify_url": "https://open.spotify.com/track/3eQlGeyuSibgAGPEJugaDW"
     },
     {
-      "title": "We Will Rock You (2025 FIFA Club World Cup Theme Song) feat. Pitbull x RedOne",
-      "track_id": "04ZqXbNALun3YsLqC3TxEl",
+      "title": "Hope We Meet Again (feat. Chris Brown)",
+      "track_id": "1tRVnqp5rpd2bhmaCGWFQp",
       "isrc": null,
-      "artist": "FIFA Sound, Pitbull, RedOne",
-      "popularity": 44,
-      "spotify_url": "https://open.spotify.com/track/04ZqXbNALun3YsLqC3TxEl"
+      "artist": "Pitbull, Chris Brown",
+      "popularity": 32,
+      "spotify_url": "https://open.spotify.com/track/1tRVnqp5rpd2bhmaCGWFQp"
     },
     {
-      "title": "Tonight (D.I.Y.A) - Pitbull Remix",
-      "track_id": "5tLCZ73pEFUzxEd1W4DeCs",
+      "title": "Party Ain't Over (feat. Usher & Afrojack)",
+      "track_id": "4o9M41MAP0t0XFT6DdbXRp",
       "isrc": null,
-      "artist": "Jax Jones, Jason Derulo, Pitbull, Joel Corry",
-      "popularity": 44,
-      "spotify_url": "https://open.spotify.com/track/5tLCZ73pEFUzxEd1W4DeCs"
+      "artist": "Pitbull, USHER, AFROJACK",
+      "popularity": 34,
+      "spotify_url": "https://open.spotify.com/track/4o9M41MAP0t0XFT6DdbXRp"
+    },
+    {
+      "title": "Drinks for You (Ladies Anthem) (feat. J. Lo)",
+      "track_id": "5PiPtAgawvKui1fjOxVVUk",
+      "isrc": null,
+      "artist": "Pitbull, Jennifer Lopez",
+      "popularity": 29,
+      "spotify_url": "https://open.spotify.com/track/5PiPtAgawvKui1fjOxVVUk"
+    },
+    {
+      "title": "Have Some Fun (feat. The Wanted & Afrojack)",
+      "track_id": "5YNUvZm3tKAhzUcFlROTns",
+      "isrc": null,
+      "artist": "Pitbull, The Wanted, AFROJACK",
+      "popularity": 35,
+      "spotify_url": "https://open.spotify.com/track/5YNUvZm3tKAhzUcFlROTns"
+    },
+    {
+      "title": "Outta Nowhere (feat. Danny Mercer)",
+      "track_id": "242JV78jcQFoeIIPxjXGGE",
+      "isrc": null,
+      "artist": "Pitbull, Danny Mercer",
+      "popularity": 40,
+      "spotify_url": "https://open.spotify.com/track/242JV78jcQFoeIIPxjXGGE"
+    },
+    {
+      "title": "Tchu Tchu Tcha (feat. Enrique Iglesias)",
+      "track_id": "16oZdWoSG7Ssxuow0bZc6W",
+      "isrc": null,
+      "artist": "Pitbull, Enrique Iglesias",
+      "popularity": 34,
+      "spotify_url": "https://open.spotify.com/track/16oZdWoSG7Ssxuow0bZc6W"
+    },
+    {
+      "title": "Last Night (feat. Afrojack & Havana Brown)",
+      "track_id": "3nv0HUZK7RaERcZFsrkCuK",
+      "isrc": null,
+      "artist": "Pitbull, AFROJACK, Havana Brown",
+      "popularity": 29,
+      "spotify_url": "https://open.spotify.com/track/3nv0HUZK7RaERcZFsrkCuK"
+    },
+    {
+      "title": "I'm Off That",
+      "track_id": "5b0tAONE2XRl7ZvMaxiIbK",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 25,
+      "spotify_url": "https://open.spotify.com/track/5b0tAONE2XRl7ZvMaxiIbK"
+    },
+    {
+      "title": "Timber",
+      "track_id": "3cHyrEgdyYRjgJKSOiOtcS",
+      "isrc": null,
+      "artist": "Pitbull, Kesha",
+      "popularity": 85,
+      "spotify_url": "https://open.spotify.com/track/3cHyrEgdyYRjgJKSOiOtcS"
+    },
+    {
+      "title": "That High (feat. Kelly Rowland)",
+      "track_id": "0zbAkytd9gbRmWpmri6BbF",
+      "isrc": null,
+      "artist": "Pitbull, Kelly Rowland",
+      "popularity": 34,
+      "spotify_url": "https://open.spotify.com/track/0zbAkytd9gbRmWpmri6BbF"
+    },
+    {
+      "title": "Do It (feat. Mayer Hawthorne)",
+      "track_id": "6pWJ3UMOsi8Lsqmt4jdxKJ",
+      "isrc": null,
+      "artist": "Pitbull, Mayer Hawthorne",
+      "popularity": 41,
+      "spotify_url": "https://open.spotify.com/track/6pWJ3UMOsi8Lsqmt4jdxKJ"
+    },
+    {
+      "title": "Sun in California (feat. Mohombi & Playb4ck)",
+      "track_id": "1clW7ykNY5OwSnxCN2Ypm3",
+      "isrc": null,
+      "artist": "Pitbull, Mohombi, PLAYB4CK",
+      "popularity": 29,
+      "spotify_url": "https://open.spotify.com/track/1clW7ykNY5OwSnxCN2Ypm3"
+    },
+    {
+      "title": "All the Things (feat. Inna)",
+      "track_id": "5uruNg7v7SBPOjyevhlsvQ",
+      "isrc": null,
+      "artist": "Pitbull, INNA",
+      "popularity": 30,
+      "spotify_url": "https://open.spotify.com/track/5uruNg7v7SBPOjyevhlsvQ"
+    },
+    {
+      "title": "Tamo Bien",
+      "track_id": "63nTlIWHInEK2q3QEKarDN",
+      "isrc": null,
+      "artist": "Enrique Iglesias, Pitbull, IAmChino",
+      "popularity": 41,
+      "spotify_url": "https://open.spotify.com/track/63nTlIWHInEK2q3QEKarDN"
+    },
+    {
+      "title": "Borracho Y Loco",
+      "track_id": "6JbJ5vPFWyeB3WvolAXFoP",
+      "isrc": null,
+      "artist": "IAmChino, Pitbull, Flo Rida",
+      "popularity": 61,
+      "spotify_url": "https://open.spotify.com/track/6JbJ5vPFWyeB3WvolAXFoP"
+    },
+    {
+      "title": "4 ALL MY UNDERDOGS",
+      "track_id": "1z4AkstcN6VT4qio9IHJbj",
+      "isrc": null,
+      "artist": "IAmChino, Pitbull",
+      "popularity": 36,
+      "spotify_url": "https://open.spotify.com/track/1z4AkstcN6VT4qio9IHJbj"
+    },
+    {
+      "title": "La Hora",
+      "track_id": "18Pbham7o4eKKYPT2QpUlr",
+      "isrc": null,
+      "artist": "IAmChino, Pitbull, Tito \"El Bambino\"",
+      "popularity": 39,
+      "spotify_url": "https://open.spotify.com/track/18Pbham7o4eKKYPT2QpUlr"
+    },
+    {
+      "title": "Sin Ropa",
+      "track_id": "3ar1fF14Es3aRM9KWurH1U",
+      "isrc": null,
+      "artist": "IAmChino, Pitbull",
+      "popularity": 38,
+      "spotify_url": "https://open.spotify.com/track/3ar1fF14Es3aRM9KWurH1U"
+    },
+    {
+      "title": "Soy Asi",
+      "track_id": "0zdP0BJEUiYco9rDKXWJYh",
+      "isrc": null,
+      "artist": "IAmChino, Pitbull, Victor Cardenas",
+      "popularity": 40,
+      "spotify_url": "https://open.spotify.com/track/0zdP0BJEUiYco9rDKXWJYh"
     },
     {
       "title": "Hangover",
-      "track_id": "0eytQuaDrNNXjY3t3wEuNn",
+      "track_id": "6RtPamJzupeYEiq4yqc5gO",
       "isrc": null,
       "artist": "IAmChino, Pitbull, Nio Garcia",
-      "popularity": 20,
-      "spotify_url": "https://open.spotify.com/track/0eytQuaDrNNXjY3t3wEuNn"
-    },
-    {
-      "title": "Intro",
-      "track_id": "2BVbwArFWi4a7FeQIZxYwm",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 7,
-      "spotify_url": "https://open.spotify.com/track/2BVbwArFWi4a7FeQIZxYwm"
-    },
-    {
-      "title": "Miami S***",
-      "track_id": "6soFeW7BPamD5gP7y6mE9D",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 8,
-      "spotify_url": "https://open.spotify.com/track/6soFeW7BPamD5gP7y6mE9D"
-    },
-    {
-      "title": "Come See Me",
-      "track_id": "18fRtJan4fz24T0BdG3Kmg",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 9,
-      "spotify_url": "https://open.spotify.com/track/18fRtJan4fz24T0BdG3Kmg"
-    },
-    {
-      "title": "Jealouso",
-      "track_id": "3e992A8DHpaAyNdphkWHpM",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 9,
-      "spotify_url": "https://open.spotify.com/track/3e992A8DHpaAyNdphkWHpM"
-    },
-    {
-      "title": "Que Tu Sabes D'Eso",
-      "track_id": "2LXVyKnMgC8zL05na3z7il",
-      "isrc": null,
-      "artist": "Pitbull, Fat Joe, Sinful",
-      "popularity": 9,
-      "spotify_url": "https://open.spotify.com/track/2LXVyKnMgC8zL05na3z7il"
-    },
-    {
-      "title": "Fademaster Skit",
-      "track_id": "7FFx9vlClLqXnq3Xo9HJOS",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 6,
-      "spotify_url": "https://open.spotify.com/track/7FFx9vlClLqXnq3Xo9HJOS"
-    },
-    {
-      "title": "Be Quiet",
-      "track_id": "7ggDgadoqupnFmatPvBrZO",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 8,
-      "spotify_url": "https://open.spotify.com/track/7ggDgadoqupnFmatPvBrZO"
-    },
-    {
-      "title": "Ay Chico (Lengua Afuera)",
-      "track_id": "3A75q8tL5epCY3IA95zbvp",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 24,
-      "spotify_url": "https://open.spotify.com/track/3A75q8tL5epCY3IA95zbvp"
-    },
-    {
-      "title": "Fuego",
-      "track_id": "0BjnEdPoZdI8iPcpUbgflG",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 32,
-      "spotify_url": "https://open.spotify.com/track/0BjnEdPoZdI8iPcpUbgflG"
-    },
-    {
-      "title": "Rock Bottom",
-      "track_id": "67NkKo50NS5vPN5umZNhwj",
-      "isrc": null,
-      "artist": "Pitbull, Bun B, Cubo",
-      "popularity": 8,
-      "spotify_url": "https://open.spotify.com/track/67NkKo50NS5vPN5umZNhwj"
-    },
-    {
-      "title": "Amanda Diva Skit",
-      "track_id": "0lMKTt8RZTTIO7IdR94pXZ",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 7,
-      "spotify_url": "https://open.spotify.com/track/0lMKTt8RZTTIO7IdR94pXZ"
-    },
-    {
-      "title": "Blood Is Thicker Than Water",
-      "track_id": "0I2rsqnv8xE37EscxKVNF1",
-      "isrc": null,
-      "artist": "Pitbull, Redd Eyezz",
-      "popularity": 7,
-      "spotify_url": "https://open.spotify.com/track/0I2rsqnv8xE37EscxKVNF1"
-    },
-    {
-      "title": "Jungle Fever",
-      "track_id": "0iemLmCvTjW2UOcLZ6ngfU",
-      "isrc": null,
-      "artist": "Pitbull, Wyclef Jean",
-      "popularity": 9,
-      "spotify_url": "https://open.spotify.com/track/0iemLmCvTjW2UOcLZ6ngfU"
-    },
-    {
-      "title": "Hey You Girl",
-      "track_id": "0zWFcEjlD4hpG8dF5bIinS",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 11,
-      "spotify_url": "https://open.spotify.com/track/0zWFcEjlD4hpG8dF5bIinS"
-    },
-    {
-      "title": "Raindrops",
-      "track_id": "7y5E2ajyw96sO4TJNCjg50",
-      "isrc": null,
-      "artist": "Pitbull, Anjuli Stars",
-      "popularity": 8,
-      "spotify_url": "https://open.spotify.com/track/7y5E2ajyw96sO4TJNCjg50"
-    },
-    {
-      "title": "Voodoo",
-      "track_id": "5wboVWFtvgmMinxQ9EZ4P1",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 9,
-      "spotify_url": "https://open.spotify.com/track/5wboVWFtvgmMinxQ9EZ4P1"
-    },
-    {
-      "title": "Descarada (Dance)",
-      "track_id": "4QIFolzTnA3obagUVbRl5X",
-      "isrc": null,
-      "artist": "Pitbull, Vybz Kartel",
-      "popularity": 21,
-      "spotify_url": "https://open.spotify.com/track/4QIFolzTnA3obagUVbRl5X"
-    },
-    {
-      "title": "Dime (Remix)",
-      "track_id": "4GBw3sbTYZaThaKbSd4IBE",
-      "isrc": null,
-      "artist": "Pitbull, Ken-Y",
-      "popularity": 19,
-      "spotify_url": "https://open.spotify.com/track/4GBw3sbTYZaThaKbSd4IBE"
-    },
-    {
-      "title": "Bojangles (Remix)",
-      "track_id": "2RnGfU3wH7MQDTTql8mFkY",
-      "isrc": null,
-      "artist": "Pitbull, Lil Jon, Ying Yang Twins",
-      "popularity": 23,
-      "spotify_url": "https://open.spotify.com/track/2RnGfU3wH7MQDTTql8mFkY"
-    },
-    {
-      "title": "Born N Raised",
-      "track_id": "6a2BUt5sTWx7E8Y8Ce3GNp",
-      "isrc": null,
-      "artist": "Pitbull, Trick Daddy, Rick Ross",
-      "popularity": 13,
-      "spotify_url": "https://open.spotify.com/track/6a2BUt5sTWx7E8Y8Ce3GNp"
-    },
-    {
-      "title": "Outro",
-      "track_id": "2hnhZdSbJ5wvNskZWa1LMt",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 6,
-      "spotify_url": "https://open.spotify.com/track/2hnhZdSbJ5wvNskZWa1LMt"
-    },
-    {
-      "title": "Now Or Never (Muzik Junkies & AROCK Remix)",
-      "track_id": "75TTdx97yvwuxHnk96BqQD",
-      "isrc": null,
-      "artist": "Pitbull, Bon Jovi, Muzik Junkies, AROCK",
-      "popularity": 22,
-      "spotify_url": "https://open.spotify.com/track/75TTdx97yvwuxHnk96BqQD"
-    },
-    {
-      "title": "MR. MOONDIAL",
-      "track_id": "1pB02Gq6vDMfZPDVOUjPa3",
-      "isrc": null,
-      "artist": "Quevedo, Pitbull",
-      "popularity": 44,
-      "spotify_url": "https://open.spotify.com/track/1pB02Gq6vDMfZPDVOUjPa3"
-    },
-    {
-      "title": "Piensas (Dile la Verdad)",
-      "track_id": "4G8v8POxyDsNyaRAyGvuie",
-      "isrc": null,
-      "artist": "Pitbull, Gente De Zona",
-      "popularity": 48,
-      "spotify_url": "https://open.spotify.com/track/4G8v8POxyDsNyaRAyGvuie"
-    },
-    {
-      "title": "Como Yo Le Doy - Spanglish Version",
-      "track_id": "5PnEBmCk56RQphcMe7EqhG",
-      "isrc": null,
-      "artist": "Pitbull, Don Miguelo",
-      "popularity": 76,
-      "spotify_url": "https://open.spotify.com/track/5PnEBmCk56RQphcMe7EqhG"
-    },
-    {
-      "title": "El Taxi",
-      "track_id": "1LbGorB0xOfpiXQJFKB2Nd",
-      "isrc": null,
-      "artist": "Pitbull, Osmani Garcia \"La Voz\"",
-      "popularity": 70,
-      "spotify_url": "https://open.spotify.com/track/1LbGorB0xOfpiXQJFKB2Nd"
-    },
-    {
-      "title": "Yo Quiero (Si Tu Te Enamoras)",
-      "track_id": "3NIgZcptBrGIgGHdrsxIEC",
-      "isrc": null,
-      "artist": "Gente De Zona, Pitbull",
-      "popularity": 29,
-      "spotify_url": "https://open.spotify.com/track/3NIgZcptBrGIgGHdrsxIEC"
-    },
-    {
-      "title": "El Party",
-      "track_id": "3rDfmjVX1aS90LXJMMmp51",
-      "isrc": null,
-      "artist": "Pitbull, Micha",
-      "popularity": 30,
-      "spotify_url": "https://open.spotify.com/track/3rDfmjVX1aS90LXJMMmp51"
-    },
-    {
-      "title": "Mami Mami",
-      "track_id": "406DbQLmjelaICKQhJ4BFM",
-      "isrc": null,
-      "artist": "Pitbull, Fuego",
-      "popularity": 29,
-      "spotify_url": "https://open.spotify.com/track/406DbQLmjelaICKQhJ4BFM"
-    },
-    {
-      "title": "Baddest Girl In Town",
-      "track_id": "6Utgc4d1wmtkACjStaJUwd",
-      "isrc": null,
-      "artist": "Pitbull, Mohombi, Wisin",
-      "popularity": 44,
-      "spotify_url": "https://open.spotify.com/track/6Utgc4d1wmtkACjStaJUwd"
-    },
-    {
-      "title": "Chi Chi Bon Bon",
-      "track_id": "52t6MJCewRtvqaMVl2BssH",
-      "isrc": null,
-      "artist": "Pitbull, Osmani Garcia \"La Voz\"",
-      "popularity": 30,
-      "spotify_url": "https://open.spotify.com/track/52t6MJCewRtvqaMVl2BssH"
-    },
-    {
-      "title": "Haciendo Ruido",
-      "track_id": "0tKDRnU5DvHR1nIRxUlglv",
-      "isrc": null,
-      "artist": "Pitbull, Ricky Martin",
-      "popularity": 32,
-      "spotify_url": "https://open.spotify.com/track/0tKDRnU5DvHR1nIRxUlglv"
-    },
-    {
-      "title": "Hoy Se Bebe",
-      "track_id": "3M9BHPTBXTJ4wEhFPneMDE",
-      "isrc": null,
-      "artist": "Pitbull, Farruko",
-      "popularity": 39,
-      "spotify_url": "https://open.spotify.com/track/3M9BHPTBXTJ4wEhFPneMDE"
-    },
-    {
-      "title": "No Puedo Más",
-      "track_id": "0imqsFAVIQS4MV431jUO51",
-      "isrc": null,
-      "artist": "Pitbull, Yandel",
-      "popularity": 28,
-      "spotify_url": "https://open.spotify.com/track/0imqsFAVIQS4MV431jUO51"
-    },
-    {
-      "title": "Que Lo Que",
-      "track_id": "4YmMHaVX6RImbL1PrfxqaG",
-      "isrc": null,
-      "artist": "Pitbull, Sensato, Papayo, El Chevo",
-      "popularity": 30,
-      "spotify_url": "https://open.spotify.com/track/4YmMHaVX6RImbL1PrfxqaG"
-    },
-    {
-      "title": "No Te Hagas",
-      "track_id": "4f1PmMKVxCr8vIXikhXwEn",
-      "isrc": null,
-      "artist": "Pitbull, Sensato",
-      "popularity": 41,
-      "spotify_url": "https://open.spotify.com/track/4f1PmMKVxCr8vIXikhXwEn"
-    },
-    {
-      "title": "Intro",
-      "track_id": "4EIap3lgR5yc7YfuSTUJpS",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 12,
-      "spotify_url": "https://open.spotify.com/track/4EIap3lgR5yc7YfuSTUJpS"
-    },
-    {
-      "title": "Miami S***",
-      "track_id": "1vyZxJDG1WPQJRzm2z4GBC",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 22,
-      "spotify_url": "https://open.spotify.com/track/1vyZxJDG1WPQJRzm2z4GBC"
-    },
-    {
-      "title": "Come See Me",
-      "track_id": "7ycxotyZ52we2jKaIBuqwK",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 19,
-      "spotify_url": "https://open.spotify.com/track/7ycxotyZ52we2jKaIBuqwK"
-    },
-    {
-      "title": "Jealouso",
-      "track_id": "0hi0WlCStaMjt0wGNysxqA",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 19,
-      "spotify_url": "https://open.spotify.com/track/0hi0WlCStaMjt0wGNysxqA"
-    },
-    {
-      "title": "Que Tu Sabes D'Eso",
-      "track_id": "6Ar2t8hDgyrmjAVFKpQXg0",
-      "isrc": null,
-      "artist": "Pitbull, Fat Joe, Sinful",
-      "popularity": 19,
-      "spotify_url": "https://open.spotify.com/track/6Ar2t8hDgyrmjAVFKpQXg0"
-    },
-    {
-      "title": "Fademaster Skit",
-      "track_id": "3i0yPmdXovYNii91DpXciX",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 11,
-      "spotify_url": "https://open.spotify.com/track/3i0yPmdXovYNii91DpXciX"
-    },
-    {
-      "title": "Be Quiet",
-      "track_id": "67rbqLHcu4lcy6G7IHxUjK",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 17,
-      "spotify_url": "https://open.spotify.com/track/67rbqLHcu4lcy6G7IHxUjK"
-    },
-    {
-      "title": "Ay Chico (Lengua Afuera)",
-      "track_id": "3b2Dm0jdnbiD29SLROeLkU",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 43,
-      "spotify_url": "https://open.spotify.com/track/3b2Dm0jdnbiD29SLROeLkU"
-    },
-    {
-      "title": "Fuego",
-      "track_id": "57h06nfYP6aHNjkPMSwkqr",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 57,
-      "spotify_url": "https://open.spotify.com/track/57h06nfYP6aHNjkPMSwkqr"
-    },
-    {
-      "title": "Rock Bottom",
-      "track_id": "4yB6lyEStqSLibTQLFxko3",
-      "isrc": null,
-      "artist": "Pitbull, Bun B, Cubo",
-      "popularity": 17,
-      "spotify_url": "https://open.spotify.com/track/4yB6lyEStqSLibTQLFxko3"
-    },
-    {
-      "title": "Amanda Diva Skit",
-      "track_id": "20KOTvsxqfqLhRJhRkE3BY",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 11,
-      "spotify_url": "https://open.spotify.com/track/20KOTvsxqfqLhRJhRkE3BY"
-    },
-    {
-      "title": "Blood Is Thicker Than Water",
-      "track_id": "1IBL3iHGLAqEINnrGtdaCG",
-      "isrc": null,
-      "artist": "Pitbull, Redd Eyezz",
-      "popularity": 15,
-      "spotify_url": "https://open.spotify.com/track/1IBL3iHGLAqEINnrGtdaCG"
-    },
-    {
-      "title": "Jungle Fever",
-      "track_id": "1fr5uc3B1TYJ6DgBDaj92o",
-      "isrc": null,
-      "artist": "Pitbull, Wyclef Jean",
-      "popularity": 19,
-      "spotify_url": "https://open.spotify.com/track/1fr5uc3B1TYJ6DgBDaj92o"
-    },
-    {
-      "title": "Hey You Girl",
-      "track_id": "0n4ELJ0n5RahdyVsUAFV2p",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 20,
-      "spotify_url": "https://open.spotify.com/track/0n4ELJ0n5RahdyVsUAFV2p"
-    },
-    {
-      "title": "Raindrops",
-      "track_id": "0QCjjHeo9rva4uz6ySzXDl",
-      "isrc": null,
-      "artist": "Pitbull, Anjuli Stars",
-      "popularity": 16,
-      "spotify_url": "https://open.spotify.com/track/0QCjjHeo9rva4uz6ySzXDl"
-    },
-    {
-      "title": "Voodoo",
-      "track_id": "6mR4Ct8GxIhuw9u4m6iPYx",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 17,
-      "spotify_url": "https://open.spotify.com/track/6mR4Ct8GxIhuw9u4m6iPYx"
-    },
-    {
-      "title": "Descarada (Dance)",
-      "track_id": "1sP8Q7PGUNpEpmu090fCrr",
-      "isrc": null,
-      "artist": "Pitbull, Vybz Kartel",
-      "popularity": 39,
-      "spotify_url": "https://open.spotify.com/track/1sP8Q7PGUNpEpmu090fCrr"
-    },
-    {
-      "title": "Dime (Remix)",
-      "track_id": "4rYzw0kS3D2aTXf0wqL7ap",
-      "isrc": null,
-      "artist": "Pitbull, Ken-Y",
       "popularity": 38,
-      "spotify_url": "https://open.spotify.com/track/4rYzw0kS3D2aTXf0wqL7ap"
+      "spotify_url": "https://open.spotify.com/track/6RtPamJzupeYEiq4yqc5gO"
     },
     {
-      "title": "Bojangles (Remix)",
-      "track_id": "7snK1sf3ZHxahCYpFy1aJ8",
+      "title": "Hasta La Mañana",
+      "track_id": "0Tvm2xlJtra0338vbVVgpw",
       "isrc": null,
-      "artist": "Pitbull, Lil Jon, Ying Yang Twins",
-      "popularity": 49,
-      "spotify_url": "https://open.spotify.com/track/7snK1sf3ZHxahCYpFy1aJ8"
+      "artist": "IAmChino, Pitbull, White Star, Salvi",
+      "popularity": 37,
+      "spotify_url": "https://open.spotify.com/track/0Tvm2xlJtra0338vbVVgpw"
     },
     {
-      "title": "Born N Raised",
-      "track_id": "7jPYbNUUYBKXhrAvSFwVf2",
+      "title": "Pasame La Botella",
+      "track_id": "0qnvOarNrLfi9hxovKYkkd",
       "isrc": null,
-      "artist": "Pitbull, Trick Daddy, Rick Ross",
-      "popularity": 36,
-      "spotify_url": "https://open.spotify.com/track/7jPYbNUUYBKXhrAvSFwVf2"
+      "artist": "IAmChino, Deorro, Pitbull, Mariah Angeliq",
+      "popularity": 37,
+      "spotify_url": "https://open.spotify.com/track/0qnvOarNrLfi9hxovKYkkd"
     },
     {
-      "title": "Outro",
-      "track_id": "1un1kGcmmgUean0kU3yPng",
+      "title": "Party",
+      "track_id": "2F7oklKXlAavWCh2fmXHig",
       "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 10,
-      "spotify_url": "https://open.spotify.com/track/1un1kGcmmgUean0kU3yPng"
+      "artist": "IAmChino, Bulin 47, Pitbull",
+      "popularity": 35,
+      "spotify_url": "https://open.spotify.com/track/2F7oklKXlAavWCh2fmXHig"
+    },
+    {
+      "title": "Rubia",
+      "track_id": "7y6sZWmyCFgIJ3NLPlgyER",
+      "isrc": null,
+      "artist": "IAmChino, Pitbull",
+      "popularity": 32,
+      "spotify_url": "https://open.spotify.com/track/7y6sZWmyCFgIJ3NLPlgyER"
     },
     {
       "title": "A Little Story (Intro)",
@@ -2834,284 +2834,212 @@
       "spotify_url": "https://open.spotify.com/track/55uBeP3fZERs4TboGZhbHm"
     },
     {
-      "title": "I'll Do It (feat. Pitbull)",
-      "track_id": "5k4n97WJhjr3J4faTGdIeI",
+      "title": "Now Or Never",
+      "track_id": "5Ozdz7CCpNugu1SCxxXYNf",
       "isrc": null,
-      "artist": "Heidi Montag, Pitbull",
-      "popularity": 46,
-      "spotify_url": "https://open.spotify.com/track/5k4n97WJhjr3J4faTGdIeI"
-    },
-    {
-      "title": "Damn I Love Miami",
-      "track_id": "7t1SuBddByBghdAD47acYa",
-      "isrc": null,
-      "artist": "Pitbull, Lil Jon",
-      "popularity": 67,
-      "spotify_url": "https://open.spotify.com/track/7t1SuBddByBghdAD47acYa"
-    },
-    {
-      "title": "Tamo Bien",
-      "track_id": "72RjC359lcwhf1cON9ppls",
-      "isrc": null,
-      "artist": "Enrique Iglesias, Pitbull, IAmChino",
-      "popularity": 66,
-      "spotify_url": "https://open.spotify.com/track/72RjC359lcwhf1cON9ppls"
-    },
-    {
-      "title": "Mr. Worldwide (Intro) (feat. Vein)",
-      "track_id": "3g2u312S3KDaXmvm59uX52",
-      "isrc": null,
-      "artist": "Pitbull, Vein",
-      "popularity": 19,
-      "spotify_url": "https://open.spotify.com/track/3g2u312S3KDaXmvm59uX52"
-    },
-    {
-      "title": "Give Me Everything (feat. Nayer)",
-      "track_id": "3QFbOgWOqXEtOD02FMcX7K",
-      "isrc": null,
-      "artist": "Pitbull, AFROJACK, Ne-Yo, Nayer",
-      "popularity": 47,
-      "spotify_url": "https://open.spotify.com/track/3QFbOgWOqXEtOD02FMcX7K"
-    },
-    {
-      "title": "Rain Over Me (feat. Marc Anthony)",
-      "track_id": "5ImeVGPY7n6UQv0ZWC8Yc4",
-      "isrc": null,
-      "artist": "Pitbull, Marc Anthony",
-      "popularity": 45,
-      "spotify_url": "https://open.spotify.com/track/5ImeVGPY7n6UQv0ZWC8Yc4"
-    },
-    {
-      "title": "Hey Baby (Drop It to the Floor) (feat. T-Pain)",
-      "track_id": "7qdwxPtreqBCc41dLR7hCl",
-      "isrc": null,
-      "artist": "Pitbull, T-Pain",
-      "popularity": 42,
-      "spotify_url": "https://open.spotify.com/track/7qdwxPtreqBCc41dLR7hCl"
-    },
-    {
-      "title": "Pause",
-      "track_id": "2kEDguzYeSUSgLxf8CEH76",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 21,
-      "spotify_url": "https://open.spotify.com/track/2kEDguzYeSUSgLxf8CEH76"
-    },
-    {
-      "title": "Come N Go (feat. Enrique Iglesias)",
-      "track_id": "4LBIquDVbpNRipuJH3jBfo",
-      "isrc": null,
-      "artist": "Pitbull, Enrique Iglesias",
-      "popularity": 18,
-      "spotify_url": "https://open.spotify.com/track/4LBIquDVbpNRipuJH3jBfo"
-    },
-    {
-      "title": "Shake Senora (feat. T-Pain & Sean Paul)",
-      "track_id": "5q9OJ4uonOmdnYYhF1kZpl",
-      "isrc": null,
-      "artist": "Pitbull, T-Pain, Sean Paul",
-      "popularity": 29,
-      "spotify_url": "https://open.spotify.com/track/5q9OJ4uonOmdnYYhF1kZpl"
-    },
-    {
-      "title": "International Love (feat. Chris Brown)",
-      "track_id": "5o9JV34izXSnaKVyMjaMdE",
-      "isrc": null,
-      "artist": "Pitbull, Chris Brown",
-      "popularity": 46,
-      "spotify_url": "https://open.spotify.com/track/5o9JV34izXSnaKVyMjaMdE"
-    },
-    {
-      "title": "Castle Made Of Sand (feat. Kelly Rowland & Jamie Drastik)",
-      "track_id": "5LGRSgslJFLuxC9eYxDbR5",
-      "isrc": null,
-      "artist": "Pitbull, Kelly Rowland, Jamie Drastik",
-      "popularity": 16,
-      "spotify_url": "https://open.spotify.com/track/5LGRSgslJFLuxC9eYxDbR5"
-    },
-    {
-      "title": "Took My Love (feat. Red Foo, Vein & David Rush)",
-      "track_id": "2KBrbjuzZ01WRovc0P7mXL",
-      "isrc": null,
-      "artist": "Pitbull, Redfoo, Vein, David Rush",
-      "popularity": 17,
-      "spotify_url": "https://open.spotify.com/track/2KBrbjuzZ01WRovc0P7mXL"
-    },
-    {
-      "title": "Where Do We Go (feat. Jamie Foxx)",
-      "track_id": "36V3xOb3DUwUNi3C8oQnnz",
-      "isrc": null,
-      "artist": "Pitbull, Jamie Foxx",
-      "popularity": 17,
-      "spotify_url": "https://open.spotify.com/track/36V3xOb3DUwUNi3C8oQnnz"
-    },
-    {
-      "title": "Something For The DJs",
-      "track_id": "6MsQ9T1H5FQRfy17ny0jXs",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 16,
-      "spotify_url": "https://open.spotify.com/track/6MsQ9T1H5FQRfy17ny0jXs"
-    },
-    {
-      "title": "Pretty Woman (All Around The World)",
-      "track_id": "42hvCXX6axS8MLqciwEe9U",
-      "isrc": null,
-      "artist": "Azteck, Pitbull, Gabry Ponte",
-      "popularity": 43,
-      "spotify_url": "https://open.spotify.com/track/42hvCXX6axS8MLqciwEe9U"
-    },
-    {
-      "title": "Fun Dip",
-      "track_id": "0qFaCwkYRXRlwqKjx6QGod",
-      "isrc": null,
-      "artist": "Freak Nasty, Pitbull",
-      "popularity": 59,
-      "spotify_url": "https://open.spotify.com/track/0qFaCwkYRXRlwqKjx6QGod"
-    },
-    {
-      "title": "Global Warming (feat. Sensato)",
-      "track_id": "292kifgxa7S78AuzA5NMpL",
-      "isrc": null,
-      "artist": "Pitbull, Sensato",
-      "popularity": 35,
-      "spotify_url": "https://open.spotify.com/track/292kifgxa7S78AuzA5NMpL"
-    },
-    {
-      "title": "Don't Stop the Party (feat. TJR)",
-      "track_id": "3Tu7uWBecS6GsLsL8UONKn",
-      "isrc": null,
-      "artist": "Pitbull, TJR",
-      "popularity": 70,
-      "spotify_url": "https://open.spotify.com/track/3Tu7uWBecS6GsLsL8UONKn"
-    },
-    {
-      "title": "Feel This Moment (feat. Christina Aguilera)",
-      "track_id": "0Hf4aIJpsN4Os2f0y0VqWl",
-      "isrc": null,
-      "artist": "Pitbull, Christina Aguilera",
-      "popularity": 82,
-      "spotify_url": "https://open.spotify.com/track/0Hf4aIJpsN4Os2f0y0VqWl"
-    },
-    {
-      "title": "Back in Time - featured in \"Men In Black 3\"",
-      "track_id": "3eQlGeyuSibgAGPEJugaDW",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 58,
-      "spotify_url": "https://open.spotify.com/track/3eQlGeyuSibgAGPEJugaDW"
-    },
-    {
-      "title": "Hope We Meet Again (feat. Chris Brown)",
-      "track_id": "1tRVnqp5rpd2bhmaCGWFQp",
-      "isrc": null,
-      "artist": "Pitbull, Chris Brown",
+      "artist": "Pitbull, Bon Jovi",
       "popularity": 32,
-      "spotify_url": "https://open.spotify.com/track/1tRVnqp5rpd2bhmaCGWFQp"
+      "spotify_url": "https://open.spotify.com/track/5Ozdz7CCpNugu1SCxxXYNf"
     },
     {
-      "title": "Party Ain't Over (feat. Usher & Afrojack)",
-      "track_id": "4o9M41MAP0t0XFT6DdbXRp",
+      "title": "Now Or Never (Tropkillaz Remix)",
+      "track_id": "0GJ3X0kNpD8tU7Gh4tkAlj",
       "isrc": null,
-      "artist": "Pitbull, USHER, AFROJACK",
-      "popularity": 34,
-      "spotify_url": "https://open.spotify.com/track/4o9M41MAP0t0XFT6DdbXRp"
+      "artist": "Pitbull, Bon Jovi, Tropkillaz",
+      "popularity": 26,
+      "spotify_url": "https://open.spotify.com/track/0GJ3X0kNpD8tU7Gh4tkAlj"
     },
     {
-      "title": "Drinks for You (Ladies Anthem) (feat. J. Lo)",
-      "track_id": "5PiPtAgawvKui1fjOxVVUk",
+      "title": "Now Or Never (Muzik Junkies x AROCK Remix)",
+      "track_id": "35UglBxfIsjyBzYVFDWSaZ",
       "isrc": null,
-      "artist": "Pitbull, Jennifer Lopez",
-      "popularity": 29,
-      "spotify_url": "https://open.spotify.com/track/5PiPtAgawvKui1fjOxVVUk"
+      "artist": "Pitbull, Bon Jovi, Muzik Junkies, AROCK",
+      "popularity": 18,
+      "spotify_url": "https://open.spotify.com/track/35UglBxfIsjyBzYVFDWSaZ"
     },
     {
-      "title": "Have Some Fun (feat. The Wanted & Afrojack)",
-      "track_id": "5YNUvZm3tKAhzUcFlROTns",
+      "title": "Now Or Never (F.A.S.T. x & DJ Triple XL Remix)",
+      "track_id": "2Y2qAw0eYMIMOcsUZZaFY3",
       "isrc": null,
-      "artist": "Pitbull, The Wanted, AFROJACK",
-      "popularity": 35,
-      "spotify_url": "https://open.spotify.com/track/5YNUvZm3tKAhzUcFlROTns"
+      "artist": "Pitbull, Bon Jovi, F.A.S.T x, DJ Triple XL",
+      "popularity": 18,
+      "spotify_url": "https://open.spotify.com/track/2Y2qAw0eYMIMOcsUZZaFY3"
     },
     {
-      "title": "Outta Nowhere (feat. Danny Mercer)",
-      "track_id": "242JV78jcQFoeIIPxjXGGE",
-      "isrc": null,
-      "artist": "Pitbull, Danny Mercer",
-      "popularity": 40,
-      "spotify_url": "https://open.spotify.com/track/242JV78jcQFoeIIPxjXGGE"
-    },
-    {
-      "title": "Tchu Tchu Tcha (feat. Enrique Iglesias)",
-      "track_id": "16oZdWoSG7Ssxuow0bZc6W",
-      "isrc": null,
-      "artist": "Pitbull, Enrique Iglesias",
-      "popularity": 35,
-      "spotify_url": "https://open.spotify.com/track/16oZdWoSG7Ssxuow0bZc6W"
-    },
-    {
-      "title": "Last Night (feat. Afrojack & Havana Brown)",
-      "track_id": "3nv0HUZK7RaERcZFsrkCuK",
-      "isrc": null,
-      "artist": "Pitbull, AFROJACK, Havana Brown",
-      "popularity": 29,
-      "spotify_url": "https://open.spotify.com/track/3nv0HUZK7RaERcZFsrkCuK"
-    },
-    {
-      "title": "I'm Off That",
-      "track_id": "5b0tAONE2XRl7ZvMaxiIbK",
+      "title": "Intro",
+      "track_id": "4EIap3lgR5yc7YfuSTUJpS",
       "isrc": null,
       "artist": "Pitbull",
-      "popularity": 25,
-      "spotify_url": "https://open.spotify.com/track/5b0tAONE2XRl7ZvMaxiIbK"
+      "popularity": 12,
+      "spotify_url": "https://open.spotify.com/track/4EIap3lgR5yc7YfuSTUJpS"
     },
     {
-      "title": "Timber",
-      "track_id": "3cHyrEgdyYRjgJKSOiOtcS",
+      "title": "Miami S***",
+      "track_id": "1vyZxJDG1WPQJRzm2z4GBC",
       "isrc": null,
-      "artist": "Pitbull, Kesha",
-      "popularity": 85,
-      "spotify_url": "https://open.spotify.com/track/3cHyrEgdyYRjgJKSOiOtcS"
+      "artist": "Pitbull",
+      "popularity": 22,
+      "spotify_url": "https://open.spotify.com/track/1vyZxJDG1WPQJRzm2z4GBC"
     },
     {
-      "title": "That High (feat. Kelly Rowland)",
-      "track_id": "0zbAkytd9gbRmWpmri6BbF",
+      "title": "Come See Me",
+      "track_id": "7ycxotyZ52we2jKaIBuqwK",
       "isrc": null,
-      "artist": "Pitbull, Kelly Rowland",
-      "popularity": 34,
-      "spotify_url": "https://open.spotify.com/track/0zbAkytd9gbRmWpmri6BbF"
+      "artist": "Pitbull",
+      "popularity": 19,
+      "spotify_url": "https://open.spotify.com/track/7ycxotyZ52we2jKaIBuqwK"
     },
     {
-      "title": "Do It (feat. Mayer Hawthorne)",
-      "track_id": "6pWJ3UMOsi8Lsqmt4jdxKJ",
+      "title": "Jealouso",
+      "track_id": "0hi0WlCStaMjt0wGNysxqA",
       "isrc": null,
-      "artist": "Pitbull, Mayer Hawthorne",
-      "popularity": 41,
-      "spotify_url": "https://open.spotify.com/track/6pWJ3UMOsi8Lsqmt4jdxKJ"
+      "artist": "Pitbull",
+      "popularity": 19,
+      "spotify_url": "https://open.spotify.com/track/0hi0WlCStaMjt0wGNysxqA"
     },
     {
-      "title": "Sun in California (feat. Mohombi & Playb4ck)",
-      "track_id": "1clW7ykNY5OwSnxCN2Ypm3",
+      "title": "Que Tu Sabes D'Eso",
+      "track_id": "6Ar2t8hDgyrmjAVFKpQXg0",
       "isrc": null,
-      "artist": "Pitbull, Mohombi, PLAYB4CK",
-      "popularity": 29,
-      "spotify_url": "https://open.spotify.com/track/1clW7ykNY5OwSnxCN2Ypm3"
+      "artist": "Pitbull, Fat Joe, Sinful",
+      "popularity": 19,
+      "spotify_url": "https://open.spotify.com/track/6Ar2t8hDgyrmjAVFKpQXg0"
     },
     {
-      "title": "All the Things (feat. Inna)",
-      "track_id": "5uruNg7v7SBPOjyevhlsvQ",
+      "title": "Fademaster Skit",
+      "track_id": "3i0yPmdXovYNii91DpXciX",
       "isrc": null,
-      "artist": "Pitbull, INNA",
-      "popularity": 30,
-      "spotify_url": "https://open.spotify.com/track/5uruNg7v7SBPOjyevhlsvQ"
+      "artist": "Pitbull",
+      "popularity": 11,
+      "spotify_url": "https://open.spotify.com/track/3i0yPmdXovYNii91DpXciX"
     },
     {
-      "title": "2 The Moon",
-      "track_id": "5fbigfxYwz6fGGxe8Py57t",
+      "title": "Be Quiet",
+      "track_id": "67rbqLHcu4lcy6G7IHxUjK",
       "isrc": null,
-      "artist": "Pitbull, Ne-Yo, AFROJACK, DJ Buddha",
-      "popularity": 45,
-      "spotify_url": "https://open.spotify.com/track/5fbigfxYwz6fGGxe8Py57t"
+      "artist": "Pitbull",
+      "popularity": 17,
+      "spotify_url": "https://open.spotify.com/track/67rbqLHcu4lcy6G7IHxUjK"
+    },
+    {
+      "title": "Ay Chico (Lengua Afuera)",
+      "track_id": "3b2Dm0jdnbiD29SLROeLkU",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 43,
+      "spotify_url": "https://open.spotify.com/track/3b2Dm0jdnbiD29SLROeLkU"
+    },
+    {
+      "title": "Fuego",
+      "track_id": "57h06nfYP6aHNjkPMSwkqr",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 57,
+      "spotify_url": "https://open.spotify.com/track/57h06nfYP6aHNjkPMSwkqr"
+    },
+    {
+      "title": "Rock Bottom",
+      "track_id": "4yB6lyEStqSLibTQLFxko3",
+      "isrc": null,
+      "artist": "Pitbull, Bun B, Cubo",
+      "popularity": 17,
+      "spotify_url": "https://open.spotify.com/track/4yB6lyEStqSLibTQLFxko3"
+    },
+    {
+      "title": "Amanda Diva Skit",
+      "track_id": "20KOTvsxqfqLhRJhRkE3BY",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 11,
+      "spotify_url": "https://open.spotify.com/track/20KOTvsxqfqLhRJhRkE3BY"
+    },
+    {
+      "title": "Blood Is Thicker Than Water",
+      "track_id": "1IBL3iHGLAqEINnrGtdaCG",
+      "isrc": null,
+      "artist": "Pitbull, Redd Eyezz",
+      "popularity": 15,
+      "spotify_url": "https://open.spotify.com/track/1IBL3iHGLAqEINnrGtdaCG"
+    },
+    {
+      "title": "Jungle Fever",
+      "track_id": "1fr5uc3B1TYJ6DgBDaj92o",
+      "isrc": null,
+      "artist": "Pitbull, Wyclef Jean",
+      "popularity": 19,
+      "spotify_url": "https://open.spotify.com/track/1fr5uc3B1TYJ6DgBDaj92o"
+    },
+    {
+      "title": "Hey You Girl",
+      "track_id": "0n4ELJ0n5RahdyVsUAFV2p",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 20,
+      "spotify_url": "https://open.spotify.com/track/0n4ELJ0n5RahdyVsUAFV2p"
+    },
+    {
+      "title": "Raindrops",
+      "track_id": "0QCjjHeo9rva4uz6ySzXDl",
+      "isrc": null,
+      "artist": "Pitbull, Anjuli Stars",
+      "popularity": 16,
+      "spotify_url": "https://open.spotify.com/track/0QCjjHeo9rva4uz6ySzXDl"
+    },
+    {
+      "title": "Voodoo",
+      "track_id": "6mR4Ct8GxIhuw9u4m6iPYx",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 17,
+      "spotify_url": "https://open.spotify.com/track/6mR4Ct8GxIhuw9u4m6iPYx"
+    },
+    {
+      "title": "Descarada (Dance)",
+      "track_id": "1sP8Q7PGUNpEpmu090fCrr",
+      "isrc": null,
+      "artist": "Pitbull, Vybz Kartel",
+      "popularity": 38,
+      "spotify_url": "https://open.spotify.com/track/1sP8Q7PGUNpEpmu090fCrr"
+    },
+    {
+      "title": "Dime (Remix)",
+      "track_id": "4rYzw0kS3D2aTXf0wqL7ap",
+      "isrc": null,
+      "artist": "Pitbull, Ken-Y",
+      "popularity": 38,
+      "spotify_url": "https://open.spotify.com/track/4rYzw0kS3D2aTXf0wqL7ap"
+    },
+    {
+      "title": "Bojangles (Remix)",
+      "track_id": "7snK1sf3ZHxahCYpFy1aJ8",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon, Ying Yang Twins",
+      "popularity": 49,
+      "spotify_url": "https://open.spotify.com/track/7snK1sf3ZHxahCYpFy1aJ8"
+    },
+    {
+      "title": "Born N Raised",
+      "track_id": "7jPYbNUUYBKXhrAvSFwVf2",
+      "isrc": null,
+      "artist": "Pitbull, Trick Daddy, Rick Ross",
+      "popularity": 36,
+      "spotify_url": "https://open.spotify.com/track/7jPYbNUUYBKXhrAvSFwVf2"
+    },
+    {
+      "title": "Outro",
+      "track_id": "1un1kGcmmgUean0kU3yPng",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 10,
+      "spotify_url": "https://open.spotify.com/track/1un1kGcmmgUean0kU3yPng"
+    },
+    {
+      "title": "Now Or Never (Tropkillaz Remix)",
+      "track_id": "77v7Nm5MP87Ale71TTxQJE",
+      "isrc": null,
+      "artist": "Pitbull, Bon Jovi, Tropkillaz",
+      "popularity": 36,
+      "spotify_url": "https://open.spotify.com/track/77v7Nm5MP87Ale71TTxQJE"
     },
     {
       "title": "Triumph (feat. Avery Storm)",
@@ -3126,7 +3054,7 @@
       "track_id": "6r9uMZ7NBaMO1ovylcJZI4",
       "isrc": null,
       "artist": "Pitbull, Akon",
-      "popularity": 46,
+      "popularity": 45,
       "spotify_url": "https://open.spotify.com/track/6r9uMZ7NBaMO1ovylcJZI4"
     },
     {
@@ -3226,220 +3154,292 @@
       "spotify_url": "https://open.spotify.com/track/4YPfERWvWpc5nW8PJYBtTf"
     },
     {
-      "title": "2 The Moon - Julian Cross x Afrojack Summer Remix",
-      "track_id": "3gY2G19E5UFY9Bo4BtPkbN",
+      "title": "Now Or Never (F.A.S.T. x & DJ Triple XL Remix)",
+      "track_id": "0ne6OckaYVeDJOMBETFHBC",
       "isrc": null,
-      "artist": "Pitbull, Ne-Yo, AFROJACK, Julian Cross",
-      "popularity": 26,
-      "spotify_url": "https://open.spotify.com/track/3gY2G19E5UFY9Bo4BtPkbN"
+      "artist": "Pitbull, Bon Jovi, DJ Triple XL, F.A.S.T x",
+      "popularity": 25,
+      "spotify_url": "https://open.spotify.com/track/0ne6OckaYVeDJOMBETFHBC"
     },
     {
-      "title": "2 The Moon - Play-n-Skillz x Scott Summers Big Room Remix",
-      "track_id": "6aIhi2UqBizhYOFTfduqqX",
+      "title": "We Will Rock You (2025 FIFA Club World Cup Theme Song) feat. Pitbull x RedOne",
+      "track_id": "04ZqXbNALun3YsLqC3TxEl",
       "isrc": null,
-      "artist": "Pitbull, Ne-Yo, AFROJACK, Play-N-Skillz, Scott Summers",
-      "popularity": 20,
-      "spotify_url": "https://open.spotify.com/track/6aIhi2UqBizhYOFTfduqqX"
-    },
-    {
-      "title": "2 The Moon - Amél Remix",
-      "track_id": "4uESUlmjZIShKH1NWhQ5dW",
-      "isrc": null,
-      "artist": "Pitbull, Ne-Yo, AFROJACK, Amél",
-      "popularity": 21,
-      "spotify_url": "https://open.spotify.com/track/4uESUlmjZIShKH1NWhQ5dW"
-    },
-    {
-      "title": "Maldito Alcohol (Pitbull vs. Afrojack)",
-      "track_id": "5VtRjcZYvXj1VdT3FWG3ZD",
-      "isrc": null,
-      "artist": "Pitbull, AFROJACK",
-      "popularity": 55,
-      "spotify_url": "https://open.spotify.com/track/5VtRjcZYvXj1VdT3FWG3ZD"
-    },
-    {
-      "title": "Esta Noche - Dj Antoine vs. Mad Mark & Clubzound Mix",
-      "track_id": "0Tqn4OpXhgQBfIvOPWivm8",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 18,
-      "spotify_url": "https://open.spotify.com/track/0Tqn4OpXhgQBfIvOPWivm8"
-    },
-    {
-      "title": "Mujeres",
-      "track_id": "2A5WbDBEPCW6AQ9MB4bmJH",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 18,
-      "spotify_url": "https://open.spotify.com/track/2A5WbDBEPCW6AQ9MB4bmJH"
-    },
-    {
-      "title": "Bon, Bon",
-      "track_id": "2se2ftZroH3KekklBeexuW",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 0,
-      "spotify_url": "https://open.spotify.com/track/2se2ftZroH3KekklBeexuW"
-    },
-    {
-      "title": "Guantanamera (She's Hot)",
-      "track_id": "7CijDWxEEbKq76O5rpyCEN",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 63,
-      "spotify_url": "https://open.spotify.com/track/7CijDWxEEbKq76O5rpyCEN"
-    },
-    {
-      "title": "Tu Cuerpo",
-      "track_id": "5QqCTlzMOfEHVBnK7dlqIq",
-      "isrc": null,
-      "artist": "Pitbull, JENCARLOS",
-      "popularity": 28,
-      "spotify_url": "https://open.spotify.com/track/5QqCTlzMOfEHVBnK7dlqIq"
-    },
-    {
-      "title": "Vida 23",
-      "track_id": "25jQEpK1jTQ2GR6NJQJIX3",
-      "isrc": null,
-      "artist": "Pitbull, Nayer",
-      "popularity": 23,
-      "spotify_url": "https://open.spotify.com/track/25jQEpK1jTQ2GR6NJQJIX3"
-    },
-    {
-      "title": "Amorosa",
-      "track_id": "74ZgmOWM9pzxvupnU3pXR0",
-      "isrc": null,
-      "artist": "Pitbull, Papayo, MC Marcinho",
-      "popularity": 20,
-      "spotify_url": "https://open.spotify.com/track/74ZgmOWM9pzxvupnU3pXR0"
-    },
-    {
-      "title": "Watagatapitusberry - Remix",
-      "track_id": "556v4tBWap03ysXJtI7hlI",
-      "isrc": null,
-      "artist": "Pitbull, Lil Jon, Sensato, Black Point, El Cata",
-      "popularity": 29,
-      "spotify_url": "https://open.spotify.com/track/556v4tBWap03ysXJtI7hlI"
-    },
-    {
-      "title": "Orgullo",
-      "track_id": "3iZ1Sso365xtDXgqecS2Od",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 17,
-      "spotify_url": "https://open.spotify.com/track/3iZ1Sso365xtDXgqecS2Od"
-    },
-    {
-      "title": "Preguntale",
-      "track_id": "51wQzyMceEnmvekzLp4UHf",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 15,
-      "spotify_url": "https://open.spotify.com/track/51wQzyMceEnmvekzLp4UHf"
-    },
-    {
-      "title": "Crazy People",
-      "track_id": "3EHu45HUFUQ7kLNdkjpIMs",
-      "isrc": null,
-      "artist": "Sensato, Pitbull, Sak Noel",
-      "popularity": 0,
-      "spotify_url": "https://open.spotify.com/track/3EHu45HUFUQ7kLNdkjpIMs"
-    },
-    {
-      "title": "Echa Pa'lla (Manos Pa'rriba)",
-      "track_id": "53FLT2Phb4T0eGWvJBuLbK",
-      "isrc": null,
-      "artist": "Pitbull",
-      "popularity": 42,
-      "spotify_url": "https://open.spotify.com/track/53FLT2Phb4T0eGWvJBuLbK"
-    },
-    {
-      "title": "Tamo Bien",
-      "track_id": "63nTlIWHInEK2q3QEKarDN",
-      "isrc": null,
-      "artist": "Enrique Iglesias, Pitbull, IAmChino",
-      "popularity": 41,
-      "spotify_url": "https://open.spotify.com/track/63nTlIWHInEK2q3QEKarDN"
+      "artist": "FIFA Sound, Pitbull, RedOne",
+      "popularity": 44,
+      "spotify_url": "https://open.spotify.com/track/04ZqXbNALun3YsLqC3TxEl"
     },
     {
       "title": "Borracho Y Loco",
-      "track_id": "6JbJ5vPFWyeB3WvolAXFoP",
+      "track_id": "6dAddkQrHc0Ywg2FX2Afqt",
       "isrc": null,
       "artist": "IAmChino, Pitbull, Flo Rida",
-      "popularity": 61,
-      "spotify_url": "https://open.spotify.com/track/6JbJ5vPFWyeB3WvolAXFoP"
+      "popularity": 31,
+      "spotify_url": "https://open.spotify.com/track/6dAddkQrHc0Ywg2FX2Afqt"
     },
     {
-      "title": "4 ALL MY UNDERDOGS",
-      "track_id": "1z4AkstcN6VT4qio9IHJbj",
+      "title": "Piensas (Dile la Verdad)",
+      "track_id": "4G8v8POxyDsNyaRAyGvuie",
       "isrc": null,
-      "artist": "IAmChino, Pitbull",
-      "popularity": 36,
-      "spotify_url": "https://open.spotify.com/track/1z4AkstcN6VT4qio9IHJbj"
+      "artist": "Pitbull, Gente De Zona",
+      "popularity": 48,
+      "spotify_url": "https://open.spotify.com/track/4G8v8POxyDsNyaRAyGvuie"
     },
     {
-      "title": "La Hora",
-      "track_id": "18Pbham7o4eKKYPT2QpUlr",
+      "title": "Como Yo Le Doy - Spanglish Version",
+      "track_id": "5PnEBmCk56RQphcMe7EqhG",
       "isrc": null,
-      "artist": "IAmChino, Pitbull, Tito \"El Bambino\"",
+      "artist": "Pitbull, Don Miguelo",
+      "popularity": 76,
+      "spotify_url": "https://open.spotify.com/track/5PnEBmCk56RQphcMe7EqhG"
+    },
+    {
+      "title": "El Taxi",
+      "track_id": "1LbGorB0xOfpiXQJFKB2Nd",
+      "isrc": null,
+      "artist": "Pitbull, Osmani Garcia \"La Voz\"",
+      "popularity": 70,
+      "spotify_url": "https://open.spotify.com/track/1LbGorB0xOfpiXQJFKB2Nd"
+    },
+    {
+      "title": "Yo Quiero (Si Tu Te Enamoras)",
+      "track_id": "3NIgZcptBrGIgGHdrsxIEC",
+      "isrc": null,
+      "artist": "Gente De Zona, Pitbull",
+      "popularity": 29,
+      "spotify_url": "https://open.spotify.com/track/3NIgZcptBrGIgGHdrsxIEC"
+    },
+    {
+      "title": "El Party",
+      "track_id": "3rDfmjVX1aS90LXJMMmp51",
+      "isrc": null,
+      "artist": "Pitbull, Micha",
+      "popularity": 30,
+      "spotify_url": "https://open.spotify.com/track/3rDfmjVX1aS90LXJMMmp51"
+    },
+    {
+      "title": "Mami Mami",
+      "track_id": "406DbQLmjelaICKQhJ4BFM",
+      "isrc": null,
+      "artist": "Pitbull, Fuego",
+      "popularity": 29,
+      "spotify_url": "https://open.spotify.com/track/406DbQLmjelaICKQhJ4BFM"
+    },
+    {
+      "title": "Baddest Girl In Town",
+      "track_id": "6Utgc4d1wmtkACjStaJUwd",
+      "isrc": null,
+      "artist": "Pitbull, Mohombi, Wisin",
+      "popularity": 43,
+      "spotify_url": "https://open.spotify.com/track/6Utgc4d1wmtkACjStaJUwd"
+    },
+    {
+      "title": "Chi Chi Bon Bon",
+      "track_id": "52t6MJCewRtvqaMVl2BssH",
+      "isrc": null,
+      "artist": "Pitbull, Osmani Garcia \"La Voz\"",
+      "popularity": 30,
+      "spotify_url": "https://open.spotify.com/track/52t6MJCewRtvqaMVl2BssH"
+    },
+    {
+      "title": "Haciendo Ruido",
+      "track_id": "0tKDRnU5DvHR1nIRxUlglv",
+      "isrc": null,
+      "artist": "Pitbull, Ricky Martin",
+      "popularity": 32,
+      "spotify_url": "https://open.spotify.com/track/0tKDRnU5DvHR1nIRxUlglv"
+    },
+    {
+      "title": "Hoy Se Bebe",
+      "track_id": "3M9BHPTBXTJ4wEhFPneMDE",
+      "isrc": null,
+      "artist": "Pitbull, Farruko",
       "popularity": 39,
-      "spotify_url": "https://open.spotify.com/track/18Pbham7o4eKKYPT2QpUlr"
+      "spotify_url": "https://open.spotify.com/track/3M9BHPTBXTJ4wEhFPneMDE"
     },
     {
-      "title": "Sin Ropa",
-      "track_id": "3ar1fF14Es3aRM9KWurH1U",
+      "title": "No Puedo Más",
+      "track_id": "0imqsFAVIQS4MV431jUO51",
       "isrc": null,
-      "artist": "IAmChino, Pitbull",
-      "popularity": 38,
-      "spotify_url": "https://open.spotify.com/track/3ar1fF14Es3aRM9KWurH1U"
+      "artist": "Pitbull, Yandel",
+      "popularity": 27,
+      "spotify_url": "https://open.spotify.com/track/0imqsFAVIQS4MV431jUO51"
     },
     {
-      "title": "Soy Asi",
-      "track_id": "0zdP0BJEUiYco9rDKXWJYh",
+      "title": "Que Lo Que",
+      "track_id": "4YmMHaVX6RImbL1PrfxqaG",
       "isrc": null,
-      "artist": "IAmChino, Pitbull, Victor Cardenas",
-      "popularity": 40,
-      "spotify_url": "https://open.spotify.com/track/0zdP0BJEUiYco9rDKXWJYh"
+      "artist": "Pitbull, Sensato, Papayo, El Chevo",
+      "popularity": 30,
+      "spotify_url": "https://open.spotify.com/track/4YmMHaVX6RImbL1PrfxqaG"
     },
     {
-      "title": "Hangover",
-      "track_id": "6RtPamJzupeYEiq4yqc5gO",
+      "title": "Yeehaw",
+      "track_id": "3zvpqxPFQxtFLD1FdCBiOf",
       "isrc": null,
-      "artist": "IAmChino, Pitbull, Nio Garcia",
-      "popularity": 38,
-      "spotify_url": "https://open.spotify.com/track/6RtPamJzupeYEiq4yqc5gO"
+      "artist": "FILMORE, Pitbull",
+      "popularity": 61,
+      "spotify_url": "https://open.spotify.com/track/3zvpqxPFQxtFLD1FdCBiOf"
     },
     {
-      "title": "Hasta La Mañana",
-      "track_id": "0Tvm2xlJtra0338vbVVgpw",
+      "title": "So Sorry",
+      "track_id": "0tnnWEeThAUDLh62BnQKRU",
       "isrc": null,
-      "artist": "IAmChino, Pitbull, White Star, Salvi",
-      "popularity": 37,
-      "spotify_url": "https://open.spotify.com/track/0Tvm2xlJtra0338vbVVgpw"
+      "artist": "Pitbull",
+      "popularity": 20,
+      "spotify_url": "https://open.spotify.com/track/0tnnWEeThAUDLh62BnQKRU"
     },
     {
-      "title": "Pasame La Botella",
-      "track_id": "0qnvOarNrLfi9hxovKYkkd",
+      "title": "Father & Son",
+      "track_id": "1hkWjoLsahC5HuTyn5J5iT",
       "isrc": null,
-      "artist": "IAmChino, Deorro, Pitbull, Mariah Angeliq",
-      "popularity": 37,
-      "spotify_url": "https://open.spotify.com/track/0qnvOarNrLfi9hxovKYkkd"
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 17,
+      "spotify_url": "https://open.spotify.com/track/1hkWjoLsahC5HuTyn5J5iT"
     },
     {
-      "title": "Party",
-      "track_id": "2F7oklKXlAavWCh2fmXHig",
+      "title": "Carpe Diem",
+      "track_id": "2zH0GWHJ4GSZi2JfUTbDpD",
       "isrc": null,
-      "artist": "IAmChino, Bulin 47, Pitbull",
-      "popularity": 36,
-      "spotify_url": "https://open.spotify.com/track/2F7oklKXlAavWCh2fmXHig"
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 16,
+      "spotify_url": "https://open.spotify.com/track/2zH0GWHJ4GSZi2JfUTbDpD"
     },
     {
-      "title": "Rubia",
-      "track_id": "7y6sZWmyCFgIJ3NLPlgyER",
+      "title": "Amore",
+      "track_id": "2lXdIYOoii1t4obdvgMirK",
       "isrc": null,
-      "artist": "IAmChino, Pitbull",
-      "popularity": 33,
-      "spotify_url": "https://open.spotify.com/track/7y6sZWmyCFgIJ3NLPlgyER"
+      "artist": "Pitbull, Leona Lewis",
+      "popularity": 25,
+      "spotify_url": "https://open.spotify.com/track/2lXdIYOoii1t4obdvgMirK"
+    },
+    {
+      "title": "Don't Say Another Word",
+      "track_id": "2JWcZFAQm0hLMezUVp6ytB",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 15,
+      "spotify_url": "https://open.spotify.com/track/2JWcZFAQm0hLMezUVp6ytB"
+    },
+    {
+      "title": "The Meeting",
+      "track_id": "7K2qzAp1FcEaKTNwtlHKdm",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 14,
+      "spotify_url": "https://open.spotify.com/track/7K2qzAp1FcEaKTNwtlHKdm"
+    },
+    {
+      "title": "Enough",
+      "track_id": "7fx9WWXNKLxMN21y62aWIj",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 14,
+      "spotify_url": "https://open.spotify.com/track/7fx9WWXNKLxMN21y62aWIj"
+    },
+    {
+      "title": "Father",
+      "track_id": "2XPe3fBELI20H9STwPMX6L",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 15,
+      "spotify_url": "https://open.spotify.com/track/2XPe3fBELI20H9STwPMX6L"
+    },
+    {
+      "title": "Advice",
+      "track_id": "0d99n8DFZziF0DHbBOEhA6",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 14,
+      "spotify_url": "https://open.spotify.com/track/0d99n8DFZziF0DHbBOEhA6"
+    },
+    {
+      "title": "Somebody To Be",
+      "track_id": "3QUdLpe40Im2mvgJl1kRLl",
+      "isrc": null,
+      "artist": "Pitbull",
+      "popularity": 20,
+      "spotify_url": "https://open.spotify.com/track/3QUdLpe40Im2mvgJl1kRLl"
+    },
+    {
+      "title": "The Mistake",
+      "track_id": "70nPicj6utwHjEREgoa2ZQ",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/70nPicj6utwHjEREgoa2ZQ"
+    },
+    {
+      "title": "Still Here",
+      "track_id": "00939AtloLku4VBWYNqY8x",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/00939AtloLku4VBWYNqY8x"
+    },
+    {
+      "title": "I Know You Know",
+      "track_id": "4eXcqF7LRYRpCOv5dseNqE",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/4eXcqF7LRYRpCOv5dseNqE"
+    },
+    {
+      "title": "Cosa Nostra",
+      "track_id": "4e3TTD2pv3iN8sUsqp37eu",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 14,
+      "spotify_url": "https://open.spotify.com/track/4e3TTD2pv3iN8sUsqp37eu"
+    },
+    {
+      "title": "The Decision",
+      "track_id": "5DtSRptyHUgO89hmFdhbu2",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/5DtSRptyHUgO89hmFdhbu2"
+    },
+    {
+      "title": "The Plot",
+      "track_id": "4xTOKvaVQz4VtgBy1dsulF",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/4xTOKvaVQz4VtgBy1dsulF"
+    },
+    {
+      "title": "The Shelf",
+      "track_id": "6OxYVG17vm5dsLydvMbLkQ",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/6OxYVG17vm5dsLydvMbLkQ"
+    },
+    {
+      "title": "The Trial",
+      "track_id": "0sG7AlnXkcyKdwt7d2EFgf",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 12,
+      "spotify_url": "https://open.spotify.com/track/0sG7AlnXkcyKdwt7d2EFgf"
+    },
+    {
+      "title": "Mourning",
+      "track_id": "22DTsu2kSQLvDeql59Qm3C",
+      "isrc": null,
+      "artist": "Pitbull, Jorge Gomez",
+      "popularity": 13,
+      "spotify_url": "https://open.spotify.com/track/22DTsu2kSQLvDeql59Qm3C"
+    },
+    {
+      "title": "Damn I Love Miami",
+      "track_id": "7t1SuBddByBghdAD47acYa",
+      "isrc": null,
+      "artist": "Pitbull, Lil Jon",
+      "popularity": 68,
+      "spotify_url": "https://open.spotify.com/track/7t1SuBddByBghdAD47acYa"
     },
     {
       "title": "That That (prod.&feat. SUGA of BTS)",
