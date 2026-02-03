@@ -51,12 +51,12 @@ const albumMap = {
 async function loadData() {
 
   /* 今日のデータを読み込み */
-  const today = await fetch("../docs/spotify_data.json").then(r => r.json());
+  const today = await fetch("/agustd/docs/spotify_data.json").then(r => r.json());
 
   /* 前日のデータが無い場合（初回）は空データで代用 */
   let yesterday = { tracks: [] };
   try {
-    yesterday = await fetch("../docs/spotify_data_prev.json").then(r => r.json());
+    yesterday = await fetch("/agustd/docs/spotify_data_prev.json").then(r => r.json());
   } catch (e) {
     console.log("前日のデータがありません（初回実行）");
   }
