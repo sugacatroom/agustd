@@ -1,52 +1,5 @@
 [
   {
-    "date": "2026-02-05",
-    "videos": [
-      {
-        "videoId": "iy9qZR_OGa0",
-        "title": "Agust D '해금' Official MV",
-        "views_total": 104986848,
-        "views_diff": 29765
-      },
-      {
-        "videoId": "uVD-YgzDzyY",
-        "title": "Agust D '사람 Pt.2 (feat. 아이유)' Official MV",
-        "views_total": 49185104,
-        "views_diff": 12076
-      },
-      {
-        "videoId": "IX1dkYoLHVs",
-        "title": "Agust D 'AMYGDALA' Official MV",
-        "views_total": 14937455,
-        "views_diff": 2936
-      },
-      {
-        "videoId": "qGjAWJ2zWWI",
-        "title": "Agust D '대취타' MV",
-        "views_total": 482915028,
-        "views_diff": 41746
-      },
-      {
-        "videoId": "_Zgc12yL5ss",
-        "title": "Agust D ‘give it to me’ MV",
-        "views_total": 59900608,
-        "views_diff": 3000
-      },
-      {
-        "videoId": "3Y_Eiyg4bfk",
-        "title": "Agust D 'Agust D' MV",
-        "views_total": 184321439,
-        "views_diff": 14890
-      },
-      {
-        "videoId": "PV1gCvzpSy0",
-        "title": "BTS (방탄소년단) MAP OF THE SOUL : 7 'Interlude : Shadow' Comeback Trailer",
-        "views_total": 126796356,
-        "views_diff": 5998
-      }
-    ]
-  },
-  {
     "date": "2026-02-06",
     "videos": [
       {
@@ -325,6 +278,53 @@
         "title": "BTS (방탄소년단) MAP OF THE SOUL : 7 'Interlude : Shadow' Comeback Trailer",
         "views_total": 126831453,
         "views_diff": 5644
+      }
+    ]
+  },
+  {
+    "date": "2026-02-12",
+    "videos": [
+      {
+        "videoId": "iy9qZR_OGa0",
+        "title": "Agust D '해금' Official MV",
+        "views_total": 105200280,
+        "views_diff": 29842
+      },
+      {
+        "videoId": "uVD-YgzDzyY",
+        "title": "Agust D '사람 Pt.2 (feat. 아이유)' Official MV",
+        "views_total": 49269057,
+        "views_diff": 12594
+      },
+      {
+        "videoId": "IX1dkYoLHVs",
+        "title": "Agust D 'AMYGDALA' Official MV",
+        "views_total": 14959599,
+        "views_diff": 3073
+      },
+      {
+        "videoId": "qGjAWJ2zWWI",
+        "title": "Agust D '대취타' MV",
+        "views_total": 483209155,
+        "views_diff": 38986
+      },
+      {
+        "videoId": "_Zgc12yL5ss",
+        "title": "Agust D ‘give it to me’ MV",
+        "views_total": 59920430,
+        "views_diff": 2772
+      },
+      {
+        "videoId": "3Y_Eiyg4bfk",
+        "title": "Agust D 'Agust D' MV",
+        "views_total": 184427383,
+        "views_diff": 14770
+      },
+      {
+        "videoId": "PV1gCvzpSy0",
+        "title": "BTS (방탄소년단) MAP OF THE SOUL : 7 'Interlude : Shadow' Comeback Trailer",
+        "views_total": 126837136,
+        "views_diff": 5683
       }
     ]
   }
