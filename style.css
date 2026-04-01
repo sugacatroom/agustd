@@ -78,7 +78,7 @@ h2 {
 iframe {
   flex-shrink: 0;       /* 縮小を防ぐ */
   width: 300px;         /* 固定幅 */
-  height: 80px;
+/*  height: 80px;*/
   border: 0;
   margin-right: 20px;
 }
@@ -145,7 +145,7 @@ label {
 
   iframe {
     width: 100%;   /* 親要素に合わせる */
-    height: 80px;  /* 高さは維持 */
+/*  height: 80px;*/ /* 高さは維持 */
     margin-right: 0;
     /*余白を縮める margin-bottom: 10px;*/
   }
