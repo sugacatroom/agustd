@@ -138,6 +138,11 @@ label {
    スマホ対応 (画面幅が600px以下の場合)
    =============================== */
 @media (max-width: 600px) {
+  iframe {
+  position: relative;
+  top: -2.5rem; /* iframe 内の padding を打ち消す */
+  height: calc(100% + 2.5rem);
+}
   .video-item {
     flex-direction: column; /* 縦並びにする */
     align-items: flex-start;
