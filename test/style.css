@@ -158,29 +158,6 @@ label {
    =============================== */
 @media (max-width: 600px) {
 
-  .video-item {
-    flex-direction: column;
-    /* 縦並びにする */
-    align-items: flex-start;
-    width: 100%;
-    height: 80px;
-    /* ← 見せたい高さだけ */
-    overflow: hidden;
-    /* ← iframe内の余白を切り落とす */
-    position: relative;
-  }
-
-  .video-item iframe {
-    width: 100%;
-    height: calc(80px + 2.5rem);
-    /* ← iframe内のpadding分だけ余分に確保 */
-    border: 0;
-    position: absolute;
-    top: -2.5rem;
-    /* ← iframe内のpaddingを隠す */
-    left: 0;
-  }
-
   iframe {
     width: 100%;
     /* 親要素に合わせる */
@@ -195,4 +172,28 @@ label {
     /* 少し小さめにして見やすく */
     line-height: 1.3;
   }
+    .video-item {
+    flex-direction: column;
+    /* 縦並びにする */
+    align-items: flex-start;
+    width: 100%;
+    height: 80px;
+    /* ← 見せたい高さだけ */
+    overflow: hidden;
+    /* ← iframe内の余白を切り落とす */
+    position: relative;
+  }
+
+    .video-item iframe {
+    width: 100%;
+    height: calc(80px + 2.5rem);
+    /* ← iframe内のpadding分だけ余分に確保 */
+    border: 0;
+    position: absolute;
+    top: -2.5rem;
+    /* ← iframe内のpaddingを隠す */
+    left: 0;
+  }
+
+
 }
