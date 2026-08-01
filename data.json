@@ -1,58 +1,5 @@
 [
   {
-    "date": "2026-07-26",
-    "videos": [
-      {
-        "videoId": "iy9qZR_OGa0",
-        "title": "Agust D '해금' Official MV",
-        "views_total": 110522820,
-        "views_diff": 36553
-      },
-      {
-        "videoId": "uVD-YgzDzyY",
-        "title": "Agust D '사람 Pt.2 (feat. 아이유)' Official MV",
-        "views_total": 51112105,
-        "views_diff": 10064
-      },
-      {
-        "videoId": "IX1dkYoLHVs",
-        "title": "Agust D 'AMYGDALA' Official MV",
-        "views_total": 15538937,
-        "views_diff": 3238
-      },
-      {
-        "videoId": "qGjAWJ2zWWI",
-        "title": "Agust D '대취타' MV",
-        "views_total": 490842348,
-        "views_diff": 44806
-      },
-      {
-        "videoId": "_Zgc12yL5ss",
-        "title": "Agust D ‘give it to me’ MV",
-        "views_total": 60349756,
-        "views_diff": 2291
-      },
-      {
-        "videoId": "3Y_Eiyg4bfk",
-        "title": "Agust D 'Agust D' MV",
-        "views_total": 186972329,
-        "views_diff": 15297
-      },
-      {
-        "videoId": "PV1gCvzpSy0",
-        "title": "BTS (방탄소년단) MAP OF THE SOUL : 7 'Interlude : Shadow' Comeback Trailer",
-        "views_total": 127788707,
-        "views_diff": 4745
-      },
-      {
-        "videoId": "MEoxtFRfPoc",
-        "title": "BTS (방탄소년단) 'Come Over' Lyric Video",
-        "views_total": 12636172,
-        "views_diff": 115119
-      }
-    ]
-  },
-  {
     "date": "2026-07-27",
     "videos": [
       {
@@ -367,6 +314,59 @@
         "title": "BTS (방탄소년단) 'Come Over' Lyric Video",
         "views_total": 13326182,
         "views_diff": 113704
+      }
+    ]
+  },
+  {
+    "date": "2026-08-02",
+    "videos": [
+      {
+        "videoId": "iy9qZR_OGa0",
+        "title": "Agust D '해금' Official MV",
+        "views_total": 110750459,
+        "views_diff": 30767
+      },
+      {
+        "videoId": "uVD-YgzDzyY",
+        "title": "Agust D '사람 Pt.2 (feat. 아이유)' Official MV",
+        "views_total": 51181495,
+        "views_diff": 9780
+      },
+      {
+        "videoId": "IX1dkYoLHVs",
+        "title": "Agust D 'AMYGDALA' Official MV",
+        "views_total": 15561174,
+        "views_diff": 3227
+      },
+      {
+        "videoId": "qGjAWJ2zWWI",
+        "title": "Agust D '대취타' MV",
+        "views_total": 491145645,
+        "views_diff": 42920
+      },
+      {
+        "videoId": "_Zgc12yL5ss",
+        "title": "Agust D ‘give it to me’ MV",
+        "views_total": 60366633,
+        "views_diff": 2356
+      },
+      {
+        "videoId": "3Y_Eiyg4bfk",
+        "title": "Agust D 'Agust D' MV",
+        "views_total": 187076208,
+        "views_diff": 14750
+      },
+      {
+        "videoId": "PV1gCvzpSy0",
+        "title": "BTS (방탄소년단) MAP OF THE SOUL : 7 'Interlude : Shadow' Comeback Trailer",
+        "views_total": 127821561,
+        "views_diff": 5070
+      },
+      {
+        "videoId": "MEoxtFRfPoc",
+        "title": "BTS (방탄소년단) 'Come Over' Lyric Video",
+        "views_total": 13431113,
+        "views_diff": 104931
       }
     ]
   }
