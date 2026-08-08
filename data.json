@@ -1,95 +1,373 @@
 [
   {
-    "date": "2026-08-02",
-    "videos": [
-      { "videoId": "iy9qZR_OGa0", "title": "해금", "views_total": 110750459, "views_diff": 30767 },
-      { "videoId": "uVD-YgzDzyY", "title": "사람 Pt.2", "views_total": 51181495, "views_diff": 9780 },
-      { "videoId": "IX1dkYoLHVs", "title": "AMYGDALA", "views_total": 15561174, "views_diff": 3227 },
-      { "videoId": "qGjAWJ2zWWI", "title": "대취타", "views_total": 491145645, "views_diff": 42920 },
-      { "videoId": "_Zgc12yL5ss", "title": "Give It To Me", "views_total": 60366633, "views_diff": 2356 },
-      { "videoId": "3Y_Eiyg4bfk", "title": "Agust D", "views_total": 187076208, "views_diff": 14750 },
-      { "videoId": "PV1gCvzpSy0", "title": "Interlude : Shadow", "views_total": 127821561, "views_diff": 5070 },
-      { "videoId": "MEoxtFRfPoc", "title": "Come Over", "views_total": 13431113, "views_diff": 104931 }
-    ]
-  },
-  {
     "date": "2026-08-03",
     "videos": [
-      { "videoId": "iy9qZR_OGa0", "title": "해금", "views_total": 110779954, "views_diff": 29495 },
-      { "videoId": "uVD-YgzDzyY", "title": "사람 Pt.2", "views_total": 51190742, "views_diff": 9247 },
-      { "videoId": "IX1dkYoLHVs", "title": "AMYGDALA", "views_total": 15564139, "views_diff": 2965 },
-      { "videoId": "qGjAWJ2zWWI", "title": "대취타", "views_total": 491187536, "views_diff": 41891 },
-      { "videoId": "_Zgc12yL5ss", "title": "Give It To Me", "views_total": 60369026, "views_diff": 2393 },
-      { "videoId": "3Y_Eiyg4bfk", "title": "Agust D", "views_total": 187090333, "views_diff": 14125 },
-      { "videoId": "PV1gCvzpSy0", "title": "Interlude : Shadow", "views_total": 127826085, "views_diff": 4524 },
-      { "videoId": "MEoxtFRfPoc", "title": "Come Over", "views_total": 13527919, "views_diff": 96806 }
+      {
+        "videoId": "iy9qZR_OGa0",
+        "title": "해금",
+        "views_total": 110779954,
+        "views_diff": 29495
+      },
+      {
+        "videoId": "uVD-YgzDzyY",
+        "title": "사람 Pt.2",
+        "views_total": 51190742,
+        "views_diff": 9247
+      },
+      {
+        "videoId": "IX1dkYoLHVs",
+        "title": "AMYGDALA",
+        "views_total": 15564139,
+        "views_diff": 2965
+      },
+      {
+        "videoId": "qGjAWJ2zWWI",
+        "title": "대취타",
+        "views_total": 491187536,
+        "views_diff": 41891
+      },
+      {
+        "videoId": "_Zgc12yL5ss",
+        "title": "Give It To Me",
+        "views_total": 60369026,
+        "views_diff": 2393
+      },
+      {
+        "videoId": "3Y_Eiyg4bfk",
+        "title": "Agust D",
+        "views_total": 187090333,
+        "views_diff": 14125
+      },
+      {
+        "videoId": "PV1gCvzpSy0",
+        "title": "Interlude : Shadow",
+        "views_total": 127826085,
+        "views_diff": 4524
+      },
+      {
+        "videoId": "MEoxtFRfPoc",
+        "title": "Come Over",
+        "views_total": 13527919,
+        "views_diff": 96806
+      }
     ]
   },
   {
     "date": "2026-08-04",
     "videos": [
-      { "videoId": "iy9qZR_OGa0", "title": "해금", "views_total": 110810338, "views_diff": 30384 },
-      { "videoId": "uVD-YgzDzyY", "title": "사람 Pt.2", "views_total": 51200786, "views_diff": 10044 },
-      { "videoId": "IX1dkYoLHVs", "title": "AMYGDALA", "views_total": 15567228, "views_diff": 3089 },
-      { "videoId": "qGjAWJ2zWWI", "title": "대취타", "views_total": 491229034, "views_diff": 41498 },
-      { "videoId": "_Zgc12yL5ss", "title": "Give It To Me", "views_total": 60371340, "views_diff": 2314 },
-      { "videoId": "3Y_Eiyg4bfk", "title": "Agust D", "views_total": 187104724, "views_diff": 14391 },
-      { "videoId": "PV1gCvzpSy0", "title": "Interlude : Shadow", "views_total": 127830778, "views_diff": 4693 },
-      { "videoId": "MEoxtFRfPoc", "title": "Come Over", "views_total": 13633868, "views_diff": 105949 }
+      {
+        "videoId": "iy9qZR_OGa0",
+        "title": "해금",
+        "views_total": 110810338,
+        "views_diff": 30384
+      },
+      {
+        "videoId": "uVD-YgzDzyY",
+        "title": "사람 Pt.2",
+        "views_total": 51200786,
+        "views_diff": 10044
+      },
+      {
+        "videoId": "IX1dkYoLHVs",
+        "title": "AMYGDALA",
+        "views_total": 15567228,
+        "views_diff": 3089
+      },
+      {
+        "videoId": "qGjAWJ2zWWI",
+        "title": "대취타",
+        "views_total": 491229034,
+        "views_diff": 41498
+      },
+      {
+        "videoId": "_Zgc12yL5ss",
+        "title": "Give It To Me",
+        "views_total": 60371340,
+        "views_diff": 2314
+      },
+      {
+        "videoId": "3Y_Eiyg4bfk",
+        "title": "Agust D",
+        "views_total": 187104724,
+        "views_diff": 14391
+      },
+      {
+        "videoId": "PV1gCvzpSy0",
+        "title": "Interlude : Shadow",
+        "views_total": 127830778,
+        "views_diff": 4693
+      },
+      {
+        "videoId": "MEoxtFRfPoc",
+        "title": "Come Over",
+        "views_total": 13633868,
+        "views_diff": 105949
+      }
     ]
   },
   {
     "date": "2026-08-05",
     "videos": [
-      { "videoId": "iy9qZR_OGa0", "title": "해금", "views_total": 110843582, "views_diff": 33244 },
-      { "videoId": "uVD-YgzDzyY", "title": "사람 Pt.2", "views_total": 51211177, "views_diff": 10391 },
-      { "videoId": "IX1dkYoLHVs", "title": "AMYGDALA", "views_total": 15570493, "views_diff": 3265 },
-      { "videoId": "qGjAWJ2zWWI", "title": "대취타", "views_total": 491270342, "views_diff": 41308 },
-      { "videoId": "_Zgc12yL5ss", "title": "Give It To Me", "views_total": 60373727, "views_diff": 2387 },
-      { "videoId": "3Y_Eiyg4bfk", "title": "Agust D", "views_total": 187118939, "views_diff": 14215 },
-      { "videoId": "PV1gCvzpSy0", "title": "Interlude : Shadow", "views_total": 127835402, "views_diff": 4624 },
-      { "videoId": "MEoxtFRfPoc", "title": "Come Over", "views_total": 13740729, "views_diff": 106861 }
+      {
+        "videoId": "iy9qZR_OGa0",
+        "title": "해금",
+        "views_total": 110843582,
+        "views_diff": 33244
+      },
+      {
+        "videoId": "uVD-YgzDzyY",
+        "title": "사람 Pt.2",
+        "views_total": 51211177,
+        "views_diff": 10391
+      },
+      {
+        "videoId": "IX1dkYoLHVs",
+        "title": "AMYGDALA",
+        "views_total": 15570493,
+        "views_diff": 3265
+      },
+      {
+        "videoId": "qGjAWJ2zWWI",
+        "title": "대취타",
+        "views_total": 491270342,
+        "views_diff": 41308
+      },
+      {
+        "videoId": "_Zgc12yL5ss",
+        "title": "Give It To Me",
+        "views_total": 60373727,
+        "views_diff": 2387
+      },
+      {
+        "videoId": "3Y_Eiyg4bfk",
+        "title": "Agust D",
+        "views_total": 187118939,
+        "views_diff": 14215
+      },
+      {
+        "videoId": "PV1gCvzpSy0",
+        "title": "Interlude : Shadow",
+        "views_total": 127835402,
+        "views_diff": 4624
+      },
+      {
+        "videoId": "MEoxtFRfPoc",
+        "title": "Come Over",
+        "views_total": 13740729,
+        "views_diff": 106861
+      }
     ]
   },
   {
     "date": "2026-08-06",
     "videos": [
-      { "videoId": "iy9qZR_OGa0", "title": "해금", "views_total": 110877721, "views_diff": 34139 },
-      { "videoId": "uVD-YgzDzyY", "title": "사람 Pt.2", "views_total": 51220986, "views_diff": 9809 },
-      { "videoId": "IX1dkYoLHVs", "title": "AMYGDALA", "views_total": 15573786, "views_diff": 3293 },
-      { "videoId": "qGjAWJ2zWWI", "title": "대취타", "views_total": 491311780, "views_diff": 41438 },
-      { "videoId": "_Zgc12yL5ss", "title": "Give It To Me", "views_total": 60376299, "views_diff": 2572 },
-      { "videoId": "3Y_Eiyg4bfk", "title": "Agust D", "views_total": 187133113, "views_diff": 14174 },
-      { "videoId": "PV1gCvzpSy0", "title": "Interlude : Shadow", "views_total": 127840148, "views_diff": 4746 },
-      { "videoId": "MEoxtFRfPoc", "title": "Come Over", "views_total": 13842922, "views_diff": 102193 }
+      {
+        "videoId": "iy9qZR_OGa0",
+        "title": "해금",
+        "views_total": 110877721,
+        "views_diff": 34139
+      },
+      {
+        "videoId": "uVD-YgzDzyY",
+        "title": "사람 Pt.2",
+        "views_total": 51220986,
+        "views_diff": 9809
+      },
+      {
+        "videoId": "IX1dkYoLHVs",
+        "title": "AMYGDALA",
+        "views_total": 15573786,
+        "views_diff": 3293
+      },
+      {
+        "videoId": "qGjAWJ2zWWI",
+        "title": "대취타",
+        "views_total": 491311780,
+        "views_diff": 41438
+      },
+      {
+        "videoId": "_Zgc12yL5ss",
+        "title": "Give It To Me",
+        "views_total": 60376299,
+        "views_diff": 2572
+      },
+      {
+        "videoId": "3Y_Eiyg4bfk",
+        "title": "Agust D",
+        "views_total": 187133113,
+        "views_diff": 14174
+      },
+      {
+        "videoId": "PV1gCvzpSy0",
+        "title": "Interlude : Shadow",
+        "views_total": 127840148,
+        "views_diff": 4746
+      },
+      {
+        "videoId": "MEoxtFRfPoc",
+        "title": "Come Over",
+        "views_total": 13842922,
+        "views_diff": 102193
+      }
     ]
   },
-
   {
     "date": "2026-08-07",
     "videos": [
-      { "videoId": "iy9qZR_OGa0", "title": "해금", "views_total": 110915357, "views_diff": 37636 },
-      { "videoId": "uVD-YgzDzyY", "title": "사람 Pt.2", "views_total": 51229701, "views_diff": 8715 },
-      { "videoId": "IX1dkYoLHVs", "title": "AMYGDALA", "views_total": 15576981, "views_diff": 3195 },
-      { "videoId": "qGjAWJ2zWWI", "title": "대취타", "views_total": 491354804, "views_diff": 43024 },
-      { "videoId": "_Zgc12yL5ss", "title": "Give It To Me", "views_total": 60378727, "views_diff": 2428 },
-      { "videoId": "3Y_Eiyg4bfk", "title": "Agust D", "views_total": 187147520, "views_diff": 14407 },
-      { "videoId": "PV1gCvzpSy0", "title": "Interlude : Shadow", "views_total": 127844402, "views_diff": 4254 },
-      { "videoId": "MEoxtFRfPoc", "title": "Come Over", "views_total": 13948403, "views_diff": 105481 }
+      {
+        "videoId": "iy9qZR_OGa0",
+        "title": "해금",
+        "views_total": 110915357,
+        "views_diff": 37636
+      },
+      {
+        "videoId": "uVD-YgzDzyY",
+        "title": "사람 Pt.2",
+        "views_total": 51229701,
+        "views_diff": 8715
+      },
+      {
+        "videoId": "IX1dkYoLHVs",
+        "title": "AMYGDALA",
+        "views_total": 15576981,
+        "views_diff": 3195
+      },
+      {
+        "videoId": "qGjAWJ2zWWI",
+        "title": "대취타",
+        "views_total": 491354804,
+        "views_diff": 43024
+      },
+      {
+        "videoId": "_Zgc12yL5ss",
+        "title": "Give It To Me",
+        "views_total": 60378727,
+        "views_diff": 2428
+      },
+      {
+        "videoId": "3Y_Eiyg4bfk",
+        "title": "Agust D",
+        "views_total": 187147520,
+        "views_diff": 14407
+      },
+      {
+        "videoId": "PV1gCvzpSy0",
+        "title": "Interlude : Shadow",
+        "views_total": 127844402,
+        "views_diff": 4254
+      },
+      {
+        "videoId": "MEoxtFRfPoc",
+        "title": "Come Over",
+        "views_total": 13948403,
+        "views_diff": 105481
+      }
     ]
   },
-
   {
     "date": "2026-08-08",
     "videos": [
-      { "videoId": "iy9qZR_OGa0", "title": "해금", "views_total": 110952993, "views_diff": 37636 },
-      { "videoId": "uVD-YgzDzyY", "title": "사람 Pt.2", "views_total": 51238417, "views_diff": 8716 },
-      { "videoId": "IX1dkYoLHVs", "title": "AMYGDALA", "views_total": 15580177, "views_diff": 3196 },
-      { "videoId": "qGjAWJ2zWWI", "title": "대취타", "views_total": 491397829, "views_diff": 43025 },
-      { "videoId": "_Zgc12yL5ss", "title": "Give It To Me", "views_total": 60381155, "views_diff": 2428 },
-      { "videoId": "3Y_Eiyg4bfk", "title": "Agust D", "views_total": 187161928, "views_diff": 14408 },
-      { "videoId": "PV1gCvzpSy0", "title": "Interlude : Shadow", "views_total": 127848656, "views_diff": 4254 },
-      { "videoId": "MEoxtFRfPoc", "title": "Come Over", "views_total": 14054085, "views_diff": 105482 }
+      {
+        "videoId": "iy9qZR_OGa0",
+        "title": "해금",
+        "views_total": 110952993,
+        "views_diff": 37636
+      },
+      {
+        "videoId": "uVD-YgzDzyY",
+        "title": "사람 Pt.2",
+        "views_total": 51238417,
+        "views_diff": 8716
+      },
+      {
+        "videoId": "IX1dkYoLHVs",
+        "title": "AMYGDALA",
+        "views_total": 15580177,
+        "views_diff": 3196
+      },
+      {
+        "videoId": "qGjAWJ2zWWI",
+        "title": "대취타",
+        "views_total": 491397829,
+        "views_diff": 43025
+      },
+      {
+        "videoId": "_Zgc12yL5ss",
+        "title": "Give It To Me",
+        "views_total": 60381155,
+        "views_diff": 2428
+      },
+      {
+        "videoId": "3Y_Eiyg4bfk",
+        "title": "Agust D",
+        "views_total": 187161928,
+        "views_diff": 14408
+      },
+      {
+        "videoId": "PV1gCvzpSy0",
+        "title": "Interlude : Shadow",
+        "views_total": 127848656,
+        "views_diff": 4254
+      },
+      {
+        "videoId": "MEoxtFRfPoc",
+        "title": "Come Over",
+        "views_total": 14054085,
+        "views_diff": 105482
+      }
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "videos": [
+      {
+        "videoId": "iy9qZR_OGa0",
+        "title": "Agust D '해금' Official MV",
+        "views_total": 110992751,
+        "views_diff": 39758
+      },
+      {
+        "videoId": "uVD-YgzDzyY",
+        "title": "Agust D '사람 Pt.2 (feat. 아이유)' Official MV",
+        "views_total": 51246574,
+        "views_diff": 8157
+      },
+      {
+        "videoId": "IX1dkYoLHVs",
+        "title": "Agust D 'AMYGDALA' Official MV",
+        "views_total": 15583476,
+        "views_diff": 3299
+      },
+      {
+        "videoId": "qGjAWJ2zWWI",
+        "title": "Agust D '대취타' MV",
+        "views_total": 491442262,
+        "views_diff": 44433
+      },
+      {
+        "videoId": "_Zgc12yL5ss",
+        "title": "Agust D ‘give it to me’ MV",
+        "views_total": 60383675,
+        "views_diff": 2520
+      },
+      {
+        "videoId": "3Y_Eiyg4bfk",
+        "title": "Agust D 'Agust D' MV",
+        "views_total": 187176692,
+        "views_diff": 14764
+      },
+      {
+        "videoId": "PV1gCvzpSy0",
+        "title": "BTS (방탄소년단) MAP OF THE SOUL : 7 'Interlude : Shadow' Comeback Trailer",
+        "views_total": 127852863,
+        "views_diff": 4207
+      },
+      {
+        "videoId": "MEoxtFRfPoc",
+        "title": "BTS (방탄소년단) 'Come Over' Lyric Video",
+        "views_total": 14159253,
+        "views_diff": 105168
+      }
     ]
   }
 ]
