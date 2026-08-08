@@ -145,7 +145,8 @@ label {
 
   iframe {
     width: 100%;   /* 親要素に合わせる */
-    height: 130px; /* 高さは維持 */
+   /*   height: 130px; /* 高さは維持 */
+    height: 80px; /* 変な余白が入るので修正 20260808 */
     margin-right: 0;
     /*余白を縮める margin-bottom: 10px;*/
   }
